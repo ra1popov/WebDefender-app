@@ -3,6 +3,7 @@
 
 # Gradle
 .gradle/
+gradle/
 build/
 */build/
 
@@ -16,7 +17,6 @@ build/
 # Libs
 libs/
 obj/
-jni/libself/libcurl-android/
 
 # Private Keys and Passwords
 WebDefender.keystore
