@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Kotlin
+.kotlin/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Libs
+libs/
+obj/
+jni/libself/libcurl-android/
+
+# Private Keys and Passwords
+WebDefender.keystore
+keystore.properties
