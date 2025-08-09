@@ -29,6 +29,7 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
 
@@ -60,7 +61,7 @@ android {
 
         fdroid {
             buildConfigField "String", "PUBLISHER", "\"fdroid\""
-            buildConfigField "String", "APP_STORE", "\"https://galaxystore.samsung.com/detail/app.webdefender.samsung\""
+            buildConfigField "String", "APP_STORE", "\"https://f-droid.org/en/packages/app.webdefender.fdroid/\""
             dimension = "vendor"
             applicationIdSuffix = ".fdroid"
         }
