@@ -29,15 +29,6 @@ android {
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
 
-    signingConfigs {
-        release {
-            storeFile rootProject.file('WebDefender.keystore')
-            storePassword keystoreProperties['storePassword']
-            keyAlias keystoreProperties['keyAlias']
-            keyPassword keystoreProperties['keyPassword']
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled true
@@ -70,6 +61,13 @@ android {
             buildConfigField "String", "APP_STORE", "\"https://galaxystore.samsung.com/detail/app.webdefender.samsung\""
             dimension = "vendor"
             applicationIdSuffix = ".samsung"
+        }
+
+        f-droid {
+            buildConfigField "String", "PUBLISHER", "\"fdroid\""
+            buildConfigField "String", "APP_STORE", "\"https://galaxystore.samsung.com/detail/app.webdefender.fdroid\""
+            dimension = "vendor"
+            applicationIdSuffix = ".fdroid"
         }
     }
 
