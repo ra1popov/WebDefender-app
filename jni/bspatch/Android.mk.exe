@@ -1,0 +1,33 @@
+
+#
+# last modified: 2014.01.22
+#
+
+LOCAL_PATH := $(call my-dir)
+include $(CLEAR_VARS)
+
+LOCAL_MODULE    := bspatch
+LOCAL_SRC_FILES := bspatch.c huffman.c crctable.c randtable.c decompress.c bzlib.c
+
+# -fPIE
+LOCAL_CFLAGS  := -Wall -O3 -DUSE_MMAP
+LOCAL_LDFLAGS := -s -dead-strip
+
+#
+# rename hack, see build-all.mk, Application.mk
+# build order: installed_modules host_libraries host_executables
+# so we can define fake 'host_executables' rule if not build host modules
+# note, this rule will be called after ALL target platform rules
+#
+MODULE_NAME_OLD := bspatch
+MODULE_NAME_NEW := libbspatch.so
+MODULE_ARCH := armeabi armeabi-v7a x86
+
+host_executables:
+	@for arch in $(MODULE_ARCH) ; do \
+		echo "copy '$(NDK_APP_LIBS_OUT)/$$arch/$(MODULE_NAME_OLD)' => '$(NDK_APP_LIBS_OUT)/$$arch/$(MODULE_NAME_NEW)'" ; \
+		cp $(NDK_APP_LIBS_OUT)/$$arch/$(MODULE_NAME_OLD) $(NDK_APP_LIBS_OUT)/$$arch/$(MODULE_NAME_NEW) ; \
+	done
+
+#include $(BUILD_HOST_EXECUTABLE)
+include $(BUILD_EXECUTABLE)

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebDefender</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/en/privacy.html</string>
+    <string name="search_app">검색…</string>
+
+    <string name="vpn_unavailable">VPN 사용 불가능</string>
+    <string name="vpn_error">VPN 채널 생성 실패</string>
+    <string name="vpn_exception">VPN 연결 실패</string>
+
+    <string name="proxy_needs_to_be_disabled">WebDefender 작동을 위해 %1$s의 프록시 서버를 비활성화하세요.</string>
+    <string name="proxy_needs_to_be_disabled2">WebDefender 작동을 위해 문제가 있는 앱을 비활성화하세요.</string>
+    <string name="app_not_found">(이름을 찾을 수 없음)</string>
+
+    <string name="license_activated">라이선스가 활성화되었습니다</string>
+
+    <string name="proxy_blocked">익명 모드를 활성화하고 국가를 선택하세요.</string>
+    <string name="proxy_country_auto">자동</string>
+    <string name="proxy_country_at">오스트리아</string>
+    <string name="proxy_country_au">호주</string>
+    <string name="proxy_country_bg">불가리아</string>
+    <string name="proxy_country_ca">캐나다</string>
+    <string name="proxy_country_ch">스위스</string>
+    <string name="proxy_country_cn">중국</string>
+    <string name="proxy_country_cz">체코 공화국</string>
+    <string name="proxy_country_de">독일</string>
+    <string name="proxy_country_dk">덴마크</string>
+    <string name="proxy_country_do">도미니카 공화국</string>
+    <string name="proxy_country_ee">에스토니아</string>
+    <string name="proxy_country_es">스페인</string>
+    <string name="proxy_country_fi">핀란드</string>
+    <string name="proxy_country_fr">프랑스</string>
+    <string name="proxy_country_it">이탈리아</string>
+    <string name="proxy_country_jp">일본</string>
+    <string name="proxy_country_lt">리투아니아</string>
+    <string name="proxy_country_lv">라트비아</string>
+    <string name="proxy_country_md">몰도바</string>
+    <string name="proxy_country_nl">네덜란드</string>
+    <string name="proxy_country_no">노르웨이</string>
+    <string name="proxy_country_pl">폴란드</string>
+    <string name="proxy_country_pt">포르투갈</string>
+    <string name="proxy_country_ro">루마니아</string>
+    <string name="proxy_country_ru">러시아</string>
+    <string name="proxy_country_se">스웨덴</string>
+    <string name="proxy_country_ua">우크라이나</string>
+    <string name="proxy_country_us">미국</string>
+    <string name="proxy_country_uk">영국</string>
+
+    <string name="statlog_type_ad">광고</string>
+    <string name="statlog_type_apk">의심스러운 APK</string>
+    <string name="statlog_type_malware">악성 사이트</string>
+    <string name="statlog_type_paid">유료 사이트</string>
+    <string name="statlog_empty">필터 로그가 비어 있습니다.</string>
+
+    <string name="widget_state_text1">보호</string>
+    <string name="widget_state_text2">꺼짐</string>
+    <string name="widget_state_text3">켜짐</string>
+
+    <string name="widget_stat_block">광고 차단됨</string>
+    <string name="widget_stat_traffic">트래픽 저장됨</string>
+    <string name="widget_stat_threat">위협 차단됨</string>
+
+    <string name="menu_whitelist">화이트리스트</string>
+    <string name="menu_whitelist_system_apps_exclude_on">시스템 앱 필터링 제외</string>
+    <string name="menu_whitelist_system_apps_exclude_off">시스템 앱 필터링 적용</string>
+
+    <string name="menu_statlog">필터 로그</string>
+    <string name="menu_statlog_clear">모두 지우기</string>
+    <string name="menu_statlog_log_on">필터링 로그 활성화</string>
+    <string name="menu_statlog_log_off">필터링 로그 비활성화</string>
+
+    <string name="menu_proxy">익명성 및 압축</string>
+    <string name="menu_proxy_anonymity_on">익명성 활성화</string>
+    <string name="menu_proxy_anonymity_off">익명성 비활성화</string>
+    <string name="menu_proxy_compress_on">데이터 압축 활성화</string>
+    <string name="menu_proxy_compress_off">데이터 압축 비활성화</string>
+    <string name="menu_proxy_only_browsers_on">브라우저에서만 익명성 활성화</string>
+    <string name="menu_proxy_only_browsers_off">모든 앱에서 익명성 활성화</string>
+
+    <string name="menu_firewall">방화벽</string>
+    <string name="menu_firewall_browsers_only_on">브라우저 전용 인터넷 사용 활성화</string>
+    <string name="menu_firewall_browsers_only_off">모든 앱을 위한 인터넷 사용 활성화</string>
+    <string name="menu_firewall_system_apps_blocked_on">시스템 앱의 인터넷 비활성화</string>
+    <string name="menu_firewall_system_apps_blocked_off">시스템 앱의 인터넷 활성화</string>
+
+    <string name="menu_privacy">개인 정보 보호 정책</string>
+
+    <string name="menu_help">작동하지 않습니다?</string>
+
+    <string name="menu_buy">전체 액세스 얻기</string>
+
+    <string name="HelpFragment_button_guide">지금 설정</string>
+    <string name="HelpFragment_button_help">설정 도움말</string>
+    <string name="HelpFragment_button_support">우리에게 편지 쓰십시오</string>
+    <string name="HelpFragment_guide_did_not_help">이미 모든 추가 시스템 설정을 구성했지만 여전히 문제가 발생하고 응용 프로그램이 작동을 중지하는 경우 \"설정 도움말\" 버튼을 클릭하여 추가 지원을 받을 수 있습니다.</string>
+
+    <string name="DialogAskReview_title">고객의 의견을 소중히 여깁니다!</string>
+    <string name="DialogAskReview_content">당사 앱에 대한 의견을 공유해 주세요. 마음에 드신다면 5점을 주시기 바랍니다!</string>
+    <string name="DialogAskReview_cancel">나중</string>
+    <string name="DialogAskReview_ok">을 평가하십시오</string>
+
+    <!-- Alert Notifications -->
+
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">주의가 필요합니다!</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">앱을 열고 WebDefender가 항상 백그라운드에서 실행되도록 허용하세요.</string>
+
+    <!-- Guide Dialogs -->
+
+    <string name="DialogGuideMain_title">필요한 설정</string>
+    <string name="DialogGuideMain_content_later">적절한 앱 기능을 보장하기 위해 추가적인 시스템 설정을 조정하십시오.\n지금 설정하시겠습니까?</string>
+    <string name="DialogGuideMain_content_hide">적절한 앱 기능을 보장하기 위해 추가적인 시스템 설정을 조정하십시오.\n이미 모두 설정했다면 \"숨기기\" 버튼을 클릭할 수 있습니다.</string>
+    <string name="DialogGuideMain_later">나중에</string>
+    <string name="DialogGuideMain_hide">숨기기</string>
+    <string name="DialogGuideMain_ok">지금 설정하기</string>
+
+    <string name="DialogGuideQueryAllPackagesPermission_title">앱 가시성</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">적절한 앱 기능을 보장하려면 설치된 애플리케이션의 가시성을 보장하기 위한 권한 부여가 필요합니다.</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">나중에</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">예</string>
+
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">배터리 최적화</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">앱이 적절하게 작동하고 종료되지 않도록 하기 위해 WebDefender 앱을 항상 백그라운드에서 실행할 수 있도록 허용하십시오.</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">나중에</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">예</string>
+
+    <string name="DialogGuideBootPermission_title">자동 시작</string>
+    <string name="DialogGuideBootPermission_content">기기 시작 및 재시작 후에 앱을 자동으로 시작하려면 WebDefender 앱의 \"자동 시작\" 토글을 켜십시오.</string>
+    <string name="DialogGuideBootPermission_cancel">나중에</string>
+    <string name="DialogGuideBootPermission_ok">예</string>
+
+    <string name="DialogGuideMIUI_title">종료 보호</string>
+    <string name="DialogGuideMIUIPrior12_label_1">휴대폰에는 앱이 백그라운드에서 닫히는 것을 방지하는 추가 옵션이 있습니다. WebDefender 앱에 대해 이 옵션을 켜는 것이 중요합니다.</string>
+    <string name="DialogGuideMIUIPrior12_label_2">\"최근\" 섹션 내에서 WebDefender 앱을 잠그는 지침을 따르십시오.</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. \"최근 앱\" 버튼을 클릭합니다.</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. 화면 상의 WebDefender 이미지를 누르고 누른 상태를 유지합니다.</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. \"잠금\" 버튼을 누릅니다.</string>
+    <string name="DialogGuideMIUIPrior12_label_6">앱 잠금은 Android 시스템에 백그라운드 프로세스를 종료하지 않도록 신호를 보내는 것을 의미합니다. 이 기능은 WebDefender 앱의 올바른 기능을 위해 중요합니다.</string>
+    <string name="DialogGuideMIUI12_label_1">휴대폰에는 앱이 백그라운드에서 닫히는 것을 방지하는 추가 옵션이 있습니다. WebDefender 앱에 대해 이 옵션을 켜는 것이 중요합니다.</string>
+    <string name="DialogGuideMIUI12_label_2">\"보안\" 앱 내에서 WebDefender 앱을 잠그는 지침을 따르십시오.</string>
+    <string name="DialogGuideMIUI12_label_3">1. 기기에서 \"보안\" 앱을 엽니다.</string>
+    <string name="DialogGuideMIUI12_label_4">2. 오른쪽 상단의 톱니바퀴 아이콘을 탭합니다.</string>
+    <string name="DialogGuideMIUI12_label_5">3. \"설정\" 섹션에서 \"스피드 부스트\"을 선택합니다.</string>
+    <string name="DialogGuideMIUI12_label_6">4. \"앱 잠금\"을 클릭합니다.</string>
+    <string name="DialogGuideMIUI12_label_7">5. WebDefender 앱을 백그라운드에서 잠그려면 토글을 켜십시오.</string>
+    <string name="DialogGuideMIUI12_label_8">앱 잠금은 Android 시스템에 백그라운드 프로세스를 종료하지 않도록 신호를 보내는 것을 의미합니다. 이 기능은 WebDefender 앱의 올바른 기능을 위해 중요합니다.</string>
+    <string name="DialogGuideMIUI_ok">내가 해냈어</string>
+
+    <string name="DialogGuideFinish_title">설정 완료</string>
+    <string name="DialogGuideFinish_content">이제 필요한 모든 설정을 완료했으므로 애플리케이션이 아무런 문제 없이 원활하게 실행될 것입니다. 필요한 경우 사이드 메뉴의 \"작동하지 않습니다?\"에서 이 가이드를 다시 참조할 수 있습니다.</string>
+    <string name="DialogGuideFinish_ok">닫다</string>
+
+</resources>

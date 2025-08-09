@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebDefender</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/en/privacy.html</string>
+    <string name="search_app">Search…</string>
+
+    <string name="vpn_unavailable">VPN Unavailable</string>
+    <string name="vpn_error">Failed to Create VPN Channel</string>
+    <string name="vpn_exception">Unable to Establish VPN Connection</string>
+
+    <string name="proxy_needs_to_be_disabled">Disable Proxy Server in %1$s for Proper Functioning of WebDefender</string>
+    <string name="proxy_needs_to_be_disabled2">Disable Problematic App for Proper Functioning of WebDefender</string>
+    <string name="app_not_found">(Name Not Found)</string>
+
+    <string name="license_activated">License is activated</string>
+
+    <string name="proxy_blocked">Enable Anonymity Mode and Select a Country</string>
+    <string name="proxy_country_auto">Auto</string>
+    <string name="proxy_country_at">Austria</string>
+    <string name="proxy_country_au">Australia</string>
+    <string name="proxy_country_bg">Bulgaria</string>
+    <string name="proxy_country_ca">Canada</string>
+    <string name="proxy_country_ch">Switzerland</string>
+    <string name="proxy_country_cn">China</string>
+    <string name="proxy_country_cz">Czech Republic</string>
+    <string name="proxy_country_de">Germany</string>
+    <string name="proxy_country_dk">Denmark</string>
+    <string name="proxy_country_do">Dominican Republic</string>
+    <string name="proxy_country_ee">Estonia</string>
+    <string name="proxy_country_es">Spain</string>
+    <string name="proxy_country_fi">Finland</string>
+    <string name="proxy_country_fr">France</string>
+    <string name="proxy_country_it">Italy</string>
+    <string name="proxy_country_jp">Japan</string>
+    <string name="proxy_country_lt">Lithuania</string>
+    <string name="proxy_country_lv">Latvia</string>
+    <string name="proxy_country_md">Moldova</string>
+    <string name="proxy_country_nl">Netherlands</string>
+    <string name="proxy_country_no">Norway</string>
+    <string name="proxy_country_pl">Poland</string>
+    <string name="proxy_country_pt">Portugal</string>
+    <string name="proxy_country_ro">Romania</string>
+    <string name="proxy_country_ru">Russia</string>
+    <string name="proxy_country_se">Sweden</string>
+    <string name="proxy_country_ua">Ukraine</string>
+    <string name="proxy_country_us">USA</string>
+    <string name="proxy_country_uk">Great Britain</string>
+
+    <string name="statlog_type_ad">Ad</string>
+    <string name="statlog_type_apk">Suspicious APK</string>
+    <string name="statlog_type_malware">Malicious site</string>
+    <string name="statlog_type_paid">Paid site</string>
+    <string name="statlog_empty">Filter Log is Empty</string>
+
+    <string name="widget_state_text1">Protection</string>
+    <string name="widget_state_text2">Off</string>
+    <string name="widget_state_text3">On</string>
+
+    <string name="widget_stat_block">Ads\nBlocked</string>
+    <string name="widget_stat_traffic">Traffic\nSaved</string>
+    <string name="widget_stat_threat">Threats\nBlocked</string>
+
+    <string name="menu_whitelist">Whitelist</string>
+    <string name="menu_whitelist_system_apps_exclude_on">Exclude System Apps</string>
+    <string name="menu_whitelist_system_apps_exclude_off">Filtering System Apps</string>
+
+    <string name="menu_statlog">Filter Log</string>
+    <string name="menu_statlog_clear">Clear All</string>
+    <string name="menu_statlog_log_on">Enable Filtering Log</string>
+    <string name="menu_statlog_log_off">Disable Filtering Log</string>
+
+    <string name="menu_proxy">Anonymity &amp; Compression</string>
+    <string name="menu_proxy_anonymity_on">Enable Anonymity</string>
+    <string name="menu_proxy_anonymity_off">Disable Anonymity</string>
+    <string name="menu_proxy_compress_on">Enable Data Compression</string>
+    <string name="menu_proxy_compress_off">Disable Data Compression</string>
+    <string name="menu_proxy_only_browsers_on">Anonymity in Browsers Only</string>
+    <string name="menu_proxy_only_browsers_off">Anonymity in All Apps</string>
+
+    <string name="menu_firewall">Firewall</string>
+    <string name="menu_firewall_browsers_only_on">Internet for Browsers Only</string>
+    <string name="menu_firewall_browsers_only_off">Internet for All Apps</string>
+    <string name="menu_firewall_system_apps_blocked_on">Disable Internet for System Apps</string>
+    <string name="menu_firewall_system_apps_blocked_off">Enable Internet for System Apps</string>
+
+    <string name="menu_privacy">Privacy Policy</string>
+
+    <string name="menu_help">Does not work?</string>
+
+    <string name="menu_buy">Get Full Access</string>
+
+    <string name="HelpFragment_button_guide">Set up now</string>
+    <string name="HelpFragment_button_help">Set up help</string>
+    <string name="HelpFragment_button_support">Write to us</string>
+    <string name="HelpFragment_guide_did_not_help">If you\'ve already configured all additional system settings but are still experiencing issues and the application stops working, you can click the \"Set up help\" button to access further assistance.</string>
+
+    <string name="DialogAskReview_title">We Value Your Opinion!</string>
+    <string name="DialogAskReview_content">Share your thoughts on our app. If you enjoy it, consider giving us 5 stars!</string>
+    <string name="DialogAskReview_cancel">Later</string>
+    <string name="DialogAskReview_ok">Rate Now</string>
+
+    <!-- Alert Notifications -->
+
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">Attention needed!</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">Open the app and allow WebDefender to always run in the background.</string>
+
+    <!-- Guide Dialogs -->
+
+    <string name="DialogGuideMain_title">Setting required</string>
+    <string name="DialogGuideMain_content_later">To ensure proper app functionality, make sure to adjust additional system settings.\nDo you want to set up now?</string>
+    <string name="DialogGuideMain_content_hide">To ensure proper app functionality, make sure to adjust additional system settings.\nYou can click the \"Hide\" button if you\'ve already configured everything.</string>
+    <string name="DialogGuideMain_later">Later</string>
+    <string name="DialogGuideMain_hide">Hide</string>
+    <string name="DialogGuideMain_ok">Set up</string>
+
+    <string name="DialogGuideQueryAllPackagesPermission_title">Apps Visibility</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">To ensure proper app functionality, granting permissions is necessary to ensure visibility of the installed applications.</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">Later</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">OK</string>
+
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">Battery Optimization</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">To ensure proper app functionality and prevent the application from shutting down, allow the WebDefender app to always run in the background.</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">Later</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">OK</string>
+
+    <string name="DialogGuideBootPermission_title">Autostart</string>
+    <string name="DialogGuideBootPermission_content">To have the app start automatically after device startup and reboot, turn on the \"Autostart\" toggle for the WebDefender app.</string>
+    <string name="DialogGuideBootPermission_cancel">Later</string>
+    <string name="DialogGuideBootPermission_ok">OK</string>
+
+    <string name="DialogGuideMIUI_title">Shutdown Protection</string>
+    <string name="DialogGuideMIUIPrior12_label_1">Your phone has an additional option to prevent an app from closing in the background. It\'s crucial to turn on this option for the WebDefender app.</string>
+    <string name="DialogGuideMIUIPrior12_label_2">Please follow the instructions to lock the WebDefender app within the \"Recent\" section.</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. Click the \"Recent apps\" button.</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. Press and hold the on-screen picture of the WebDefender app.</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. Press the \"Lock\" button.</string>
+    <string name="DialogGuideMIUIPrior12_label_6">The lock of the app signals to the Android system not to terminate the application\'s background processes, as this functionality is essential for the proper functioning of the WebDefender app.</string>
+    <string name="DialogGuideMIUI12_label_1">Your phone has an additional option to prevent an app from closing in the background. It\'s crucial to turn on this option for the WebDefender app.</string>
+    <string name="DialogGuideMIUI12_label_2">Please follow the instructions to lock the WebDefender app within the \"Security\" app.</string>
+    <string name="DialogGuideMIUI12_label_3">1. Open the \"Security\" app on your device.</string>
+    <string name="DialogGuideMIUI12_label_4">2. Tap on the gear icon at the top-right corner.</string>
+    <string name="DialogGuideMIUI12_label_5">3. Select \"Boost speed\" under the \"Settings\" section.</string>
+    <string name="DialogGuideMIUI12_label_6">4. Click on \"Lock Apps\".</string>
+    <string name="DialogGuideMIUI12_label_7">5. Turn on the toggle for the WebDefender app to lock it in the background.</string>
+    <string name="DialogGuideMIUI12_label_8">The lock of the app signals to the Android system not to terminate the application\'s background processes, as this functionality is essential for the proper functioning of the WebDefender app.</string>
+    <string name="DialogGuideMIUI_ok">OK</string>
+
+    <string name="DialogGuideFinish_title">Adjust Settings Completed</string>
+    <string name="DialogGuideFinish_content">Now that you\'ve completed all the necessary settings, your application should run smoothly without interruptions. If you ever need to, you can revisit this guide under \"Does not work?\" in the side menu.</string>
+    <string name="DialogGuideFinish_ok">OK</string>
+
+</resources>

@@ -1,0 +1,61 @@
+
+zipReadFile            nf01
+zipFreeData            nf02
+
+fileSetBlocking        nf10
+fileClose              nf11
+
+getnameinfo            nf21
+calcCheckSum           nf22
+addIpTcpHeaderNative   nf23
+netlinkIsWork          nf24
+netlinkFindUid         nf25
+netlinkWatchNet        nf26
+ipToString             nf27
+socketPrintInfo        nf28
+socketSetKAS           nf29
+socketEnableKA         nf30
+socketHaveDataToSend   nf31
+socketSendDataForce    nf32
+getIfNames             nf33
+
+getNameFromUid         nf50
+exit                   nf51
+
+signalHandlerSet       nf61
+signalSendSelf         nf62
+threadGetSelfId        nf63
+threadSendSignal       nf64
+
+getLibsVersion         nf71
+getString              nf72
+dumpProcs              nf73
+testNetlink            nf74
+
+asciiToLower           nf81
+asciiStartsWith        nf82
+asciiEndsWith          nf83
+asciiIndexOf           nf84
+
+intSetCreate           tf01
+intSetDelete           tf02
+intSetSize             tf03
+intSetContains         tf04
+intSetAdd              tf05
+
+bspatchFile            pf01
+
+loadDB                 sf01
+unloadDB               sf02
+dbIsLoaded             sf03
+dbGetVersion           sf04
+dbGetRecordsNumber     sf05
+recordTypeGetMajor     sf06
+recordTypeIsDangerous  sf07
+recordTypeIsAds        sf08
+recordTypeIsSocial     sf09
+dbScanData             sf10
+binaryDataDetectType   sf11
+binaryDataSearchType   sf12
+binaryTypeIsArchive    sf13
+binaryTypeIsExecutable sf14

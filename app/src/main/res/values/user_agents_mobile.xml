@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user_agents_mobile" translatable="false">
+        <item>Mozilla/5.0 (Linux; Android 4.3.1; Evo 3D GSM Build/JLS36I) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</item>
+        <item>Mozilla/5.0 (Linux; Android 4.0.2; Galaxy Nexus Build/ICL53F) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</item>
+        <item>Mozilla/5.0 (Linux; Android 4.1.2; SM-T210R Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30</item>
+        <item>Mozilla/5.0 (Linux; Android 4.0.3; MIDC410 Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30</item>
+        <item>Mozilla/5.0 (Linux; Android 4.1.2; GT-N7100 Build/JZO54K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</item>
+        <item>Mozilla/5.0 (Linux; Android 4.1.2; DROID RAZR Build/9.8.2O-72_VZW-16) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.3</item>
+        <item>Mozilla/5.0 (Linux; Android 4.0.4; DROID RAZR 4G Build/6.7.2-180_DHD-16_M4-31) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.3</item>
+        <item>Mozilla/5.0 (Linux; Android 4.1.1; DROID RAZR HD Build/9.8.1Q_39) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 4.0.3; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</item>
+        <item>Mozilla/5.0 (Linux; Android 4.1.2; GT-I9300 Build/JZO54K) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 4.2.1; Nexus 4 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 4.1.1; Nexus S Build/JRO03E) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</item>
+        <item>Mozilla/5.0 (Linux; Android 4.2.1; Nexus 10 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 4.4.4; D5503 Build/14.04.A.0.108) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Safari/535.19</item>
+        <item>Mozilla/5.0 (Linux; Android 4.0.3; HTC Sensation Build/IML74K) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30</item>
+        <item>Mozilla/5.0 (Android; Mobile; rv:29.0) Gecko/29.0 Firefox/29.0</item>
+    </string-array>
+</resources>

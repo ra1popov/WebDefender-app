@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="app.ui.firewall.FirewallViewModel" />
+
+        <variable
+            name="handler"
+            type="app.ui.firewall.FirewallHandler" />
+
+    </data>
+
+    <app.widget.BlockableLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/statusbar_size"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/toolbar_size"
+        app:active="@{!viewModel.browsers}"
+        app:clickable="@{!viewModel.browsers}">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_10sdp">
+
+                    <androidx.appcompat.widget.SearchView
+                        android:id="@+id/sv_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:queryHint="@string/search_app" />
+
+                    <TextView
+                        android:id="@+id/tv_tooltip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_33sdp"
+                        android:text="@string/search_app"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        tools:ignore="RtlHardcoded" />
+
+                </RelativeLayout>
+
+                <app.widget.LoadingRecyclerView
+                    android:id="@+id/rv_firewall"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:overScrollMode="never"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    app:firewall="@{viewModel.list}"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_firewall" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_firewall_empty"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </app.widget.BlockableLinearLayout>
+
+</layout>

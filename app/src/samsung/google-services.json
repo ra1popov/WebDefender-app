@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699469323088",
+    "project_id": "webdefender-8785f",
+    "storage_bucket": "webdefender-8785f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699469323088:android:f417ec4e89416ff1b5aa55",
+        "android_client_info": {
+          "package_name": "app.webdefender.samsung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699469323088-7ls975hlt58hhrtlsjkjuu99vjnatevp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0k4KDgOEzajQU26rJX3T999VXH2Vl5TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699469323088-7ls975hlt58hhrtlsjkjuu99vjnatevp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

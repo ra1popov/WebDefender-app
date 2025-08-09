@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebDefender</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/en/privacy.html</string>
+    <string name="search_app">Meklēt…</string>
+
+    <string name="vpn_unavailable">VPN nav pieejams</string>
+    <string name="vpn_error">Neizdevās izveidot VPN kanālu</string>
+    <string name="vpn_exception">Nav iespējams izveidot VPN savienojumu</string>
+
+    <string name="proxy_needs_to_be_disabled">Atspējojiet starpniekserveri %1$s, lai WebDefender darbotos pareizi</string>
+    <string name="proxy_needs_to_be_disabled2">Atspējojiet problēmlietotni, lai WebDefender darbotos pareizi</string>
+    <string name="app_not_found">(Nosaukums nav atrasts)</string>
+
+    <string name="license_activated">Licence ir aktivizēta</string>
+
+    <string name="proxy_blocked">Iespējojiet anonimitātes režīmu un izvēlieties valsti</string>
+    <string name="proxy_country_auto">Automātiski</string>
+    <string name="proxy_country_at">Austrija</string>
+    <string name="proxy_country_au">Austrālija</string>
+    <string name="proxy_country_bg">Bulgārija</string>
+    <string name="proxy_country_ca">Kanāda</string>
+    <string name="proxy_country_ch">Šveice</string>
+    <string name="proxy_country_cn">Ķīna</string>
+    <string name="proxy_country_cz">Čehijas Republika</string>
+    <string name="proxy_country_de">Vācija</string>
+    <string name="proxy_country_dk">Dānija</string>
+    <string name="proxy_country_do">Dominikānas Republika</string>
+    <string name="proxy_country_ee">Igaunija</string>
+    <string name="proxy_country_es">Spānija</string>
+    <string name="proxy_country_fi">Somija</string>
+    <string name="proxy_country_fr">Francija</string>
+    <string name="proxy_country_it">Itālija</string>
+    <string name="proxy_country_jp">Japāna</string>
+    <string name="proxy_country_lt">Lietuva</string>
+    <string name="proxy_country_lv">Latvija</string>
+    <string name="proxy_country_md">Moldova</string>
+    <string name="proxy_country_nl">Nīderlande</string>
+    <string name="proxy_country_no">Norvēģija</string>
+    <string name="proxy_country_pl">Polija</string>
+    <string name="proxy_country_pt">Portugāle</string>
+    <string name="proxy_country_ro">Rumānija</string>
+    <string name="proxy_country_ru">Krievija</string>
+    <string name="proxy_country_se">Zviedrija</string>
+    <string name="proxy_country_ua">Ukraina</string>
+    <string name="proxy_country_us">ASV</string>
+    <string name="proxy_country_uk">Lielbritānija</string>
+
+    <string name="statlog_type_ad">Reklāma</string>
+    <string name="statlog_type_apk">Aizdomīga APK</string>
+    <string name="statlog_type_malware">ļaunprātīga vietne</string>
+    <string name="statlog_type_paid">Maksas vietne</string>
+    <string name="statlog_empty">Filtrēšanas žurnāls ir tukšs</string>
+
+    <string name="widget_state_text1">Aizsardzība</string>
+    <string name="widget_state_text2">Izslēgta</string>
+    <string name="widget_state_text3">Ieslēgta</string>
+
+    <string name="widget_stat_block">Bloķētas\nReklāmas</string>
+    <string name="widget_stat_traffic">Saglabāta\nDatplūsma</string>
+    <string name="widget_stat_threat">Bloķētas\nBriesmas</string>
+
+    <string name="menu_whitelist">Baltā sarakste</string>
+    <string name="menu_whitelist_system_apps_exclude_on">Izslēgt sistēmas lietotnes</string>
+    <string name="menu_whitelist_system_apps_exclude_off">Filtrēt sistēmas lietotnes</string>
+
+    <string name="menu_statlog">Filtrēšanas žurnāls</string>
+    <string name="menu_statlog_clear">Notīrīt visu</string>
+    <string name="menu_statlog_log_on">Iespējot filtrēšanas žurnālu</string>
+    <string name="menu_statlog_log_off">Atspējot filtrēšanas žurnālu</string>
+
+    <string name="menu_proxy">Anonimitāte un saspiešana</string>
+    <string name="menu_proxy_anonymity_on">Iespējot anonimitāti</string>
+    <string name="menu_proxy_anonymity_off">Atspējot anonimitāti</string>
+    <string name="menu_proxy_compress_on">Iespējot datu saspiešanu</string>
+    <string name="menu_proxy_compress_off">Atspējot datu saspiešanu</string>
+    <string name="menu_proxy_only_browsers_on">Anonimitāte tikai pārlūkprogrammās</string>
+    <string name="menu_proxy_only_browsers_off">Anonimitāte visās lietotnēs</string>
+
+    <string name="menu_firewall">Ugunsdrošība</string>
+    <string name="menu_firewall_browsers_only_on">Internets tikai pārlūkprogrammām</string>
+    <string name="menu_firewall_browsers_only_off">Internets visām lietotnēm</string>
+    <string name="menu_firewall_system_apps_blocked_on">Atspējot interneta piekļuvi sistēmas lietotnēm</string>
+    <string name="menu_firewall_system_apps_blocked_off">Iespējot interneta piekļuvi sistēmas lietotnēm</string>
+
+    <string name="menu_privacy">Privātuma politika</string>
+
+    <string name="menu_help">Nestrādā?</string>
+
+    <string name="menu_buy">Iegūt pilnīgu piekļuvi</string>
+
+    <string name="HelpFragment_button_guide">Iestatīt tagad</string>
+    <string name="HelpFragment_button_help">Palīdzība iestatīšanā</string>
+    <string name="HelpFragment_button_support">Rakstiet mums</string>
+    <string name="HelpFragment_guide_did_not_help">Ja jūs jau esat konfigurējis visus papildu sistēmas iestatījumus, bet joprojām saskaraties ar problēmām un lietojumprogramma apstājas darboties, jūs varat noklikšķināt uz pogas \"Palīdzība iestatīšanā\", lai piekļūtu papildu palīdzībai.</string>
+
+    <string name="DialogAskReview_title">Mēs vērtējam Jūsu viedokli!</string>
+    <string name="DialogAskReview_content">Dalieties savās domās par mūsu lietotni. Ja Jums tā patīk, apsvērt 5 zvaigžņu novērtējumu būtu lieliski!</string>
+    <string name="DialogAskReview_cancel">Vēlāk</string>
+    <string name="DialogAskReview_ok">Novērtēt tagad</string>
+
+    <!-- Alert Notifications -->
+
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">Nepieciešama uzmanība!</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">Atveriet lietotni un ļaujiet WebDefender darboties pastāvīgi fonā.</string>
+
+    <!-- Guide Dialogs -->
+
+    <string name="DialogGuideMain_title">Nepieciešamās iestatīšanas</string>
+    <string name="DialogGuideMain_content_later">Lai nodrošinātu pareizu lietotnes darbību, pārliecinieties, ka darīt papildu sistēmas iestatījumus.\nVai vēlaties iestatīt tagad?</string>
+    <string name="DialogGuideMain_content_hide">Lai nodrošinātu pareizu lietotnes darbību, pārliecinieties, ka darīt papildu sistēmas iestatījumus.\nJa jau esat visu konfigurējis, varat noklikšķināt uz \"Paslēpt\" pogas.</string>
+    <string name="DialogGuideMain_later">Vēlāk</string>
+    <string name="DialogGuideMain_hide">Paslēpt</string>
+    <string name="DialogGuideMain_ok">Iestatīt</string>
+
+    <string name="DialogGuideQueryAllPackagesPermission_title">Lietotņu redzamība</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">Lai nodrošinātu pareizu lietotnes darbību, nepieciešams piešķirt atļaujas, lai nodrošinātu instalēto lietotņu redzamību.</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">Vēlāk</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">Labi</string>
+
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">Baterijas optimizācija</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">Lai nodrošinātu pareizu lietotnes darbību un novērstu lietotnes aizvēršanu, vienmēr ļaujiet WebDefender lietotnei strādāt fonā.</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">Vēlāk</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">Labi</string>
+
+    <string name="DialogGuideBootPermission_title">Automātiskā startēšana</string>
+    <string name="DialogGuideBootPermission_content">Lai lietotne startētu automātiski pēc ierīces startēšanas un restartēšanas, ieslēdziet \"Automātiskā startēšana\" slēdzi WebDefender lietotnei.</string>
+    <string name="DialogGuideBootPermission_cancel">Vēlāk</string>
+    <string name="DialogGuideBootPermission_ok">Labi</string>
+
+    <string name="DialogGuideMIUI_title">Izslēgšanas aizsardzība</string>
+    <string name="DialogGuideMIUIPrior12_label_1">Jūsu telefons piedāvā papildu opciju, lai novērstu lietotnes aizvēršanos fonā. Šī opcija ir būtiska WebDefender lietotnei.</string>
+    <string name="DialogGuideMIUIPrior12_label_2">Lūdzu, ievērojiet instrukcijas, lai bloķētu WebDefender lietotni sadaļā \"Pēdējie\".</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. Nospiediet \"Pēdējās lietotnes\" pogu.</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. Nospiediet un turiet ekrānā attēlotās WebDefender lietotnes attēlu.</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. Nospiediet \"Bloķēt\" pogu.</string>
+    <string name="DialogGuideMIUIPrior12_label_6">Lietotnes bloķēšana nosūta signālu Android sistēmai, lai nenoslēgtu lietotnes fona procesus, jo tas ir būtiski WebDefender lietotnes pareizai darbībai.</string>
+    <string name="DialogGuideMIUI12_label_1">Jūsu telefons piedāvā papildu opciju, lai novērstu lietotnes aizvēršanos fonā. Šī opcija ir būtiska WebDefender lietotnei.</string>
+    <string name="DialogGuideMIUI12_label_2">Lūdzu, ievērojiet instrukcijas, lai bloķētu WebDefender lietotni iekš \"Drošība\" lietotnes.</string>
+    <string name="DialogGuideMIUI12_label_3">1. Atveriet \"Drošība\" lietotni savā ierīcē.</string>
+    <string name="DialogGuideMIUI12_label_4">2. Nospiediet uz zobratu ikonas augšējā labajā stūrī.</string>
+    <string name="DialogGuideMIUI12_label_5">3. Izvēlieties \"Palielināt ātrumu\" zem \"Iestatījumi\" sadaļas.</string>
+    <string name="DialogGuideMIUI12_label_6">4. Nospiediet \"Bloķēt lietotnes\".</string>
+    <string name="DialogGuideMIUI12_label_7">5. Ieslēdziet slēdzi WebDefender lietotnei, lai to bloķētu fonā.</string>
+    <string name="DialogGuideMIUI12_label_8">Lietotnes bloķēšana nosūta signālu Android sistēmai, lai nenoslēgtu lietotnes fona procesus, jo tas ir būtiski WebDefender lietotnes pareizai darbībai.</string>
+    <string name="DialogGuideMIUI_ok">Labi</string>
+
+    <string name="DialogGuideFinish_title">Iestatīšana pabeigta</string>
+    <string name="DialogGuideFinish_content">Tagad, kad esat pabeidzis visus nepieciešamos iestatījumus, jūsu lietotnei vajadzētu darboties bez traucējumiem. Ja būs nepieciešamība, jūs vienmēr varat atgriezties pie šī ceļveža sadaļā \"Nestrādā?\" sānjoslā.</string>
+    <string name="DialogGuideFinish_ok">Labi</string>
+
+</resources>

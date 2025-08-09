@@ -1,0 +1,184 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+android {
+    namespace 'app'
+    compileSdk 33
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    defaultConfig {
+        applicationId "app.webdefender"
+        minSdk 24
+        targetSdk 33
+        versionCode 7
+        versionName '1.0.6'
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    signingConfigs {
+        release {
+            storeFile rootProject.file('WebDefender.keystore')
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_19
+        targetCompatibility JavaVersion.VERSION_19
+    }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging true
+        }
+    }
+
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
+
+    flavorDimensions "vendor"
+
+    productFlavors {
+        samsung {
+            buildConfigField "String", "PUBLISHER", "\"samsung\""
+            buildConfigField "String", "APP_STORE", "\"https://galaxystore.samsung.com/detail/app.webdefender.samsung\""
+            dimension = "vendor"
+            applicationIdSuffix = ".samsung"
+        }
+    }
+
+}
+
+
+dependencies {
+
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:2.2.0'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.2.0'
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-process:2.6.1'
+    implementation 'androidx.navigation:navigation-fragment:2.6.0'
+    implementation 'androidx.navigation:navigation-ui:2.6.0'
+    implementation 'androidx.preference:preference:1.2.1'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.work:work-runtime:2.8.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.9'
+
+    implementation(platform("com.google.firebase:firebase-bom:32.2.0"))
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging'
+
+    /* https://github.com/intuit/sdp */
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    /* https://github.com/bumptech/glide */
+    implementation 'com.github.bumptech.glide:glide:4.14.1'
+    implementation 'com.github.bumptech.glide:annotations:4.14.1'
+    implementation 'com.github.bumptech.glide:okhttp3-integration:4.14.1'
+    androidTestImplementation 'junit:junit:4.13.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.1'
+
+    /* https://github.com/wasabeef/glide-transformations */
+    implementation 'jp.wasabeef:glide-transformations:4.3.0'
+
+    implementation 'com.annimon:stream:1.2.2'
+    api 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
+    implementation 'com.google.code.gson:gson:2.9.1'
+
+    implementation 'com.j256.ormlite:ormlite-android:6.1'
+
+    implementation 'com.google.code.gson:gson:2.9.1'
+
+    /*
+    Because RxAndroid releases are few and far between, it is recommended you also
+    explicitly depend on RxJava's latest version for bug fixes and new features.
+    (see https://github.com/ReactiveX/RxJava/releases for latest 3.x.x version)
+    */
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    implementation 'io.reactivex.rxjava3:rxjava:3.1.5'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+    /*
+    This library helps bring up the autostart permission manager of a phone to the user so they can add an app to autostart.
+    https://github.com/judemanutd/AutoStarter
+    */
+    // implementation 'com.github.judemanutd:autostarter:1.1.0'
+
+    /*
+    StickySwitch library for android
+    this library is beautiful switch widget with sticky animation
+    https://github.com/GwonHyeok/StickySwitch
+    implementation 'com.github.GwonHyeok:StickySwitch:0.0.16'
+    */
+    implementation project(path: ':StickySwitch')
+
+    /*
+    The aim of dontkillmyapp.com is to create a collection of guides and information to help users and developers
+    troubleshoot issues on their devices related to background tasks being killed unnecessarily by the Android system.
+    This library displays relevant information from this site to the user of an affected application,
+    and attempts to walk users through the process of solving the problem themselves,
+    hopefully reducing the amount of time that developers have to spend providing support as a result of these issues.
+    https://github.com/DoubleDotLabs/doki
+    */
+    implementation('dev.doubledot.doki:library:0.0.1@aar') {
+        transitive = true
+    }
+
+    /*
+    Android Jetpack Paging Library
+    https://developer.android.com/topic/libraries/architecture/paging/v3-overview
+     */
+    implementation 'androidx.paging:paging-runtime:3.2.0'
+
+    // alternatively - without Android dependencies for tests
+    testImplementation 'androidx.paging:paging-common:3.2.0'
+
+    // optional - RxJava2 support
+    implementation 'androidx.paging:paging-rxjava2:3.2.0'
+
+    // optional - RxJava3 support
+    implementation 'androidx.paging:paging-rxjava3:3.2.0'
+
+    // optional - Guava ListenableFuture support
+    implementation 'androidx.paging:paging-guava:3.2.0'
+
+    // optional - Jetpack Compose integration
+    implementation 'androidx.paging:paging-compose:3.2.0'
+
+}

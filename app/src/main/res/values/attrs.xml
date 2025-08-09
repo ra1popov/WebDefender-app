@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="clickable" format="boolean" />
+    <attr name="active" format="boolean" />
+
+    <!-- BlockableLinearLayout -->
+    <declare-styleable name="BlockableLinearLayout">
+        <attr name="clickable" />
+        <attr name="active" />
+    </declare-styleable>
+    <!-- BlockableLinearLayout -->
+
+</resources>

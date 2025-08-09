@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebDefender</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/en/privacy.html</string>
+    <string name="search_app">खोजें…</string>
+
+    <string name="vpn_unavailable">VPN उपलब्ध नहीं है</string>
+    <string name="vpn_error">VPN चैनल बनाने में विफल</string>
+    <string name="vpn_exception">VPN कनेक्शन स्थापित करने में असमर्थ</string>
+
+    <string name="proxy_needs_to_be_disabled">%1$s में प्रॉक्सी सर्वर को अक्षम करें ताकि रेडगार्ड का सही तरीके से काम करें</string>
+    <string name="proxy_needs_to_be_disabled2">रेडगार्ड का सही तरीके से काम करने के लिए समस्यापूर्ण ऐप को अक्षम करें</string>
+    <string name="app_not_found">(नाम नहीं मिला)</string>
+
+    <string name="license_activated">लाइसेंस सक्रिय है</string>
+
+    <string name="proxy_blocked">गुमनामी मोड सक्षम करें और एक देश का चयन करें</string>
+    <string name="proxy_country_auto">ऑटो</string>
+    <string name="proxy_country_at">ऑस्ट्रिया</string>
+    <string name="proxy_country_au">ऑस्ट्रेलिया</string>
+    <string name="proxy_country_bg">बुल्गारिया</string>
+    <string name="proxy_country_ca">कनाडा</string>
+    <string name="proxy_country_ch">स्विट्ज़रलैंड</string>
+    <string name="proxy_country_cn">चीन</string>
+    <string name="proxy_country_cz">चेक गणराज्य</string>
+    <string name="proxy_country_de">जर्मनी</string>
+    <string name="proxy_country_dk">डेनमार्क</string>
+    <string name="proxy_country_do">डोमिनिकन गणराज्य</string>
+    <string name="proxy_country_ee">एस्टोनिया</string>
+    <string name="proxy_country_es">स्पेन</string>
+    <string name="proxy_country_fi">फ़िनलैंड</string>
+    <string name="proxy_country_fr">फ्रांस</string>
+    <string name="proxy_country_it">इटली</string>
+    <string name="proxy_country_jp">जापान</string>
+    <string name="proxy_country_lt">लिथुआनिया</string>
+    <string name="proxy_country_lv">लातविया</string>
+    <string name="proxy_country_md">मोल्डोवा</string>
+    <string name="proxy_country_nl">नीदरलैंड</string>
+    <string name="proxy_country_no">नॉर्वे</string>
+    <string name="proxy_country_pl">पोलैंड</string>
+    <string name="proxy_country_pt">पुर्तगाल</string>
+    <string name="proxy_country_ro">रोमानिया</string>
+    <string name="proxy_country_ru">रूस</string>
+    <string name="proxy_country_se">स्वीडन</string>
+    <string name="proxy_country_ua">यूक्रेन</string>
+    <string name="proxy_country_us">यूएसए</string>
+    <string name="proxy_country_uk">ब्रिटेन</string>
+
+    <string name="statlog_type_ad">विज्ञापन</string>
+    <string name="statlog_type_apk">संदिग्ध APK</string>
+    <string name="statlog_type_malware">खतरनाक साइट</string>
+    <string name="statlog_type_paid">भुगतान की साइट</string>
+    <string name="statlog_empty">फ़िल्टर लॉग खाली है</string>
+
+    <string name="widget_state_text1">सुरक्षा</string>
+    <string name="widget_state_text2">बंद</string>
+    <string name="widget_state_text3">चालू</string>
+
+    <string name="widget_stat_block">विज्ञापन\nरोके गए</string>
+    <string name="widget_stat_traffic">ट्रैफ़िक\nबचाया गया</string>
+    <string name="widget_stat_threat">खतरे\nरोके गए</string>
+
+    <string name="menu_whitelist">सफेद सूची</string>
+    <string name="menu_whitelist_system_apps_exclude_on">ससिस्टम के एप्लिकेशनों को फ़िल्टर बाहर</string>
+    <string name="menu_whitelist_system_apps_exclude_off">सिस्टम के एप्लिकेशनों को फ़िल्टर हो रहे हैं</string>
+
+    <string name="menu_statlog">फ़िल्टर लॉग</string>
+    <string name="menu_statlog_clear">सभी हटाएं</string>
+    <string name="menu_statlog_log_on">फ़िल्टर लॉग सक्षम करें</string>
+    <string name="menu_statlog_log_off">फ़िल्टर लॉग अक्षम करें</string>
+
+    <string name="menu_proxy">गुमनामी और संपीड़न</string>
+    <string name="menu_proxy_anonymity_on">गुमनामी सक्षम करें</string>
+    <string name="menu_proxy_anonymity_off">गुमनामी अक्षम करें</string>
+    <string name="menu_proxy_compress_on">डेटा संपीड़न सक्षम करें</string>
+    <string name="menu_proxy_compress_off">डेटा संपीड़न अक्षम करें</string>
+    <string name="menu_proxy_only_browsers_on">केवल ब्राउज़र में गुमनामी</string>
+    <string name="menu_proxy_only_browsers_off">सभी ऐप में गुमनामी</string>
+
+    <string name="menu_firewall">फ़ायरवॉल</string>
+    <string name="menu_firewall_browsers_only_on">केवल ब्राउज़रों के लिए इंटरनेट</string>
+    <string name="menu_firewall_browsers_only_off">सभी ऐप्स के लिए इंटरनेट</string>
+    <string name="menu_firewall_system_apps_blocked_on">सिस्टमीय ऐप्स के लिए इंटरनेट अक्षम करें</string>
+    <string name="menu_firewall_system_apps_blocked_off">सिस्टम के एप्लिकेशनों के लिए इंटरनेट सक्षम करें</string>
+
+    <string name="menu_privacy">गोपनीयता नीति</string>
+
+    <string name="menu_help">काम नहीं करता है</string>
+
+    <string name="menu_buy">पूर्ण पहुंच प्राप्त करें</string>
+
+    <string name="HelpFragment_button_guide">अब सेटअप करें</string>
+    <string name="HelpFragment_button_help">सेटअप मदद</string>
+    <string name="HelpFragment_button_support">हमें लिखें</string>
+    <string name="HelpFragment_guide_did_not_help">अगर आपने पहले से ही सभी अतिरिक्त सिस्टम सेटिंग कॉन्फ़िगर कर ली हैं, लेकिन फिर भी समस्याएँ हो रही हैं और ऐप्लिकेशन काम करना बंद कर देता है, तो आप \"सेटअप मदद\" बटन पर क्लिक करके अतिरिक्त सहायता प्राप्त कर सकते हैं।</string>
+
+    <string name="DialogAskReview_title">हम आपकी राय का मूल्य रखते हैं!</string>
+    <string name="DialogAskReview_content">हमारे ऐप के बारे में अपनी विचारों को साझा करें। यदि आपको यह पसंद है, तो हमें 5 स्टार देने का विचार करें!</string>
+    <string name="DialogAskReview_cancel">बाद में</string>
+    <string name="DialogAskReview_ok">भाव</string>
+
+    <!-- Alert Notifications -->
+
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">आवश्यक ध्यान!</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">ऐप खोलें और WebDefender को हमेशा पृष्ठभूमि में चलने की अनुमति दें।</string>
+
+    <!-- Guide Dialogs -->
+
+    <string name="DialogGuideMain_title">सेटिंग आवश्यक है</string>
+    <string name="DialogGuideMain_content_later">सही ऐप कार्यक्षमता सुनिश्चित करने के लिए, अतिरिक्त सिस्टम सेटिंग्स को समायोजित करना सुनिश्चित करें।\nक्या आप अब सेट अप करना चाहते हैं?</string>
+    <string name="DialogGuideMain_content_hide">सही ऐप कार्यक्षमता सुनिश्चित करने के लिए, अतिरिक्त सिस्टम सेटिंग्स को समायोजित करना सुनिश्चित करें।\nयदि आपने पहले ही सभी सेटिंग्स को कॉन्फ़िगर कर लिया है, तो आप \"छिपाएँ\" बटन पर क्लिक कर सकते हैं।</string>
+    <string name="DialogGuideMain_later">बाद में</string>
+    <string name="DialogGuideMain_hide">छिपाएँ</string>
+    <string name="DialogGuideMain_ok">सेट अप</string>
+
+    <string name="DialogGuideQueryAllPackagesPermission_title">ऐप्स दृश्यता</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">सही ऐप कार्यक्षमता सुनिश्चित करने के लिए, अनुमतियाँ प्रदान करना आवश्यक है ताकि स्थापित ऐप्स की दृश्यता सुनिश्चित हो सके।</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">बाद में</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">ठीक है</string>
+
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">बैटरी अनुकूलन</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">सही ऐप कार्यक्षमता सुनिश्चित करने और ऐप्लिकेशन को बंद होने से बचाने के लिए, रेडगार्ड ऐप को पृष्ठभूमि में चलने की अनुमति दें।</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">बाद में</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">ठीक है</string>
+
+    <string name="DialogGuideBootPermission_title">ऑटोस्टार्ट</string>
+    <string name="DialogGuideBootPermission_content">डिवाइस स्टार्टअप और रिबूट के बाद ऐप शुरू हो, रेडगार्ड ऐप के लिए \"ऑटोस्टार्ट\" टॉगल को चालू करें।</string>
+    <string name="DialogGuideBootPermission_cancel">बाद में</string>
+    <string name="DialogGuideBootPermission_ok">ठीक है</string>
+
+    <string name="DialogGuideMIUI_title">शटडाउन सुरक्षा</string>
+    <string name="DialogGuideMIUIPrior12_label_1">ऐप को बैकग्राउंड में बंद होने से रोकने के लिए आपके फ़ोन में एक अतिरिक्त विकल्प है। रेडगार्ड एप्लिकेशन के लिए इस विकल्प को सक्षम करना बेहद महत्वपूर्ण है।</string>
+    <string name="DialogGuideMIUIPrior12_label_2">कृपया निर्देशों का पालन करें ताकि आप \"हाल के\" खंड में रेडगार्ड ऐप को लॉक कर सकें।</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. \"हाल के ऐप्स\" बटन पर क्लिक करें।</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. रेडगार्ड ऐप की ऑन-स्क्रीन तस्वीर को दबाकर रखें।</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. \"लॉक\" बटन दबाएं।</string>
+    <string name="DialogGuideMIUIPrior12_label_6">ऐप का लॉक एंड्रॉइड सिस्टम को एप्लिकेशन की पृष्ठभूमि प्रक्रियाओं को समाप्त नहीं करने का संकेत देता है, क्योंकि यह कार्यक्षमता रेडगार्ड ऐप के उचित कामकाज के लिए आवश्यक है।</string>
+    <string name="DialogGuideMIUI12_label_1">ऐप को बैकग्राउंड में बंद होने से रोकने के लिए आपके फ़ोन में एक अतिरिक्त विकल्प है। रेडगार्ड एप्लिकेशन के लिए इस विकल्प को सक्षम करना बेहद महत्वपूर्ण है।</string>
+    <string name="DialogGuideMIUI12_label_2">कृपया निर्देशों का पालन करें ताकि आप \"सुरक्षा\" ऐप के भीतर रेडगार्ड ऐप को लॉक कर सकें।</string>
+    <string name="DialogGuideMIUI12_label_3">1. अपने डिवाइस पर \"सुरक्षा\" ऐप खोलें।</string>
+    <string name="DialogGuideMIUI12_label_4">2. ऊपर-दायाँ कोने पर गियर आइकन पर टैप करें।</string>
+    <string name="DialogGuideMIUI12_label_5">3. \"सैटिंग्स\" खंड के तहत \"गति बढ़ाएं\" का चयन करें।</string>
+    <string name="DialogGuideMIUI12_label_6">4. \"ऐप्स लॉक करें\" पर क्लिक करें।</string>
+    <string name="DialogGuideMIUI12_label_7">5. रेडगार्ड ऐप को पृष्ठभूमि में लॉक करने के लिए टॉगल को चालू करें।</string>
+    <string name="DialogGuideMIUI12_label_8">ऐप का लॉक एंड्रॉइड सिस्टम को एप्लिकेशन की पृष्ठभूमि प्रक्रियाओं को समाप्त नहीं करने का संकेत देता है, क्योंकि यह कार्यक्षमता रेडगार्ड ऐप के उचित कामकाज के लिए आवश्यक है।</string>
+    <string name="DialogGuideMIUI_ok">ठीक है</string>
+
+    <string name="DialogGuideFinish_title">सेटअप पूरा हुआ</string>
+    <string name="DialogGuideFinish_content">अब जब आपने सभी आवश्यक सेटिंग्स पूरी कर ली हैं, तो आपका एप्लिकेशन बिना किसी रुकावट के सुचारू रूप से चलना चाहिए। यदि आपको कभी भी आवश्यकता हो, तो आप साइड मेनू में \"काम नहीं करता है\" के अंतर्गत इस गाइड को दोबारा देख सकते हैं।</string>
+    <string name="DialogGuideFinish_ok">ठीक है</string>
+
+</resources>

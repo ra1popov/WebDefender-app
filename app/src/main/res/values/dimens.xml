@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="statusbar_size">@dimen/_20sdp</dimen>
+    <dimen name="toolbar_size">@dimen/_40sdp</dimen>
+
+    <item name="alpha_layout_active" format="float" type="dimen">1.0</item>
+    <item name="alpha_layout_inactive" format="float" type="dimen">0.3</item>
+
+    <dimen name="widget_power_icon_size">@dimen/_60sdp</dimen>
+    <dimen name="widget_power_icon_radius">@dimen/_30sdp</dimen>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="app.ui.main.MainViewModel" />
+
+        <variable
+            name="handler"
+            type="app.ui.main.MainHandler" />
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <app.ui.main.widget.PowerView
+            android:id="@+id/powerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:power="@={viewModel.power}" />
+
+        <app.ui.main.widget.StatView
+            android:id="@+id/statView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:statData="@{viewModel.stat}"
+            app:statPower="@{viewModel.power}"
+            app:statShowAd="@{viewModel.ad}" />
+
+    </RelativeLayout>
+
+</layout>
