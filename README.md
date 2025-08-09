@@ -1,17 +1,16 @@
 # WebDefender
-Official WebDefender Android App
-<br>
 The Effective Ad Blocker and The Ultimate Firewall for Android Devices
 <br>
 <p align="center">
   <img width="600" src="docs/banner_1024x500_en.jpg">
 </p>
-<br>
 Are you tired of those annoying ads and pop-ups? Or are you sick of being tracked by third-parties and restricted out from your favorite site? Well, here’s what you need. With WebDefender Adblock & Firewall you can shut them all off at once.
 <br>
-Currently available on the Samsung Galaxy Store: https://galaxystore.samsung.com/detail/app.webdefender.samsung
 <br>
-Homepage: https://webdefender.app
+Currently available on the Samsung Galaxy Store: <a href="https://galaxystore.samsung.com/detail/app.webdefender.samsung" target="_blank">https://galaxystore.samsung.com/detail/app.webdefender.samsung</a>
+<br>
+<br>
+Homepage: <a href="https://webdefender.app" target="_blank">https://webdefender.app</a>
 
 ## Before build
 
