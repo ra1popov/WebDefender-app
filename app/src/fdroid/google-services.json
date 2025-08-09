@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699469323088",
+    "project_id": "webdefender-8785f",
+    "storage_bucket": "webdefender-8785f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699469323088:android:418b51e441002349b5aa55",
+        "android_client_info": {
+          "package_name": "app.webdefender.fdroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0k4KDgOEzajQU26rJX3T999VXH2Vl5TQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
