@@ -1,3 +1,0 @@
-[submodule "jni/libself/libcurl-android"]
-	path = jni/libself/libcurl-android
-	url = https://github.com/shishuo365/libcurl-android.git
