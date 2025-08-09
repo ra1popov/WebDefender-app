@@ -4,10 +4,6 @@ plugins {
     id 'com.google.firebase.crashlytics'
 }
 
-def keystorePropertiesFile = rootProject.file("keystore.properties")
-def keystoreProperties = new Properties()
-keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-
 android {
     namespace 'app'
     compileSdk 33
@@ -33,7 +29,6 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.release
         }
     }
 
@@ -63,9 +58,9 @@ android {
             applicationIdSuffix = ".samsung"
         }
 
-        f-droid {
+        fdroid {
             buildConfigField "String", "PUBLISHER", "\"fdroid\""
-            buildConfigField "String", "APP_STORE", "\"https://galaxystore.samsung.com/detail/app.webdefender.fdroid\""
+            buildConfigField "String", "APP_STORE", "\"https://galaxystore.samsung.com/detail/app.webdefender.samsung\""
             dimension = "vendor"
             applicationIdSuffix = ".fdroid"
         }
