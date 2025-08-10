@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_proxy_anonymity_enabled"
+        android:title="@string/menu_proxy_anonymity_on" />
+
+    <item
+        android:id="@+id/menu_proxy_compress_enabled"
+        android:title="@string/menu_proxy_compress_on" />
+
+    <item
+        android:id="@+id/menu_proxy_only_browsers_enabled"
+        android:title="@string/menu_proxy_only_browsers_off" />
+
+</menu>

@@ -1,0 +1,93 @@
+{
+  "buildFiles": [
+    "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+      "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+      "APP_ABI\u003darm64-v8a",
+      "NDK_ALL_ABIS\u003darm64-v8a",
+      "NDK_DEBUG\u003d1",
+      "APP_PLATFORM\u003dandroid-24",
+      "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+      "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+    "APP_ABI\u003darm64-v8a",
+    "NDK_ALL_ABIS\u003darm64-v8a",
+    "NDK_DEBUG\u003d1",
+    "APP_PLATFORM\u003dandroid-24",
+    "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+    "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bspatch-fdroidDebug-arm64-v8a": {
+      "artifactName": "bspatch",
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libbspatch.so"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libbspatch.so",
+      "runtimeFiles": []
+    },
+    "self-fdroidDebug-arm64-v8a": {
+      "artifactName": "self",
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libself.so"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libself.so",
+      "runtimeFiles": []
+    },
+    "native-fdroidDebug-arm64-v8a": {
+      "artifactName": "native",
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libnative.so"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libnative.so",
+      "runtimeFiles": []
+    }
+  }
+}

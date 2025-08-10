@@ -137,17 +137,6 @@
 
         </service>
 
-        <service
-            android:name=".receivers.PushReceiver"
-            android:enabled="true"
-            android:exported="false">
-
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-
-        </service>
-
         <receiver
             android:name=".receivers.BootCompletedReceiver"
             android:enabled="true"
@@ -167,18 +156,6 @@
             android:enabled="true"
             android:exported="true"
             android:permission="android.permission.INTERNET" />
-
-        <service
-            android:name=".recovery.RecoveryService"
-            android:enabled="true"
-            android:exported="false"
-            android:process=":recovery" />
-
-        <service
-            android:name=".recovery.RecoveryNativeService"
-            android:enabled="true"
-            android:exported="false"
-            android:process=":native" />
 
         <!-- fixed the problem with compilation as apk, more here https://stackoverflow.com/questions/59710362/workmanager-should-we-remove-the-default-initializer-when-we-use-both-default -->
         <provider

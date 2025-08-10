@@ -15,9 +15,8 @@ import androidx.lifecycle.ProcessLifecycleOwner;
 import androidx.multidex.MultiDexApplication;
 import androidx.work.Configuration;
 
-import com.google.firebase.FirebaseApp;
-
 import app.analytics.FirebaseAnalyticsSDK;
+import app.analytics.FirebaseAppSDK;
 import app.analytics.FirebaseCrashlyticsSDK;
 import app.analytics.MyAnalyticsSDK;
 import app.common.LibNative;
@@ -126,8 +125,7 @@ public class App extends MultiDexApplication implements DefaultLifecycleObserver
     }
 
     private void initializeAnalytics() {
-        // Initialize Firebase
-        FirebaseApp.initializeApp(this);
+        FirebaseAppSDK.init(this);
         FirebaseAnalyticsSDK.init(this);
         FirebaseCrashlyticsSDK.init(this);
         MyAnalyticsSDK.init(this);

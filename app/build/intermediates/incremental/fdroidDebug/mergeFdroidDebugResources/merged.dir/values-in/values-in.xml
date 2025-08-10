@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notifikasi baru</item>
+    <item quantity="other">%d notifikasi baru</item>
+  </plurals>
+    <string name="DialogAskReview_cancel">Nanti</string>
+    <string name="DialogAskReview_content">Bagikan pendapat Anda tentang aplikasi kami. Jika Anda menyukainya, pertimbangkan memberikan kami 5 bintang!</string>
+    <string name="DialogAskReview_ok">Memperkirakan</string>
+    <string name="DialogAskReview_title">Kami Menghargai Pendapat Anda!</string>
+    <string name="DialogGuideBootPermission_cancel">Nanti</string>
+    <string name="DialogGuideBootPermission_content">Untuk menjalankan aplikasi secara otomatis setelah perangkat dihidupkan dan direstart, aktifkan tombol \"Mulai Otomatis\" untuk aplikasi WebDefender.</string>
+    <string name="DialogGuideBootPermission_ok">OK</string>
+    <string name="DialogGuideBootPermission_title">Mulai Otomatis</string>
+    <string name="DialogGuideFinish_content">Sekarang Anda telah menyelesaikan semua pengaturan yang diperlukan, aplikasi Anda seharusnya berjalan dengan lancar tanpa gangguan. Jika Anda perlu, Anda dapat mengunjungi panduan ini di bawah \"Tidak bekerja?\" di menu samping.</string>
+    <string name="DialogGuideFinish_ok">OK</string>
+    <string name="DialogGuideFinish_title">Pengaturan Selesai</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">Nanti</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">Untuk memastikan fungsionalitas aplikasi yang tepat dan mencegah aplikasi dari penutupan, izinkan aplikasi WebDefender untuk selalu berjalan di latar belakang.</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">OK</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">Optimisasi Baterai</string>
+    <string name="DialogGuideMIUI12_label_1">Ponsel Anda memiliki opsi tambahan untuk mencegah aplikasi tertutup di latar belakang. Sangat penting untuk mengaktifkan opsi ini untuk aplikasi WebDefender.</string>
+    <string name="DialogGuideMIUI12_label_2">Harap ikuti petunjuk untuk mengunci aplikasi WebDefender di dalam aplikasi \"Keamanan\".</string>
+    <string name="DialogGuideMIUI12_label_3">1. Buka aplikasi \"Keamanan\" di perangkat Anda.</string>
+    <string name="DialogGuideMIUI12_label_4">2. Ketuk ikon gigi di pojok kanan atas.</string>
+    <string name="DialogGuideMIUI12_label_5">3. Pilih \"Peningkat kecepatan\" di bawah bagian \"Setelan\".</string>
+    <string name="DialogGuideMIUI12_label_6">4. Klik \"Kunci aplikasi\".</string>
+    <string name="DialogGuideMIUI12_label_7">5. Aktifkan tombol untuk aplikasi WebDefender untuk mengunci di latar belakang.</string>
+    <string name="DialogGuideMIUI12_label_8">Kunci aplikasi memberi sinyal kepada sistem Android agar tidak mengakhiri proses latar belakang aplikasi, karena fungsionalitas ini penting untuk fungsi yang tepat dari aplikasi WebDefender.</string>
+    <string name="DialogGuideMIUIPrior12_label_1">Ponsel Anda memiliki opsi tambahan untuk mencegah aplikasi tertutup di latar belakang. Sangat penting untuk mengaktifkan opsi ini untuk aplikasi WebDefender.</string>
+    <string name="DialogGuideMIUIPrior12_label_2">Harap ikuti petunjuk untuk mengunci aplikasi WebDefender di dalam bagian \"Baru-baru ini\".</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. Klik tombol \"Aplikasi baru-baru ini\".</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. Tekan dan tahan gambar WebDefender di layar.</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. Tekan tombol \"Kunci\".</string>
+    <string name="DialogGuideMIUIPrior12_label_6">Kunci aplikasi memberi sinyal kepada sistem Android agar tidak mengakhiri proses latar belakang aplikasi, karena fungsionalitas ini penting untuk fungsi yang tepat dari aplikasi WebDefender.</string>
+    <string name="DialogGuideMIUI_ok">OK</string>
+    <string name="DialogGuideMIUI_title">Pencegahan Penonaktifan</string>
+    <string name="DialogGuideMain_content_hide">Untuk memastikan fungsionalitas yang tepat pada aplikasi, pastikan untuk mengatur pengaturan tambahan pada sistem.\nJika Anda sudah menyelesaikan semua pengaturan, Anda dapat mengklik tombol \"Sembunyikan\".</string>
+    <string name="DialogGuideMain_content_later">Untuk memastikan fungsionalitas yang tepat pada aplikasi, pastikan untuk mengatur pengaturan tambahan pada sistem.\nApakah Anda ingin melakukannya sekarang?</string>
+    <string name="DialogGuideMain_hide">Sembunyikan</string>
+    <string name="DialogGuideMain_later">Nanti</string>
+    <string name="DialogGuideMain_ok">Sesuaikan</string>
+    <string name="DialogGuideMain_title">Pengaturan Diperlukan</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">Nanti</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">Untuk memastikan fungsionalitas aplikasi yang tepat, pemberian izin diperlukan untuk memastikan visibilitas aplikasi yang diinstal.</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">OK</string>
+    <string name="DialogGuideQueryAllPackagesPermission_title">Visibilitas Aplikasi</string>
+    <string name="HelpFragment_button_guide">Siapkan sekarang</string>
+    <string name="HelpFragment_button_help">Bantuan Pengaturan</string>
+    <string name="HelpFragment_button_support">Tuliskan kepada kami</string>
+    <string name="HelpFragment_guide_did_not_help">Jika Anda sudah mengatur semua pengaturan sistem tambahan tetapi masih mengalami masalah dan aplikasi berhenti bekerja, Anda dapat mengklik tombol \"Bantuan Pengaturan\" untuk mengakses bantuan lebih lanjut.</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">Buka aplikasi dan izinkan WebDefender selalu berjalan di latar belakang.</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">Perhatian diperlukan!</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Tunjukkan jalan ke rumah"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Kembali ke atas"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Opsi lain"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Selesai"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Lihat semua"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Pilih aplikasi"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NONAKTIF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AKTIF"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spasi"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Telusuri..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Hapus kueri"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Telusuri kueri"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Telusuri"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Kirim kueri"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Penelusuran suara"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Bagikan dengan"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Bagikan dengan <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ciutkan"</string>
+    <string name="app_name">WebDefender</string>
+    <string name="app_not_found">(Nama Tidak Ditemukan)</string>
+    <string name="bottomsheet_action_collapse">Menciutkan sheet bawah</string>
+    <string name="bottomsheet_action_expand">Meluaskan sheet bawah</string>
+    <string name="bottomsheet_action_expand_halfway">Luaskan setengah</string>
+    <string name="bottomsheet_drag_handle_clicked">Handel geser diketuk dua kali</string>
+    <string name="bottomsheet_drag_handle_content_description">Handel geser</string>
+    <string name="character_counter_content_description">Karakter yang dimasukkan %1$d dari %2$d</string>
+    <string name="character_counter_overflowed_content_description">Melebihi batas karakter %1$d dari %2$d</string>
+    <string name="clear_text_end_icon_content_description">Menghapus teks</string>
+    <string msgid="406453423630273620" name="close_drawer">"Tutup menu navigasi"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Tutup sheet"</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Aktifkan</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">%1$s tidak akan berfungsi jika layanan Google Play tidak diaktifkan.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Aktifkan layanan Google Play</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Instal</string>
+    <string name="common_google_play_services_install_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak ada di perangkat Anda.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Dapatkan layanan Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Ketersediaan layanan Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Kesalahan layanan Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s mengalami masalah dengan layanan Google Play. Coba lagi.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak didukung oleh perangkat Anda.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s tidak akan berjalan jika layanan Google Play tidak diperbarui.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Perbarui layanan Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang saat ini sedang diperbarui.</string>
+    <string name="common_google_play_services_wear_update_text">Perlu versi baru layanan Google Play. Akan segera memperbarui sendiri.</string>
+    <string name="common_open_on_phone">Buka di ponsel</string>
+    <string name="common_signin_button_text">Login</string>
+    <string name="common_signin_button_text_long">Login dengan Google</string>
+    <string msgid="6083905920877235314" name="copy">"Salin"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Input tidak valid"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Jendela Pop-Up"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Menu dropdown"</string>
+    <string name="error_icon_content_description">Error</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Lanjutan"</string>
+    <string name="exposed_dropdown_menu_content_description">Tampilkan menu dropdown</string>
+    <string name="icon_content_description">Ikon Dialog</string>
+    <string msgid="6827826412747255547" name="in_progress">"Dalam proses"</string>
+    <string msgid="2486394087603402002" name="indeterminate">"Tidak dicentang atau dihapus centangnya"</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="license_activated">Lisensi sudah diaktifkan</string>
+    <string name="material_clock_toggle_content_description">Pilih AM atau PM</string>
+    <string name="material_hour_24h_suffix">%1$s jam</string>
+    <string name="material_hour_selection">Pilih jam</string>
+    <string name="material_hour_suffix">Pukul %1$s</string>
+    <string name="material_minute_selection">Pilih menit</string>
+    <string name="material_minute_suffix">%1$s menit</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Beralih ke mode jam untuk masukan waktu.</string>
+    <string name="material_timepicker_hour">Jam</string>
+    <string name="material_timepicker_minute">Menit</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Pilih waktu</string>
+    <string name="material_timepicker_text_input_mode_description">Beralih ke mode masukan teks untuk masukan waktu.</string>
+    <string name="menu_buy">Dapatkan Akses Penuh</string>
+    <string name="menu_firewall">Firewall</string>
+    <string name="menu_firewall_browsers_only_off">Internet untuk Semua Aplikasi</string>
+    <string name="menu_firewall_browsers_only_on">Internet Hanya untuk Browser</string>
+    <string name="menu_firewall_system_apps_blocked_off">Aktifkan Internet aplikasi sistem</string>
+    <string name="menu_firewall_system_apps_blocked_on">Nonaktifkan Internet aplikasi sistem</string>
+    <string name="menu_help">Tidak bekerja?</string>
+    <string name="menu_privacy">Kebijakan Privasi</string>
+    <string name="menu_proxy">Anonimitas &amp; Kompresi</string>
+    <string name="menu_proxy_anonymity_off">Nonaktifkan Anonimitas</string>
+    <string name="menu_proxy_anonymity_on">Aktifkan Anonimitas</string>
+    <string name="menu_proxy_compress_off">Nonaktifkan Kompresi Data</string>
+    <string name="menu_proxy_compress_on">Aktifkan Kompresi Data</string>
+    <string name="menu_proxy_only_browsers_off">Anonimitas pada Semua Aplikasi</string>
+    <string name="menu_proxy_only_browsers_on">Anonimitas Hanya pada Browser</string>
+    <string name="menu_statlog">Filter Log</string>
+    <string name="menu_statlog_clear">Hapus Semua</string>
+    <string name="menu_statlog_log_off">Nonaktifkan Log Filter</string>
+    <string name="menu_statlog_log_on">Aktifkan Log Filter</string>
+    <string name="menu_whitelist">Daftar Putih</string>
+    <string name="menu_whitelist_system_apps_exclude_off">Menyaring semua aplikasi sistem</string>
+    <string name="menu_whitelist_system_apps_exclude_on">Kecualikan pemfilteran aplikasi sistem</string>
+    <string name="mtrl_badge_numberless_content_description">Notifikasi baru</string>
+    <string name="mtrl_chip_close_icon_content_description">Menghapus %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Lebih dari %1$d notifikasi baru</string>
+    <string name="mtrl_picker_a11y_next_month">Ubah ke bulan berikutnya</string>
+    <string name="mtrl_picker_a11y_prev_month">Ubah ke bulan sebelumnya</string>
+    <string name="mtrl_picker_announce_current_selection">Pilihan saat ini: %1$s</string>
+    <string name="mtrl_picker_cancel">Batal</string>
+    <string name="mtrl_picker_confirm">Oke</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Pilih Tanggal</string>
+    <string name="mtrl_picker_date_header_unselected">Tanggal yang dipilih</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom hari: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format tidak valid.</string>
+    <string name="mtrl_picker_invalid_format_example">Contoh: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gunakan: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Rentang tidak valid.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Buka tahun %1$s</string>
+    <string name="mtrl_picker_out_of_range">Di luar rentang: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Tanggal mulai – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Tanggal akhir</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Pilih Rentang</string>
+    <string name="mtrl_picker_range_header_unselected">Tanggal mulai – Tanggal akhir</string>
+    <string name="mtrl_picker_save">Simpan</string>
+    <string name="mtrl_picker_text_input_date_hint">Tanggal</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Tanggal akhir</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Tanggal mulai</string>
+    <string name="mtrl_picker_text_input_day_abbr">h</string>
+    <string name="mtrl_picker_text_input_month_abbr">b</string>
+    <string name="mtrl_picker_text_input_year_abbr">t</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Beralih ke mode masukan kalender</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Ketuk untuk beralih ke memilih hari</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Beralih ke mode masukan teks</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Ketuk untuk beralih ke memilih tahun</string>
+    <string name="mtrl_timepicker_cancel">Batal</string>
+    <string name="mtrl_timepicker_confirm">Oke</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Kembali ke atas"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Buka panel navigasi"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Menu navigasi"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Tidak dipilih"</string>
+    <string msgid="6573031135582639649" name="not_set">"Belum disetel"</string>
+    <string msgid="875452955155264703" name="off">"Nonaktif"</string>
+    <string msgid="8655164131929253426" name="on">"Aktif"</string>
+    <string name="password_toggle_content_description">Tampilkan sandi</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" disalin ke papan klip."</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/en/privacy.html</string>
+    <string name="proxy_blocked">Aktifkan Mode Anonimitas dan Pilih Negara</string>
+    <string name="proxy_country_at">Austria</string>
+    <string name="proxy_country_au">Australia</string>
+    <string name="proxy_country_auto">Otomatis</string>
+    <string name="proxy_country_bg">Bulgaria</string>
+    <string name="proxy_country_ca">Kanada</string>
+    <string name="proxy_country_ch">Swiss</string>
+    <string name="proxy_country_cn">China</string>
+    <string name="proxy_country_cz">Republik Ceko</string>
+    <string name="proxy_country_de">Jerman</string>
+    <string name="proxy_country_dk">Denmark</string>
+    <string name="proxy_country_do">Republik Dominika</string>
+    <string name="proxy_country_ee">Estonia</string>
+    <string name="proxy_country_es">Spanyol</string>
+    <string name="proxy_country_fi">Finlandia</string>
+    <string name="proxy_country_fr">Prancis</string>
+    <string name="proxy_country_it">Italia</string>
+    <string name="proxy_country_jp">Jepang</string>
+    <string name="proxy_country_lt">Lituania</string>
+    <string name="proxy_country_lv">Latvia</string>
+    <string name="proxy_country_md">Moldova</string>
+    <string name="proxy_country_nl">Belanda</string>
+    <string name="proxy_country_no">Norwegia</string>
+    <string name="proxy_country_pl">Polandia</string>
+    <string name="proxy_country_pt">Portugal</string>
+    <string name="proxy_country_ro">Rumania</string>
+    <string name="proxy_country_ru">Rusia</string>
+    <string name="proxy_country_se">Swedia</string>
+    <string name="proxy_country_ua">Ukraina</string>
+    <string name="proxy_country_uk">Britania Raya</string>
+    <string name="proxy_country_us">Amerika Serikat</string>
+    <string name="proxy_needs_to_be_disabled">Nonaktifkan Server Proxy di %1$s untuk Berfungsi dengan Baik pada WebDefender</string>
+    <string name="proxy_needs_to_be_disabled2">Nonaktifkan Aplikasi Bermasalah untuk Berfungsi dengan Baik pada WebDefender</string>
+    <string msgid="5941395253238309765" name="range_end">"Rentang akhir"</string>
+    <string msgid="7097486360902471446" name="range_start">"Rentang awal"</string>
+    <string name="search_app">Cari…</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Telusuri"</string>
+    <string msgid="6043586758067023" name="selected">"Dipilih"</string>
+    <string name="statlog_empty">Filter Log Kosong</string>
+    <string name="statlog_type_ad">Iklan</string>
+    <string name="statlog_type_apk">APK Mencurigakan</string>
+    <string name="statlog_type_malware">Situs Berbahaya</string>
+    <string name="statlog_type_paid">Situs Berbayar</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="1672349317127674378" name="tab">"Tab"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> persen."</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"NONAKTIF"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"AKTIF"</string>
+    <string name="vpn_error">Gagal Membuat Saluran VPN</string>
+    <string name="vpn_exception">Tidak Dapat Membangun Koneksi VPN</string>
+    <string name="vpn_unavailable">VPN Tidak Tersedia</string>
+    <string name="widget_stat_block">Iklan\ndiblokir</string>
+    <string name="widget_stat_threat">Ancaman\ndiblokir</string>
+    <string name="widget_stat_traffic">Lalu lintas\ndisimpan</string>
+    <string name="widget_state_text1">Perlindungan</string>
+    <string name="widget_state_text2">Dimatikan</string>
+    <string name="widget_state_text3">Diaktifkan</string>
+</resources>

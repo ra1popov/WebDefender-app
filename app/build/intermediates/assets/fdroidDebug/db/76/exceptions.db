@@ -1,0 +1,7 @@
+[
+{"domain":"4pda.ru", "stats":"false"},
+{"domain":"xda-developers.com", "stats":"false"},
+{"domain":"clients.google.com", "stats":"false"},
+{"domain":"proxy.googlezip.net", "port":"443", "compressed":"true"},
+{"domain":"compress.googlezip.net", "port":"443", "compressed":"true"}
+]

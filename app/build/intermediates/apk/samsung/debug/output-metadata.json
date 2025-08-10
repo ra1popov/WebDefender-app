@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "app.webdefender.samsung",
+  "variantName": "samsungDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 7,
+      "versionName": "1.0.6",
+      "outputFile": "app-samsung-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

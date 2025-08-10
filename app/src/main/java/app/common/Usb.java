@@ -1,7 +1,5 @@
 package app.common;
 
-import com.google.firebase.crashlytics.buildtools.reloc.org.apache.http.conn.util.InetAddressUtils;
-
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.util.Collections;
@@ -10,6 +8,7 @@ import java.util.Objects;
 
 import app.common.debug.L;
 import app.internal.Settings;
+import app.util.InetAddressUtils;
 
 public class Usb {
 

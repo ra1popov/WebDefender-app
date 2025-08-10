@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/nav_main">
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="app.ui.main.MainFragment"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_statlog"
+            app:destination="@id/nav_statlog" />
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_proxy"
+            app:destination="@id/nav_proxy" />
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_firewall"
+            app:destination="@id/nav_firewall" />
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_whitelist"
+            app:destination="@id/nav_whitelist" />
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_help"
+            app:destination="@id/nav_help" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_statlog"
+        android:name="app.ui.statlog.StatlogFragment"
+        tools:layout="@layout/fragment_statlog" />
+
+    <fragment
+        android:id="@+id/nav_proxy"
+        android:name="app.ui.proxy.ProxyFragment"
+        tools:layout="@layout/fragment_proxy" />
+
+    <fragment
+        android:id="@+id/nav_firewall"
+        android:name="app.ui.firewall.FirewallFragment"
+        tools:layout="@layout/fragment_firewall" />
+
+    <fragment
+        android:id="@+id/nav_whitelist"
+        android:name="app.ui.whitelist.WhitelistFragment"
+        tools:layout="@layout/fragment_whitelist" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="app.ui.help.HelpFragment"
+        tools:layout="@layout/fragment_help" />
+
+</navigation>
