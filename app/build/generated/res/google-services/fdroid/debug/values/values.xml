@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="gcm_defaultSenderId" translatable="false">699469323088</string>
-    <string name="google_api_key" translatable="false">AIzaSyC0k4KDgOEzajQU26rJX3T999VXH2Vl5TQ</string>
-    <string name="google_app_id" translatable="false">1:699469323088:android:418b51e441002349b5aa55</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC0k4KDgOEzajQU26rJX3T999VXH2Vl5TQ</string>
-    <string name="google_storage_bucket" translatable="false">webdefender-8785f.firebasestorage.app</string>
-    <string name="project_id" translatable="false">webdefender-8785f</string>
-</resources>

@@ -1,2 +1,0 @@
-#- File Locator -
-listingFile=../../apk/samsung/debug/output-metadata.json

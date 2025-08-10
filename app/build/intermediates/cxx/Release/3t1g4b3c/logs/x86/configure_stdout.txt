@@ -1,2 +1,0 @@
-Android NDK: ERROR:/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/Android.mk:curl: LOCAL_SRC_FILES points to a missing file    
-Android NDK: Check that /Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/libcurl-android/libs/x86/libcurl.a exists  or that its path is correct   
