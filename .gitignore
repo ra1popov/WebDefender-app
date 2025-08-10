@@ -21,6 +21,5 @@ app/fdroid
 libs/
 obj/
 
-# Private Keys and Passwords
+# Keystore
 WebDefender.keystore
-keystore.properties
