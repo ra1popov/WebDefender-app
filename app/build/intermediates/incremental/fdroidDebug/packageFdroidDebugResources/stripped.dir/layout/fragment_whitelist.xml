@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                            
+                                                         
+
+                 
+                          
+                                                       
+
+           
+
+    <app.widget.BlockableLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/statusbar_size"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/toolbar_size"
+                                           
+                                               android:tag="layout/fragment_whitelist_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_marginVertical="@dimen/_10sdp">
+
+                    <androidx.appcompat.widget.SearchView
+                        android:id="@+id/sv_search"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:queryHint="@string/search_app" />
+
+                    <TextView
+                        android:id="@+id/tv_tooltip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="@dimen/_33sdp"
+                        android:text="@string/search_app"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_12sdp"
+                        tools:ignore="RtlHardcoded" />
+
+                </RelativeLayout>
+
+                <app.widget.LoadingRecyclerView
+                    android:id="@+id/rv_whitelist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:overScrollMode="never"
+                    android:paddingHorizontal="@dimen/_10sdp"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    android:tag="binding_1"          
+                    tools:listitem="@layout/item_whitelist" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_whitelist_empty"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+    </app.widget.BlockableLinearLayout>
+
+         

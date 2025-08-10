@@ -1,0 +1,105 @@
+{
+  "buildFiles": [
+    "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+      "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+      "APP_ABI\u003darm64-v8a",
+      "NDK_ALL_ABIS\u003darm64-v8a",
+      "NDK_DEBUG\u003d1",
+      "APP_PLATFORM\u003dandroid-24",
+      "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+      "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+    "APP_ABI\u003darm64-v8a",
+    "NDK_ALL_ABIS\u003darm64-v8a",
+    "NDK_DEBUG\u003d1",
+    "APP_PLATFORM\u003dandroid-24",
+    "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+    "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bspatch-samsungDebug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libbspatch.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "bspatch",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libbspatch.so"
+    },
+    "native-samsungDebug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libnative.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "native",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libnative.so"
+    },
+    "self-samsungDebug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libself.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "self",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a/libself.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cCompilerExecutable": "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

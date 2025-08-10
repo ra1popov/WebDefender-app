@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d 件の新しい通知</item>
+    <item quantity="other">%d 件の新しい通知</item>
+  </plurals>
+    <string name="DialogAskReview_cancel">後で</string>
+    <string name="DialogAskReview_content">アプリに対するご意見を共有してください。お気に入りの場合は、5つ星評価をご検討ください！</string>
+    <string name="DialogAskReview_ok">レート</string>
+    <string name="DialogAskReview_title">あなたのご意見をお聞かせください！</string>
+    <string name="DialogGuideBootPermission_cancel">後で</string>
+    <string name="DialogGuideBootPermission_content">デバイスの起動後および再起動後にアプリを自動的に起動するには、WebDefenderアプリの「自動起動」トグルをオンにしてください。</string>
+    <string name="DialogGuideBootPermission_ok">OK</string>
+    <string name="DialogGuideBootPermission_title">自動起動</string>
+    <string name="DialogGuideFinish_content">必要なすべての設定を完了したので、アプリは中断することなくスムーズに動作するはずです。必要があれば、サイドメニューの「動作しません？」セクションでこのガイドを再訪できます。</string>
+    <string name="DialogGuideFinish_ok">OK</string>
+    <string name="DialogGuideFinish_title">セットアップが完了しました</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">後で</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">適切なアプリの機能を保証し、アプリが終了しないようにするために、WebDefenderアプリを常にバックグラウンドで実行する許可を許可してください。</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">OK</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">バッテリー最適化</string>
+    <string name="DialogGuideMIUI12_label_1">あなたの電話には、アプリがバックグラウンドで閉じるのを防ぐ追加のオプションがあります。このオプションをWebDefenderアプリにオンにすることは重要です。</string>
+    <string name="DialogGuideMIUI12_label_2">「セキュリティ」アプリ内でWebDefenderアプリをロックするための手順に従ってください。</string>
+    <string name="DialogGuideMIUI12_label_3">1. デバイス上で「セキュリティ」アプリを開きます。</string>
+    <string name="DialogGuideMIUI12_label_4">2. 右上の歯車アイコンをタップします。</string>
+    <string name="DialogGuideMIUI12_label_5">3. 「設定」セクションで「スピード ブースト」を選択します。</string>
+    <string name="DialogGuideMIUI12_label_6">4. 「アプリをロック」をクリックします。</string>
+    <string name="DialogGuideMIUI12_label_7">5. トグルをオンにして、WebDefender アプリをバックグラウンドでロックします。</string>
+    <string name="DialogGuideMIUI12_label_8">アプリのロックは、Androidシステムにアプリのバックグラウンドプロセスを終了させないように信号を送ります。これはWebDefenderアプリの正しい機能には欠かせない機能です。</string>
+    <string name="DialogGuideMIUIPrior12_label_1">あなたの電話には、アプリがバックグラウンドで閉じるのを防ぐ追加のオプションがあります。このオプションをWebDefenderアプリにオンにすることは重要です。</string>
+    <string name="DialogGuideMIUIPrior12_label_2">「最近の」セクション内でWebDefenderアプリをロックするための手順に従ってください。</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. 「最近のアプリ」ボタンをクリックします。</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. 画面上の WebDefender 画像を長押しします。</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. 「ロック」ボタンを押します。</string>
+    <string name="DialogGuideMIUIPrior12_label_6">アプリのロックは、Androidシステムにアプリのバックグラウンドプロセスを終了させないように信号を送ります。これはWebDefenderアプリの正しい機能には欠かせない機能です。</string>
+    <string name="DialogGuideMIUI_ok">OK</string>
+    <string name="DialogGuideMIUI_title">シャットダウン保護</string>
+    <string name="DialogGuideMain_content_hide">適切なアプリの機能を保証するために、追加のシステム設定を調整してください。\nすでにすべてを設定済みの場合は、「非表示」ボタンをクリックできます。</string>
+    <string name="DialogGuideMain_content_later">適切なアプリの機能を保証するために、追加のシステム設定を調整してください。\n今すぐカスタマイズしたいですか？</string>
+    <string name="DialogGuideMain_hide">非表示</string>
+    <string name="DialogGuideMain_later">後で</string>
+    <string name="DialogGuideMain_ok">今すぐセットアップ</string>
+    <string name="DialogGuideMain_title">必要な設定</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">後で</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">アプリが適切に動作するには、インストールされているアプリを表示できるように権限を付与する必要があります。</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">OK</string>
+    <string name="DialogGuideQueryAllPackagesPermission_title">アプリの可視性</string>
+    <string name="HelpFragment_button_guide">今すぐセットアップ</string>
+    <string name="HelpFragment_button_help">設定ヘルプ</string>
+    <string name="HelpFragment_button_support">私たちに書く</string>
+    <string name="HelpFragment_guide_did_not_help">すでにすべての追加システム設定を構成しているが、まだ問題が発生し、アプリが動作を停止する場合、さらなる支援を得るために「設定ヘルプ」ボタンをクリックできます。</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">アプリを開いて、WebDefenderが常にバックグラウンドで実行されるように許可してください。</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">注意が必要です！</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完了"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"検索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="app_name">WebDefender</string>
+    <string name="app_not_found">(名前が見つかりません)</string>
+    <string name="bottomsheet_action_collapse">ボトムシートを閉じる</string>
+    <string name="bottomsheet_action_expand">ボトムシートを開く</string>
+    <string name="bottomsheet_action_expand_halfway">下半分を展開</string>
+    <string name="bottomsheet_drag_handle_clicked">ドラッグ ハンドルをダブルタップしました</string>
+    <string name="bottomsheet_drag_handle_content_description">ドラッグ ハンドル</string>
+    <string name="character_counter_content_description">入力済み文字数: %1$d/%2$d</string>
+    <string name="character_counter_overflowed_content_description">文字数制限を超えています（%1$d/%2$d 文字）</string>
+    <string name="clear_text_end_icon_content_description">テキストを消去</string>
+    <string msgid="406453423630273620" name="close_drawer">"ナビゲーションメニューを閉じる"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"シートを閉じる"</string>
+    <string msgid="6083905920877235314" name="copy">"コピー"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"入力値が無効です"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"ポップアップウィンドウ"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"プルダウン メニュー"</string>
+    <string name="error_icon_content_description">エラー</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"詳細設定"</string>
+    <string name="exposed_dropdown_menu_content_description">プルダウン メニューを表示</string>
+    <string name="icon_content_description">ダイアログ アイコン</string>
+    <string msgid="6827826412747255547" name="in_progress">"処理しています"</string>
+    <string msgid="2486394087603402002" name="indeterminate">"オンでもオフでもありません"</string>
+    <string name="item_view_role_description">タブ</string>
+    <string name="license_activated">ライセンスがアクティブです</string>
+    <string name="material_clock_toggle_content_description">午前または午後を選択</string>
+    <string name="material_hour_24h_suffix">%1$s 時間</string>
+    <string name="material_hour_selection">時刻を選択してください</string>
+    <string name="material_hour_suffix">%1$s時</string>
+    <string name="material_minute_selection">分を選択</string>
+    <string name="material_minute_suffix">%1$s分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">時刻を時計で入力するモードに切り替えます。</string>
+    <string name="material_timepicker_hour">時間</string>
+    <string name="material_timepicker_minute">分</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">時間を選択</string>
+    <string name="material_timepicker_text_input_mode_description">時刻をテキストで入力するモードに切り替えます。</string>
+    <string name="menu_buy">フルアクセスを取得</string>
+    <string name="menu_firewall">ファイアウォール</string>
+    <string name="menu_firewall_browsers_only_off">すべてのアプリのインターネット</string>
+    <string name="menu_firewall_browsers_only_on">ブラウザ専用のインターネット</string>
+    <string name="menu_firewall_system_apps_blocked_off">システムアプリのインターネット有効</string>
+    <string name="menu_firewall_system_apps_blocked_on">システムアプリのインターネット無効</string>
+    <string name="menu_help">動作しません?</string>
+    <string name="menu_privacy">プライバシーポリシー</string>
+    <string name="menu_proxy">匿名性と圧縮</string>
+    <string name="menu_proxy_anonymity_off">匿名性を無効化</string>
+    <string name="menu_proxy_anonymity_on">匿名性を有効化</string>
+    <string name="menu_proxy_compress_off">データの圧縮を無効化</string>
+    <string name="menu_proxy_compress_on">データの圧縮を有効化</string>
+    <string name="menu_proxy_only_browsers_off">すべてのアプリでの匿名性</string>
+    <string name="menu_proxy_only_browsers_on">ブラウザのみでの匿名性</string>
+    <string name="menu_statlog">フィルターログ</string>
+    <string name="menu_statlog_clear">すべてクリア</string>
+    <string name="menu_statlog_log_off">フィルターログの無効化</string>
+    <string name="menu_statlog_log_on">フィルターログの有効化</string>
+    <string name="menu_whitelist">ホワイトリスト</string>
+    <string name="menu_whitelist_system_apps_exclude_off">システムアプリフィルタリング中</string>
+    <string name="menu_whitelist_system_apps_exclude_on">システムアプリを除外</string>
+    <string name="mtrl_badge_numberless_content_description">新しい通知</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s を削除します</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d 件以上の新しい通知</string>
+    <string name="mtrl_picker_a11y_next_month">翌月に変更</string>
+    <string name="mtrl_picker_a11y_prev_month">前月に変更</string>
+    <string name="mtrl_picker_announce_current_selection">現在の選択: %1$s</string>
+    <string name="mtrl_picker_cancel">キャンセル</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">日付を選択してください</string>
+    <string name="mtrl_picker_date_header_unselected">選択した日付</string>
+    <string name="mtrl_picker_day_of_week_column_header">曜日の列: %1$s</string>
+    <string name="mtrl_picker_invalid_format">形式が無効です。</string>
+    <string name="mtrl_picker_invalid_format_example">例: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用: %1$s</string>
+    <string name="mtrl_picker_invalid_range">範囲が無効です。</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s 年に移動</string>
+    <string name="mtrl_picker_out_of_range">範囲外: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日～%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s～終了日</string>
+    <string name="mtrl_picker_range_header_selected">%1$s～%2$s</string>
+    <string name="mtrl_picker_range_header_title">期間を選択してください</string>
+    <string name="mtrl_picker_range_header_unselected">開始日～終了日</string>
+    <string name="mtrl_picker_save">保存</string>
+    <string name="mtrl_picker_text_input_date_hint">日付</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">終了日</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">カレンダー入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_day_selection">タップすると、日の選択に切り替わります</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">テキスト入力モードに切り替え</string>
+    <string name="mtrl_picker_toggle_to_year_selection">タップすると、年の選択に切り替わります</string>
+    <string name="mtrl_timepicker_cancel">キャンセル</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"上へ移動"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"ナビゲーション ドロワーを開く"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"ナビゲーションメニュー"</string>
+    <string msgid="6610465462668679431" name="not_selected">"未選択"</string>
+    <string msgid="6573031135582639649" name="not_set">"未設定"</string>
+    <string msgid="875452955155264703" name="off">"オフ"</string>
+    <string msgid="8655164131929253426" name="on">"オン"</string>
+    <string name="password_toggle_content_description">パスワードを表示</string>
+    <string msgid="6685851473431805375" name="preference_copied">"「<ns1:g id="SUMMARY">%1$s</ns1:g>」をクリップボードにコピーしました。"</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/en/privacy.html</string>
+    <string name="proxy_blocked">匿名モードを有効にし、国を選択してください</string>
+    <string name="proxy_country_at">オーストリア</string>
+    <string name="proxy_country_au">オーストラリア</string>
+    <string name="proxy_country_auto">自動</string>
+    <string name="proxy_country_bg">ブルガリア</string>
+    <string name="proxy_country_ca">カナダ</string>
+    <string name="proxy_country_ch">スイス</string>
+    <string name="proxy_country_cn">中国</string>
+    <string name="proxy_country_cz">チェコ共和国</string>
+    <string name="proxy_country_de">ドイツ</string>
+    <string name="proxy_country_dk">デンマーク</string>
+    <string name="proxy_country_do">ドミニカ共和国</string>
+    <string name="proxy_country_ee">エストニア</string>
+    <string name="proxy_country_es">スペイン</string>
+    <string name="proxy_country_fi">フィンランド</string>
+    <string name="proxy_country_fr">フランス</string>
+    <string name="proxy_country_it">イタリア</string>
+    <string name="proxy_country_jp">日本</string>
+    <string name="proxy_country_lt">リトアニア</string>
+    <string name="proxy_country_lv">ラトビア</string>
+    <string name="proxy_country_md">モルドバ</string>
+    <string name="proxy_country_nl">オランダ</string>
+    <string name="proxy_country_no">ノルウェー</string>
+    <string name="proxy_country_pl">ポーランド</string>
+    <string name="proxy_country_pt">ポルトガル</string>
+    <string name="proxy_country_ro">ルーマニア</string>
+    <string name="proxy_country_ru">ロシア</string>
+    <string name="proxy_country_se">スウェーデン</string>
+    <string name="proxy_country_ua">ウクライナ</string>
+    <string name="proxy_country_uk">イギリス</string>
+    <string name="proxy_country_us">アメリカ合衆国</string>
+    <string name="proxy_needs_to_be_disabled">%1$sでプロキシサーバーを無効にしてください。WebDefenderの正常な動作のために必要です。</string>
+    <string name="proxy_needs_to_be_disabled2">問題のあるアプリを無効にしてください。WebDefenderの正常な動作のために必要です。</string>
+    <string msgid="5941395253238309765" name="range_end">"範囲の末尾"</string>
+    <string msgid="7097486360902471446" name="range_start">"範囲の先頭"</string>
+    <string name="search_app">検索…</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
+    <string msgid="6043586758067023" name="selected">"選択済み"</string>
+    <string name="statlog_empty">フィルターログは空です</string>
+    <string name="statlog_type_ad">広告</string>
+    <string name="statlog_type_apk">不審なAPK</string>
+    <string name="statlog_type_malware">悪意のあるサイト</string>
+    <string name="statlog_type_paid">有料サイト</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>、<ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="1672349317127674378" name="tab">"タブ"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g>パーセント。"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"OFF"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ON"</string>
+    <string name="vpn_error">VPNチャネルの作成に失敗しました</string>
+    <string name="vpn_exception">VPN接続を確立できません</string>
+    <string name="vpn_unavailable">VPNが利用できません</string>
+    <string name="widget_stat_block">広告ブロック</string>
+    <string name="widget_stat_threat">脅威ブロック</string>
+    <string name="widget_stat_traffic">トラフィック保存</string>
+    <string name="widget_state_text1">保護</string>
+    <string name="widget_state_text2">オフ</string>
+    <string name="widget_state_text3">オン</string>
+</resources>

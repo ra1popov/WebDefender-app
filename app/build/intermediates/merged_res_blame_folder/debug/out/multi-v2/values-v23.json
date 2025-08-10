@@ -1,0 +1,95 @@
+{
+    "logs": [
+        {
+            "outputFile": "app-mergeDebugResources-3:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "/Users/romanpopov/Library/Android/sdk/caches/transforms-3/529372de0fb1c676f6f5e5bde6b2fec8/transformed/jetified-library-0.0.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,115,173",
+                        "endLines": "2,3,10",
+                        "endColumns": "59,57,12",
+                        "endOffsets": "110,168,618"
+                    },
+                    "to": {
+                        "startLines": "4,5,57",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "184,244,3629",
+                        "endLines": "4,5,63",
+                        "endColumns": "59,57,12",
+                        "endOffsets": "239,297,4074"
+                    }
+                },
+                {
+                    "source": "/Users/romanpopov/Library/Android/sdk/caches/transforms-3/75469c70c82ab160c239c2b05952a68a/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "54",
+                        "startColumns": "4",
+                        "startOffsets": "3479",
+                        "endLines": "56",
+                        "endColumns": "12",
+                        "endOffsets": "3624"
+                    }
+                },
+                {
+                    "source": "/Users/romanpopov/Library/Android/sdk/caches/transforms-3/2ea893116f306f98c532dd2de51aeec7/transformed/material-1.9.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,8,13,17,20,23,26,31,34,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,481,801,1038,1245,1452,1655,1987,2189,2454",
+                        "endLines": "4,7,12,16,19,22,25,30,33,37,41",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,476,796,1033,1240,1447,1650,1982,2184,2449,2722"
+                    },
+                    "to": {
+                        "startLines": "64,67,70,75,79,82,85,88,93,96,100",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4079,4295,4505,4825,5062,5269,5476,5679,6011,6213,6478",
+                        "endLines": "66,69,74,78,81,84,87,92,95,99,103",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "4290,4500,4820,5057,5264,5471,5674,6006,6208,6473,6746"
+                    }
+                },
+                {
+                    "source": "/Users/romanpopov/Library/Android/sdk/caches/transforms-3/d7ec7a825e9cb04d770aec229bf36d9b/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,24,38,39,40,43,47,48,49,50",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "302,437,572,647,734,1472,2222,2341,2468,2690,2914,3029,3136,3249",
+                        "endLines": "6,7,8,9,23,37,38,39,42,46,47,48,49,53",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "432,567,642,729,1467,2217,2336,2463,2685,2909,3024,3131,3244,3474"
+                    }
+                }
+            ]
+        }
+    ]
+}

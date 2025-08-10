@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <io.ghyeok.stickyswitch.widget.StickySwitch
+        android:id="@+id/ss_power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        app:ss_animationDuration="600"
+        app:ss_icon="@drawable/ic_power"
+        app:ss_iconPadding="0dp"
+        app:ss_iconSize="@dimen/widget_power_icon_size"
+        app:ss_leftText="@string/widget_state_text2"
+        app:ss_rightText="@string/widget_state_text3"
+        app:ss_selectedTextColor="@color/widget_power_text_color_selected"
+        app:ss_selectedTextSize="@dimen/_13sdp"
+        app:ss_sliderBackgroundColor="@color/widget_power_background_color"
+        app:ss_switchCheckedColor="@array/widget_power_checked_color"
+        app:ss_switchUncheckedColor="@array/widget_power_unchecked_color"
+        app:ss_textColor="@color/widget_power_text_color"
+        app:ss_textPadding="@dimen/_20sdp"
+        app:ss_textSize="@dimen/_11sdp" />
+
+</LinearLayout>

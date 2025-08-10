@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d thông báo mới</item>
+    <item quantity="other">%d thông báo mới</item>
+  </plurals>
+    <string name="DialogAskReview_cancel">Sau đó</string>
+    <string name="DialogAskReview_content">Chia sẻ ý kiến về ứng dụng của chúng tôi. Nếu bạn thích nó, hãy cân nhắc đánh giá 5 sao cho chúng tôi!</string>
+    <string name="DialogAskReview_ok">Đánh giá</string>
+    <string name="DialogAskReview_title">Chúng tôi trân trọng ý kiến của bạn!</string>
+    <string name="DialogGuideBootPermission_cancel">Sau đó</string>
+    <string name="DialogGuideBootPermission_content">Để ứng dụng khởi động tự động sau khi thiết bị khởi động và khởi động lại, hãy bật công tắc \"Khởi động tự động\" cho ứng dụng WebDefender.</string>
+    <string name="DialogGuideBootPermission_ok">Đồng ý</string>
+    <string name="DialogGuideBootPermission_title">Khởi động tự động</string>
+    <string name="DialogGuideFinish_content">Bây giờ bạn đã hoàn thành tất cả các cài đặt cần thiết, ứng dụng của bạn sẽ hoạt động mượt mà mà không bị gián đoạn. Nếu bạn cần, bạn có thể quay lại hướng dẫn này trong mục \"Không hoạt động?\" trong menu bên.</string>
+    <string name="DialogGuideFinish_ok">Đồng ý</string>
+    <string name="DialogGuideFinish_title">Hoàn tất điều chỉnh cài đặt</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">Sau đó</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">Để đảm bảo chức năng ứng dụng đúng cách và ngăn ngừa ứng dụng bị đóng, hãy cho phép ứng dụng WebDefender luôn chạy ở nền.</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">Đồng ý</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">Tối ưu hóa pin</string>
+    <string name="DialogGuideMIUI12_label_1">Điện thoại của bạn có một tùy chọn bổ sung để ngăn ứng dụng bị đóng trong nền. Việc bật tùy chọn này cho ứng dụng WebDefender là rất quan trọng.</string>
+    <string name="DialogGuideMIUI12_label_2">Vui lòng làm theo hướng dẫn để khóa ứng dụng WebDefender trong ứng dụng \"Bảo mật\".</string>
+    <string name="DialogGuideMIUI12_label_3">1. Mở ứng dụng \"Bảo mật\" trên thiết bị của bạn.</string>
+    <string name="DialogGuideMIUI12_label_4">2. Nhấn vào biểu tượng bánh răng ở góc trên bên phải.</string>
+    <string name="DialogGuideMIUI12_label_5">3. Chọn \"Tăng tốc\" trong phần \"Cài đặt\".</string>
+    <string name="DialogGuideMIUI12_label_6">4. Nhấp vào \"Khóa ứng dụng\".</string>
+    <string name="DialogGuideMIUI12_label_7">5. Bật công tắc cho ứng dụng WebDefender để khóa nó trong nền.</string>
+    <string name="DialogGuideMIUI12_label_8">Việc khóa ứng dụng sẽ thông báo với hệ thống Android để không chấm dứt quá trình nền của ứng dụng, vì tính năng này rất quan trọng để ứng dụng WebDefender hoạt động đúng cách.</string>
+    <string name="DialogGuideMIUIPrior12_label_1">Điện thoại của bạn có một tùy chọn bổ sung để ngăn ứng dụng bị đóng trong nền. Việc bật tùy chọn này cho ứng dụng WebDefender là rất quan trọng.</string>
+    <string name="DialogGuideMIUIPrior12_label_2">Vui lòng làm theo hướng dẫn để khóa ứng dụng WebDefender trong phần \"Gần đây\".</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. Nhấp vào nút \"Ứng dụng gần đây\".</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. Nhấn và giữ hình ảnh của ứng dụng WebDefender trên màn hình.</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. Nhấn nút \"Khóa\".</string>
+    <string name="DialogGuideMIUIPrior12_label_6">Việc khóa ứng dụng sẽ thông báo với hệ thống Android để không chấm dứt quá trình nền của ứng dụng, vì tính năng này rất quan trọng để ứng dụng WebDefender hoạt động đúng cách.</string>
+    <string name="DialogGuideMIUI_ok">Đồng ý</string>
+    <string name="DialogGuideMIUI_title">Bảo vệ tắt máy</string>
+    <string name="DialogGuideMain_content_hide">Để đảm bảo chức năng ứng dụng đúng cách, hãy điều chỉnh các thiết lập hệ thống bổ sung.\nNếu bạn đã cấu hình tất cả mọi thứ rồi, bạn có thể nhấp vào nút \"Ẩn\".</string>
+    <string name="DialogGuideMain_content_later">Để đảm bảo chức năng ứng dụng đúng cách, hãy điều chỉnh các thiết lập hệ thống bổ sung.\nBạn có muốn thiết lập ngay bây giờ không?</string>
+    <string name="DialogGuideMain_hide">Ẩn</string>
+    <string name="DialogGuideMain_later">Sau đó</string>
+    <string name="DialogGuideMain_ok">Bắt đầu thiết lập</string>
+    <string name="DialogGuideMain_title">Thiết lập cần thiết</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">Sau đó</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">Để đảm bảo chức năng ứng dụng phù hợp, việc cấp quyền là cần thiết để đảm bảo khả năng hiển thị của các ứng dụng đã cài đặt.</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">Đồng ý</string>
+    <string name="DialogGuideQueryAllPackagesPermission_title">Tính hiển thị ứng dụng</string>
+    <string name="HelpFragment_button_guide">Thiết lập ngay bây giờ</string>
+    <string name="HelpFragment_button_help">Trợ giúp thiết lập</string>
+    <string name="HelpFragment_button_support">Viết thư cho chúng tôi</string>
+    <string name="HelpFragment_guide_did_not_help">Nếu bạn đã cấu hình tất cả các thiết lập hệ thống bổ sung nhưng vẫn gặp vấn đề và ứng dụng ngừng hoạt động, bạn có thể nhấp vào nút \"Trợ giúp thiết lập\" để truy cập hỗ trợ thêm.</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">Mở ứng dụng và cho phép WebDefender luôn hoạt động trong nền.</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">Cần chú ý!</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Chỉ đường về nhà"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Di chuyển lên"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"TẮT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BẬT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Truy vấn tìm kiếm"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string name="app_name">WebDefender</string>
+    <string name="app_not_found">(Tên không tìm thấy)</string>
+    <string name="bottomsheet_action_collapse">Thu gọn bảng dưới cùng</string>
+    <string name="bottomsheet_action_expand">Mở rộng bảng dưới cùng</string>
+    <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
+    <string name="bottomsheet_drag_handle_clicked">Đã nhấn đúp nút kéo</string>
+    <string name="bottomsheet_drag_handle_content_description">Nút kéo</string>
+    <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
+    <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Xóa văn bản</string>
+    <string msgid="406453423630273620" name="close_drawer">"Đóng trình đơn điều hướng"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Đóng trang tính"</string>
+    <string msgid="6083905920877235314" name="copy">"Sao chép"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Giá trị nhập không hợp lệ"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Cửa sổ bật lên"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Trình đơn thả xuống"</string>
+    <string name="error_icon_content_description">Lỗi</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Nâng cao"</string>
+    <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
+    <string name="icon_content_description">Biểu tượng hộp thoại</string>
+    <string msgid="6827826412747255547" name="in_progress">"Đang thực hiện"</string>
+    <string msgid="2486394087603402002" name="indeterminate">"Không đánh dấu cũng không bỏ đánh dấu"</string>
+    <string name="item_view_role_description">Thẻ</string>
+    <string name="license_activated">Giấy phép đã được kích hoạt</string>
+    <string name="material_clock_toggle_content_description">Chọn SA hoặc CH</string>
+    <string name="material_hour_24h_suffix">%1$s giờ</string>
+    <string name="material_hour_selection">Chọn giờ</string>
+    <string name="material_hour_suffix">%1$s giờ</string>
+    <string name="material_minute_selection">Chọn phút</string>
+    <string name="material_minute_suffix">%1$s phút</string>
+    <string name="material_timepicker_am">SA</string>
+    <string name="material_timepicker_clock_mode_description">Chuyển sang chế độ đồng hồ để nhập thời gian.</string>
+    <string name="material_timepicker_hour">Giờ</string>
+    <string name="material_timepicker_minute">Phút</string>
+    <string name="material_timepicker_pm">CH</string>
+    <string name="material_timepicker_select_time">Chọn thời gian</string>
+    <string name="material_timepicker_text_input_mode_description">Chuyển sang chế độ nhập văn bản để nhập thời gian.</string>
+    <string name="menu_buy">Nhận thêm tính năng</string>
+    <string name="menu_firewall">Tường lửa</string>
+    <string name="menu_firewall_browsers_only_off">Internet cho mọi ứng dụng</string>
+    <string name="menu_firewall_browsers_only_on">Internet chỉ cho Trình duyệt</string>
+    <string name="menu_firewall_system_apps_blocked_off">Bật trong ứng dụng hệ thống</string>
+    <string name="menu_firewall_system_apps_blocked_on">Tắt trong ứng dụng hệ thống</string>
+    <string name="menu_help">Không hoạt động?</string>
+    <string name="menu_privacy">Chính sách Bảo mật</string>
+    <string name="menu_proxy">Ẩn danh &amp; Nén dữ liệu</string>
+    <string name="menu_proxy_anonymity_off">Tắt Ẩn danh</string>
+    <string name="menu_proxy_anonymity_on">Bật Ẩn danh</string>
+    <string name="menu_proxy_compress_off">Tắt Nén dữ liệu</string>
+    <string name="menu_proxy_compress_on">Bật Nén dữ liệu</string>
+    <string name="menu_proxy_only_browsers_off">Ẩn danh trong tất cả các Ứng dụng</string>
+    <string name="menu_proxy_only_browsers_on">Chỉ ẩn danh trong Các Trình duyệt</string>
+    <string name="menu_statlog">Nhật ký Lọc</string>
+    <string name="menu_statlog_clear">Xóa tất cả</string>
+    <string name="menu_statlog_log_off">Tắt Nhật ký Lọc</string>
+    <string name="menu_statlog_log_on">Bật Nhật ký Lọc</string>
+    <string name="menu_whitelist">Danh sách Trắng</string>
+    <string name="menu_whitelist_system_apps_exclude_off">Lọc ứng dụng hệ thống</string>
+    <string name="menu_whitelist_system_apps_exclude_on">Loại trừ các ứng dụng hệ thống</string>
+    <string name="mtrl_badge_numberless_content_description">Thông báo mới</string>
+    <string name="mtrl_chip_close_icon_content_description">Xóa %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Hơn %1$d thông báo mới</string>
+    <string name="mtrl_picker_a11y_next_month">Chuyển sang tháng tiếp theo</string>
+    <string name="mtrl_picker_a11y_prev_month">Chuyển về tháng trước</string>
+    <string name="mtrl_picker_announce_current_selection">Lựa chọn hiện tại: %1$s</string>
+    <string name="mtrl_picker_cancel">Hủy</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Chọn ngày</string>
+    <string name="mtrl_picker_date_header_unselected">Ngày đã chọn</string>
+    <string name="mtrl_picker_day_of_week_column_header">Cột ngày: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Định dạng không hợp lệ.</string>
+    <string name="mtrl_picker_invalid_format_example">Ví dụ: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Sử dụng: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Phạm vi không hợp lệ.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Chuyển tới năm %1$s</string>
+    <string name="mtrl_picker_out_of_range">Nằm ngoài phạm vi: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ngày bắt đầu – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ngày kết thúc</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Chọn dải ô</string>
+    <string name="mtrl_picker_range_header_unselected">Ngày bắt đầu – Ngày kết thúc</string>
+    <string name="mtrl_picker_save">Lưu</string>
+    <string name="mtrl_picker_text_input_date_hint">Ngày</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ngày kết thúc</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ngày bắt đầu</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Chuyển sang chế độ nhập lịch</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Nhấn để chuyển sang chế độ chọn một ngày</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Chuyển sang chế độ nhập văn bản</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Nhấn để chuyển sang chế độ chọn một năm</string>
+    <string name="mtrl_timepicker_cancel">Huỷ</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Di chuyển lên"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Mở ngăn điều hướng"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Trình đơn điều hướng"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Chưa chọn"</string>
+    <string msgid="6573031135582639649" name="not_set">"Chưa đặt"</string>
+    <string msgid="875452955155264703" name="off">"Đang tắt"</string>
+    <string msgid="8655164131929253426" name="on">"Đang bật"</string>
+    <string name="password_toggle_content_description">Hiện mật khẩu</string>
+    <string msgid="6685851473431805375" name="preference_copied">"Đã sao chép \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" vào bảng nhớ tạm."</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/en/privacy.html</string>
+    <string name="proxy_blocked">Bật chế độ ẩn danh và chọn quốc gia</string>
+    <string name="proxy_country_at">Áo</string>
+    <string name="proxy_country_au">Úc</string>
+    <string name="proxy_country_auto">Tự động</string>
+    <string name="proxy_country_bg">Bulgaria</string>
+    <string name="proxy_country_ca">Canada</string>
+    <string name="proxy_country_ch">Thụy Sĩ</string>
+    <string name="proxy_country_cn">Trung Quốc</string>
+    <string name="proxy_country_cz">Cộng hòa Séc</string>
+    <string name="proxy_country_de">Đức</string>
+    <string name="proxy_country_dk">Đan Mạch</string>
+    <string name="proxy_country_do">Cộng hòa Dominica</string>
+    <string name="proxy_country_ee">Estonia</string>
+    <string name="proxy_country_es">Tây Ban Nha</string>
+    <string name="proxy_country_fi">Phần Lan</string>
+    <string name="proxy_country_fr">Pháp</string>
+    <string name="proxy_country_it">Ý</string>
+    <string name="proxy_country_jp">Nhật Bản</string>
+    <string name="proxy_country_lt">Litva</string>
+    <string name="proxy_country_lv">Latvia</string>
+    <string name="proxy_country_md">Moldova</string>
+    <string name="proxy_country_nl">Hà Lan</string>
+    <string name="proxy_country_no">Na Uy</string>
+    <string name="proxy_country_pl">Ba Lan</string>
+    <string name="proxy_country_pt">Bồ Đào Nha</string>
+    <string name="proxy_country_ro">Romania</string>
+    <string name="proxy_country_ru">Nga</string>
+    <string name="proxy_country_se">Thụy Điển</string>
+    <string name="proxy_country_ua">Ukraina</string>
+    <string name="proxy_country_uk">Vương quốc Anh</string>
+    <string name="proxy_country_us">Mỹ</string>
+    <string name="proxy_needs_to_be_disabled">Vô hiệu hóa Máy chủ Proxy trong %1$s để WebDefender hoạt động đúng</string>
+    <string name="proxy_needs_to_be_disabled2">Vô hiệu hóa Ứng dụng gây sự cố để WebDefender hoạt động đúng</string>
+    <string msgid="5941395253238309765" name="range_end">"Điểm kết thúc phạm vi"</string>
+    <string msgid="7097486360902471446" name="range_start">"Điểm bắt đầu phạm vi"</string>
+    <string name="search_app">Tìm kiếm…</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Tìm kiếm"</string>
+    <string msgid="6043586758067023" name="selected">"Đã chọn"</string>
+    <string name="statlog_empty">Nhật ký Lọc trống</string>
+    <string name="statlog_type_ad">Quảng cáo</string>
+    <string name="statlog_type_apk">APK đáng ngờ</string>
+    <string name="statlog_type_malware">Trang web độc hại</string>
+    <string name="statlog_type_paid">Trang web trả phí</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="1672349317127674378" name="tab">"Thẻ"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"TẮT"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"BẬT"</string>
+    <string name="vpn_error">Không thể Tạo kênh VPN</string>
+    <string name="vpn_exception">Không thể Thiết lập kết nối VPN</string>
+    <string name="vpn_unavailable">VPN Không khả dụng</string>
+    <string name="widget_stat_block">Quảng cáo\nBị chặn</string>
+    <string name="widget_stat_threat">Mối đe dọa\nBị chặn</string>
+    <string name="widget_stat_traffic">Lưu lượng\nĐược tiết kiệm</string>
+    <string name="widget_state_text1">Bảo vệ</string>
+    <string name="widget_state_text2">tắt</string>
+    <string name="widget_state_text3">bật</string>
+</resources>

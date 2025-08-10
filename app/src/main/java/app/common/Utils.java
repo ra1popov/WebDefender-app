@@ -12,8 +12,6 @@ import android.os.Process;
 import android.util.Base64;
 import android.view.WindowManager.BadTokenException;
 
-import com.google.firebase.crashlytics.buildtools.reloc.org.apache.commons.io.FileUtils;
-
 import org.squareup.okhttp.OkHttpClient;
 import org.squareup.okhttp.OkUrlFactory;
 
@@ -47,6 +45,7 @@ import java.util.zip.DeflaterOutputStream;
 import app.App;
 import app.common.debug.L;
 import app.internal.Settings;
+import app.util.FileUtils;
 
 public class Utils {
 

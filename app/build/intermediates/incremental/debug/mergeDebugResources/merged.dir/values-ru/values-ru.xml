@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d новое уведомление</item>
+    <item quantity="few">%d новых уведомления</item>
+    <item quantity="many">%d новых уведомлений</item>
+    <item quantity="other">%d нового уведомления</item>
+  </plurals>
+    <string name="DialogAskReview_cancel">Позже</string>
+    <string name="DialogAskReview_content">Поделитесь своими впечатлениями о нашем приложении. Если вам нравится, пожалуйста, поставьте 5 звезд!</string>
+    <string name="DialogAskReview_ok">Оценить сейчас</string>
+    <string name="DialogAskReview_title">Ваше мнение важно для нас!</string>
+    <string name="DialogGuideBootPermission_cancel">Позже</string>
+    <string name="DialogGuideBootPermission_content">Чтобы приложение автоматически запускалось после включения устройства или его перезагрузки, активируйте опцию \"Автозапуск\" для приложения WebDefender.</string>
+    <string name="DialogGuideBootPermission_ok">OK</string>
+    <string name="DialogGuideBootPermission_title">Автозапуск</string>
+    <string name="DialogGuideFinish_content">Теперь, когда вы завершили все необходимые настройки, ваше приложение должно работать без перебоев. При необходимости вы всегда можете вернуться к этому руководству в разделе \"Не работает?\" в боковом меню.</string>
+    <string name="DialogGuideFinish_ok">OK</string>
+    <string name="DialogGuideFinish_title">Настройка завершена</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">Позже</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">Чтобы обеспечить правильную работу приложения и предотвратить её завершение, разрешите приложению WebDefender всегда работать в фоновом режиме.</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">OK</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">Оптимизация батареи</string>
+    <string name="DialogGuideMIUI12_label_1">Ваш телефон имеет дополнительную настройку, предотвращающую закрытие приложения в фоновом режиме. Это важно для правильной работы приложения WebDefender.</string>
+    <string name="DialogGuideMIUI12_label_2">Пожалуйста, следуйте инструкциям по закреплению приложения WebDefender в приложении \"Безопасность\".</string>
+    <string name="DialogGuideMIUI12_label_3">1. Откройте приложение \"Безопасность\" на вашем устройстве.</string>
+    <string name="DialogGuideMIUI12_label_4">2. Нажмите на значок шестеренки в верхнем правом углу.</string>
+    <string name="DialogGuideMIUI12_label_5">3. Выберите \"Ускорение\" в разделе \"Настройки\".</string>
+    <string name="DialogGuideMIUI12_label_6">4. Нажмите на \"Закрепленные приложения\".</string>
+    <string name="DialogGuideMIUI12_label_7">5. Включите переключатель для приложения WebDefender, чтобы заблокировать его в фоновом режиме.</string>
+    <string name="DialogGuideMIUI12_label_8">Блокировка приложения предупреждает Android систему о необходимости сохранять фоновые процессы приложения, так как это важно для правильной работы приложения WebDefender.</string>
+    <string name="DialogGuideMIUIPrior12_label_1">Ваш телефон имеет дополнительную настройку, предотвращающую закрытие приложения в фоновом режиме. Это важно для правильной работы приложения WebDefender.</string>
+    <string name="DialogGuideMIUIPrior12_label_2">Пожалуйста, следуйте инструкциям по закреплению приложения WebDefender в разделе \"Последние\".</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. Нажмите кнопку \"Последние приложения\".</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. Нажмите и удерживайте изображение приложения WebDefender на экране.</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. Нажмите кнопку \"Заблокировать\".</string>
+    <string name="DialogGuideMIUIPrior12_label_6">Блокировка приложения предупреждает Android систему о необходимости сохранять фоновые процессы приложения, так как это важно для правильной работы приложения WebDefender.</string>
+    <string name="DialogGuideMIUI_ok">OK</string>
+    <string name="DialogGuideMIUI_title">Защита от выключения</string>
+    <string name="DialogGuideMain_content_hide">Чтобы обеспечить правильную работу приложения, обязательно настройте дополнительные системные настройки.\nВы можете нажать кнопку \"Скрыть\", если вы уже все настроили.</string>
+    <string name="DialogGuideMain_content_later">Чтобы обеспечить правильную работу приложения, обязательно настройте дополнительные системные настройки.\nХотите настроить сейчас?</string>
+    <string name="DialogGuideMain_hide">Скрыть</string>
+    <string name="DialogGuideMain_later">Позже</string>
+    <string name="DialogGuideMain_ok">Настроить</string>
+    <string name="DialogGuideMain_title">Требуется настройка</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">Позже</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">Чтобы обеспечить правильную работу приложения, необходимо дать разрешение для доступа к списку установленных приложений.</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">OK</string>
+    <string name="DialogGuideQueryAllPackagesPermission_title">Видимость приложений</string>
+    <string name="HelpFragment_button_guide">Настроить сейчас</string>
+    <string name="HelpFragment_button_help">Помощь с настройкой</string>
+    <string name="HelpFragment_button_support">Написать нам</string>
+    <string name="HelpFragment_guide_did_not_help">Если вы уже настроили все дополнительные системные параметры, но все равно сталкиваетесь с проблемами и приложение перестает работать, вы можете нажать кнопку \"Помощь с настройкой\", чтобы получить дополнительную поддержку.</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">Откройте приложение и разрешите WebDefender работать всегда в фоновом режиме.</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">Требуется внимание!</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Ещё"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберите приложение"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ВКЛ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Ввод"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Пробел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Введите запрос"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Поделиться с помощью"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Поделиться с помощью <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <string name="app_name">WebDefender</string>
+    <string name="app_not_found">(Имя не найдено)</string>
+    <string name="bottomsheet_action_collapse">Свернуть нижний экран</string>
+    <string name="bottomsheet_action_expand">Развернуть нижний экран</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="bottomsheet_drag_handle_clicked">Двойное нажатие на маркер перемещения</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер перемещения</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string msgid="406453423630273620" name="close_drawer">"Закрыть меню навигации"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Закрыть лист"</string>
+    <string msgid="6083905920877235314" name="copy">"Копировать"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Неправильный ввод"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Всплывающее окно"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Раскрывающееся меню"</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Дополнительно"</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string msgid="6827826412747255547" name="in_progress">"Выполняется"</string>
+    <string msgid="2486394087603402002" name="indeterminate">"Флажок не установлен и не снят"</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="license_activated">Лицензия активирована</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_24h_suffix">%1$s ч.</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="menu_buy">Дополнительные возможности</string>
+    <string name="menu_firewall">Брандмауэр</string>
+    <string name="menu_firewall_browsers_only_off">Интернет во всех приложениях</string>
+    <string name="menu_firewall_browsers_only_on">Интернет только в браузерах</string>
+    <string name="menu_firewall_system_apps_blocked_off">Включить в системных приложениях</string>
+    <string name="menu_firewall_system_apps_blocked_on">Выключить в системных приложениях</string>
+    <string name="menu_help">Не работает?</string>
+    <string name="menu_privacy">Политика конфиденциальности</string>
+    <string name="menu_proxy">Анонимность и сжатие</string>
+    <string name="menu_proxy_anonymity_off">Отключить анонимность</string>
+    <string name="menu_proxy_anonymity_on">Включить анонимность</string>
+    <string name="menu_proxy_compress_off">Отключить сжатие данных</string>
+    <string name="menu_proxy_compress_on">Включить сжатие данных</string>
+    <string name="menu_proxy_only_browsers_off">Анонимность во всех приложениях</string>
+    <string name="menu_proxy_only_browsers_on">Анонимность только в браузерах</string>
+    <string name="menu_statlog">Журнал фильтрации</string>
+    <string name="menu_statlog_clear">Очистить все</string>
+    <string name="menu_statlog_log_off">Выключить лог фильтрации</string>
+    <string name="menu_statlog_log_on">Включить лог фильтрации</string>
+    <string name="menu_whitelist">Белый список</string>
+    <string name="menu_whitelist_system_apps_exclude_off">Фильтровать системные приложения</string>
+    <string name="menu_whitelist_system_apps_exclude_on">Исключить системные приложения</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_cancel">Отмена</string>
+    <string name="mtrl_picker_confirm">ОК</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="mtrl_timepicker_cancel">Отмена</string>
+    <string name="mtrl_timepicker_confirm">ОК</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Перейти вверх"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Открыть панель навигации"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Меню навигации"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Не выбрано"</string>
+    <string msgid="6573031135582639649" name="not_set">"Не указано"</string>
+    <string msgid="875452955155264703" name="off">"Отключено"</string>
+    <string msgid="8655164131929253426" name="on">"Включено"</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string msgid="6685851473431805375" name="preference_copied">"Текст \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" скопирован в буфер обмена"</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/ru/privacy.html</string>
+    <string name="proxy_blocked">Включите режим анонимности и выберите страну</string>
+    <string name="proxy_country_at">Австрия</string>
+    <string name="proxy_country_au">Австралия</string>
+    <string name="proxy_country_auto">Авто</string>
+    <string name="proxy_country_bg">Болгария</string>
+    <string name="proxy_country_ca">Канада</string>
+    <string name="proxy_country_ch">Швейцария</string>
+    <string name="proxy_country_cn">Китай</string>
+    <string name="proxy_country_cz">Чехия</string>
+    <string name="proxy_country_de">Германия</string>
+    <string name="proxy_country_dk">Дания</string>
+    <string name="proxy_country_do">Доминиканская Республика</string>
+    <string name="proxy_country_ee">Эстония</string>
+    <string name="proxy_country_es">Испания</string>
+    <string name="proxy_country_fi">Финляндия</string>
+    <string name="proxy_country_fr">Франция</string>
+    <string name="proxy_country_it">Италия</string>
+    <string name="proxy_country_jp">Япония</string>
+    <string name="proxy_country_lt">Литва</string>
+    <string name="proxy_country_lv">Латвия</string>
+    <string name="proxy_country_md">Молдова</string>
+    <string name="proxy_country_nl">Нидерланды</string>
+    <string name="proxy_country_no">Норвегия</string>
+    <string name="proxy_country_pl">Польша</string>
+    <string name="proxy_country_pt">Португалия</string>
+    <string name="proxy_country_ro">Румыния</string>
+    <string name="proxy_country_ru">Россия</string>
+    <string name="proxy_country_se">Швеция</string>
+    <string name="proxy_country_ua">Украина</string>
+    <string name="proxy_country_uk">Великобритания</string>
+    <string name="proxy_country_us">США</string>
+    <string name="proxy_needs_to_be_disabled">Отключите прокси-сервер в %1$s для правильной работы WebDefender</string>
+    <string name="proxy_needs_to_be_disabled2">Отключите проблемное приложение для правильной работы WebDefender</string>
+    <string msgid="5941395253238309765" name="range_end">"Конец диапазона"</string>
+    <string msgid="7097486360902471446" name="range_start">"Начало диапазона"</string>
+    <string name="search_app">Поиск…</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Поиск"</string>
+    <string msgid="6043586758067023" name="selected">"Выбрано"</string>
+    <string name="statlog_empty">Фильтр журнала пуст</string>
+    <string name="statlog_type_ad">Реклама</string>
+    <string name="statlog_type_apk">Подозрительный APK</string>
+    <string name="statlog_type_malware">Вредоносный сайт</string>
+    <string name="statlog_type_paid">Платный сайт</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">">999"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="1672349317127674378" name="tab">"Вкладка"</string>
+    <string msgid="5946805113151406391" name="template_percent">"Процентов: <ns1:g id="PERCENTAGE">%1$d</ns1:g>."</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ВЫКЛ."</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ВКЛ."</string>
+    <string name="vpn_error">Не удалось создать канал VPN</string>
+    <string name="vpn_exception">Не удалось установить соединение VPN</string>
+    <string name="vpn_unavailable">VPN недоступен</string>
+    <string name="widget_stat_block">Удалено\nрекламы</string>
+    <string name="widget_stat_threat">Заблокировано\nугроз</string>
+    <string name="widget_stat_traffic">Сэкономлено\nтрафика</string>
+    <string name="widget_state_text1">Защита</string>
+    <string name="widget_state_text2">выключена</string>
+    <string name="widget_state_text3">включена</string>
+</resources>

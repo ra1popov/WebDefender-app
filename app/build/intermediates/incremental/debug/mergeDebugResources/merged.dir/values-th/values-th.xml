@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+  </plurals>
+    <string name="DialogAskReview_cancel">หลังจาก</string>
+    <string name="DialogAskReview_content">แบ่งปันความรู้สึกของคุณเกี่ยวกับแอปของเรา ถ้าคุณชอบโปรดให้ 5 ดาว!</string>
+    <string name="DialogAskReview_ok">ให้คะแนน</string>
+    <string name="DialogAskReview_title">ความคิดเห็นของคุณสำคัญสำหรับเรา!</string>
+    <string name="DialogGuideBootPermission_cancel">ภายหลัง</string>
+    <string name="DialogGuideBootPermission_content">เปิดสวิตช์ \"เริ่มอัตโนมัติ\" สำหรับแอป WebDefender เพื่อให้แอปเริ่มทำงานโดยอัตโนมัติหลังจากที่อุปกรณ์เริ่มทำงานและรีบูต</string>
+    <string name="DialogGuideBootPermission_ok">ใช่</string>
+    <string name="DialogGuideBootPermission_title">เริ่มต้นอัตโนมัติ</string>
+    <string name="DialogGuideFinish_content">แอปพลิเคชันของคุณควรทำงานได้อย่างราบรื่นหลังจากการตั้งค่าทั้งหมดเสร็จสิ้น หากจำเป็น คุณสามารถทำซ้ำการตั้งค่าในส่วน \"ไม่ได้ผล?\" ได้ตลอดเวลา ในเมนูด้านข้าง</string>
+    <string name="DialogGuideFinish_ok">ปิดกล่องโต้ตอบ</string>
+    <string name="DialogGuideFinish_title">การตั้งค่าเสร็จสมบูรณ์</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_cancel">ภายหลัง</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_content">อนุญาตให้แอป WebDefender ทำงานอยู่เบื้องหลังเสมอเพื่อให้แน่ใจว่าแอปทำงานได้อย่างถูกต้องและป้องกันไม่ให้ปิดเครื่อง</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_ok">ใช่</string>
+    <string name="DialogGuideIgnoreBatteryOptimizationsPermission_title">การเพิ่มประสิทธิภาพแบตเตอรี่</string>
+    <string name="DialogGuideMIUI12_label_1">โทรศัพท์ของคุณมีตัวเลือกเพิ่มเติมเพื่อป้องกันไม่ให้แอปปิดในเบื้องหลัง สิ่งสำคัญคือต้องเปิดตัวเลือกนี้สำหรับแอป WebDefender</string>
+    <string name="DialogGuideMIUI12_label_2">ทำตามคำแนะนำเพื่อล็อคแอป WebDefender ภายในแอป \"ความปลอดภัย\"</string>
+    <string name="DialogGuideMIUI12_label_3">1. เปิดแอป \"ความปลอดภัย\" บนอุปกรณ์ของคุณ</string>
+    <string name="DialogGuideMIUI12_label_4">2. แตะไอคอนรูปเฟืองที่มุมขวาบน</string>
+    <string name="DialogGuideMIUI12_label_5">3. ในส่วน \"การตั้งค่า\" เลือก \"เพิ่มความเร็ว\"</string>
+    <string name="DialogGuideMIUI12_label_6">4. คลิก \"ล็อคแอป\"</string>
+    <string name="DialogGuideMIUI12_label_7">5. เปิดสวิตช์เพื่อล็อคแอป WebDefender ในพื้นหลัง</string>
+    <string name="DialogGuideMIUI12_label_8">การล็อคแอปหมายถึงการส่งสัญญาณให้ระบบ Android ไม่ฆ่ากระบวนการในเบื้องหลัง คุณสมบัตินี้มีความสำคัญต่อการทำงานที่เหมาะสมของแอป WebDefender</string>
+    <string name="DialogGuideMIUIPrior12_label_1">โทรศัพท์ของคุณมีตัวเลือกเพิ่มเติมเพื่อป้องกันไม่ให้แอปปิดในเบื้องหลัง สิ่งสำคัญคือต้องเปิดตัวเลือกนี้สำหรับแอป WebDefender</string>
+    <string name="DialogGuideMIUIPrior12_label_2">ทำตามคำแนะนำเพื่อล็อคแอป WebDefender ภายในส่วน \"ล่าสุด\"</string>
+    <string name="DialogGuideMIUIPrior12_label_3">1. คลิกปุ่ม \"แอปล่าสุด\"</string>
+    <string name="DialogGuideMIUIPrior12_label_4">2. กดภาพ WebDefender บนหน้าจอค้างไว้</string>
+    <string name="DialogGuideMIUIPrior12_label_5">3. กดปุ่ม \"ล็อค\"</string>
+    <string name="DialogGuideMIUIPrior12_label_6">การล็อคแอปหมายถึงการส่งสัญญาณให้ระบบ Android ไม่ฆ่ากระบวนการในเบื้องหลัง คุณสมบัตินี้มีความสำคัญต่อการทำงานที่เหมาะสมของแอป WebDefender</string>
+    <string name="DialogGuideMIUI_ok">ฉันทำมัน</string>
+    <string name="DialogGuideMIUI_title">การป้องกันการปิดแอปพลิเคชัน</string>
+    <string name="DialogGuideMain_content_hide">ปรับการตั้งค่าระบบเพิ่มเติมเพื่อให้แน่ใจว่าแอปทำงานอย่างเหมาะสม\nหากคุณได้ตั้งค่าทุกอย่างแล้ว คุณสามารถคลิกปุ่ม \"ซ่อน\"</string>
+    <string name="DialogGuideMain_content_later">ปรับการตั้งค่าระบบเพิ่มเติมเพื่อให้แน่ใจว่าแอปทำงานได้อย่างเหมาะสม\nคุณต้องการตั้งค่าตอนนี้หรือไม่?</string>
+    <string name="DialogGuideMain_hide">ซ่อน</string>
+    <string name="DialogGuideMain_later">ภายหลัง</string>
+    <string name="DialogGuideMain_ok">ตั้งค่าแอปทันที</string>
+    <string name="DialogGuideMain_title">การตั้งค่าที่จำเป็น</string>
+    <string name="DialogGuideQueryAllPackagesPermission_cancel">ภายหลัง</string>
+    <string name="DialogGuideQueryAllPackagesPermission_content">คุณต้องให้สิทธิ์ในการเข้าถึงรายการแอปพลิเคชันที่ติดตั้งเพื่อให้แน่ใจว่าแอปพลิเคชันทำงานได้อย่างถูกต้อง</string>
+    <string name="DialogGuideQueryAllPackagesPermission_ok">ใช่</string>
+    <string name="DialogGuideQueryAllPackagesPermission_title">การมองเห็นแอป</string>
+    <string name="HelpFragment_button_guide">ปรับแต่งตอนนี้</string>
+    <string name="HelpFragment_button_help">ความช่วยเหลือในการตั้งค่า</string>
+    <string name="HelpFragment_button_support">เขียนถึงเรา</string>
+    <string name="HelpFragment_guide_did_not_help">หากคุณได้กำหนดค่าระบบเพิ่มเติมทั้งหมดแล้ว แต่ยังพบปัญหาและแอปพลิเคชันหยุดทำงาน คุณสามารถคลิกที่ปุ่ม \"ความช่วยเหลือในการตั้งค่า\" เพื่อเข้าถึงการช่วยเหลือเพิ่มเติมได้</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_text">เปิดแอปพลิเคชันและอนุญาตให้ WebDefender ทำงานเสมอในพื้นหลัง</string>
+    <string name="NotificationAlert_IgnoringBatteryOptimizations_title">ต้องการความสนใจ!</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"นำทางไปหน้าแรก"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"กลับ"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ตัวเลือกอื่น"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"เสร็จ"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"ดูทั้งหมด"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"เลือกแอป"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ปิด"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"เปิด"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"ลบ"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"เมนู+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"ค้นหา…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"ล้างคำค้นหา"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"คำค้นหา"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"ค้นหา"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ส่งคำค้นหา"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ค้นหาด้วยเสียง"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"แชร์กับ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"แชร์ทาง <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ยุบ"</string>
+    <string name="app_name">WebDefender</string>
+    <string name="app_not_found">(ไม่พบชื่อ)</string>
+    <string name="bottomsheet_action_collapse">ยุบ Bottom Sheet</string>
+    <string name="bottomsheet_action_expand">ขยาย Bottom Sheet</string>
+    <string name="bottomsheet_action_expand_halfway">ขยายรายการครึ่งหนึ่ง</string>
+    <string name="bottomsheet_drag_handle_clicked">แตะแฮนเดิลการลากสองครั้ง</string>
+    <string name="bottomsheet_drag_handle_content_description">แฮนเดิลการลาก</string>
+    <string name="character_counter_content_description">ป้อนอักขระแล้ว %1$d จาก %2$d ตัว</string>
+    <string name="character_counter_overflowed_content_description">เกินจำนวนอักขระสูงสุด %1$d จาก %2$d</string>
+    <string name="clear_text_end_icon_content_description">ล้างข้อความ</string>
+    <string msgid="406453423630273620" name="close_drawer">"ปิดเมนูการนำทาง"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"ปิดชีต"</string>
+    <string msgid="6083905920877235314" name="copy">"คัดลอก"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"อินพุตไม่ถูกต้อง"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"หน้าต่างป๊อปอัป"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"เมนูแบบเลื่อนลง"</string>
+    <string name="error_icon_content_description">ข้อผิดพลาด</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"ขั้นสูง"</string>
+    <string name="exposed_dropdown_menu_content_description">แสดงเมนูแบบเลื่อนลง</string>
+    <string name="icon_content_description">ไอคอนกล่องโต้ตอบ</string>
+    <string msgid="6827826412747255547" name="in_progress">"กำลังดำเนินการ"</string>
+    <string msgid="2486394087603402002" name="indeterminate">"ไม่ได้เลือกหรือยกเลิกการเลือก"</string>
+    <string name="item_view_role_description">แท็บ</string>
+    <string name="license_activated">ใบอนุญาตเปิดใช้งานแล้ว</string>
+    <string name="material_clock_toggle_content_description">เลือก AM หรือ PM</string>
+    <string name="material_hour_24h_suffix">%1$s ชั่วโมง</string>
+    <string name="material_hour_selection">เลือกชั่วโมง</string>
+    <string name="material_hour_suffix">%1$s นาฬิกา</string>
+    <string name="material_minute_selection">เลือกนาที</string>
+    <string name="material_minute_suffix">%1$s นาที</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">สลับไปโหมดนาฬิกาเพื่อป้อนเวลา</string>
+    <string name="material_timepicker_hour">ชั่วโมง</string>
+    <string name="material_timepicker_minute">นาที</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">เลือกเวลา</string>
+    <string name="material_timepicker_text_input_mode_description">สลับไปโหมดป้อนข้อความเพื่อป้อนเวลา</string>
+    <string name="menu_buy">ความสามารถเพิ่มเติม</string>
+    <string name="menu_firewall">ไฟร์วอลล์</string>
+    <string name="menu_firewall_browsers_only_off">อินเทอร์เน็ตสำหรับแอปทั้งหมด</string>
+    <string name="menu_firewall_browsers_only_on">เฉพาะอินเทอร์เน็ตในเบราว์เซอร์เท่านั้น</string>
+    <string name="menu_firewall_system_apps_blocked_off">เปิดใช้งานอินเทอร์เน็ตสำหรับแอประบบ</string>
+    <string name="menu_firewall_system_apps_blocked_on">ปิดใช้งานอินเทอร์เน็ตสำหรับแอประบบ</string>
+    <string name="menu_help">ไม่ได้ผล?</string>
+    <string name="menu_privacy">นโยบายความเป็นส่วนตัว</string>
+    <string name="menu_proxy">ความไม่สามารถระบุตัวและการบีบอัด</string>
+    <string name="menu_proxy_anonymity_off">ปิดโหมดอนุภาค</string>
+    <string name="menu_proxy_anonymity_on">เปิดโหมดอนุภาค</string>
+    <string name="menu_proxy_compress_off">ปิดโหมดบีบอัดข้อมูล</string>
+    <string name="menu_proxy_compress_on">เปิดโหมดบีบอัดข้อมูล</string>
+    <string name="menu_proxy_only_browsers_off">อนุภาคในแอปทั้งหมด</string>
+    <string name="menu_proxy_only_browsers_on">อนุภาคในเบราว์เซอร์เท่านั้น</string>
+    <string name="menu_statlog">บันทึกการกรอง</string>
+    <string name="menu_statlog_clear">ล้างทั้งหมด</string>
+    <string name="menu_statlog_log_off">ปิดประวัติการกรองการจราจร</string>
+    <string name="menu_statlog_log_on">เปิดประวัติการกรองการจราจร</string>
+    <string name="menu_whitelist">รายชื่อที่ยอมรับ</string>
+    <string name="menu_whitelist_system_apps_exclude_off">กำลังกรองแอปพลิเคชันทั้งหมดในระบบ</string>
+    <string name="menu_whitelist_system_apps_exclude_on">ยกเลิกการกรองแอปพลิเคชันของระบบ</string>
+    <string name="mtrl_badge_numberless_content_description">การแจ้งเตือนใหม่</string>
+    <string name="mtrl_chip_close_icon_content_description">นำ %1$s ออก</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">การแจ้งเตือนใหม่มากกว่า %1$d รายการ</string>
+    <string name="mtrl_picker_a11y_next_month">เปลี่ยนไปที่เดือนถัดไป</string>
+    <string name="mtrl_picker_a11y_prev_month">เปลี่ยนไปที่เดือนก่อนหน้า</string>
+    <string name="mtrl_picker_announce_current_selection">การเลือกในปัจจุบัน: %1$s</string>
+    <string name="mtrl_picker_cancel">ยกเลิก</string>
+    <string name="mtrl_picker_confirm">ตกลง</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">เลือกวันที่</string>
+    <string name="mtrl_picker_date_header_unselected">วันที่ที่เลือก</string>
+    <string name="mtrl_picker_day_of_week_column_header">คอลัมน์ของวัน: %1$s</string>
+    <string name="mtrl_picker_invalid_format">รูปแบบไม่ถูกต้อง</string>
+    <string name="mtrl_picker_invalid_format_example">ตัวอย่าง: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">ใช้: %1$s</string>
+    <string name="mtrl_picker_invalid_range">ช่วงไม่ถูกต้อง</string>
+    <string name="mtrl_picker_navigate_to_year_description">ไปที่ปี %1$s</string>
+    <string name="mtrl_picker_out_of_range">วันที่ไม่อยู่ในช่วงที่อนุญาต: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">วันที่เริ่มต้น – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">เลือกช่วง</string>
+    <string name="mtrl_picker_range_header_unselected">วันที่เริ่มต้น – วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_save">บันทึก</string>
+    <string name="mtrl_picker_text_input_date_hint">วันที่</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">วันที่สิ้นสุด</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">วันที่เริ่มต้น</string>
+    <string name="mtrl_picker_text_input_day_abbr">ว</string>
+    <string name="mtrl_picker_text_input_month_abbr">ด</string>
+    <string name="mtrl_picker_text_input_year_abbr">ป</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">สลับไปใช้โหมดป้อนข้อมูลปฏิทิน</string>
+    <string name="mtrl_picker_toggle_to_day_selection">แตะเพื่อสลับไปใช้การเลือกวัน</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">สลับไปใช้โหมดป้อนข้อมูลข้อความ</string>
+    <string name="mtrl_picker_toggle_to_year_selection">แตะเพื่อสลับไปใช้การเลือกปี</string>
+    <string name="mtrl_timepicker_cancel">ยกเลิก</string>
+    <string name="mtrl_timepicker_confirm">ตกลง</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"นำทางขึ้น"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"เปิดลิ้นชักการนำทาง"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"เมนูการนำทาง"</string>
+    <string msgid="6610465462668679431" name="not_selected">"ไม่ได้เลือก"</string>
+    <string msgid="6573031135582639649" name="not_set">"ไม่ได้ตั้งค่า"</string>
+    <string msgid="875452955155264703" name="off">"ปิด"</string>
+    <string msgid="8655164131929253426" name="on">"เปิด"</string>
+    <string name="password_toggle_content_description">แสดงรหัสผ่าน</string>
+    <string msgid="6685851473431805375" name="preference_copied">"คัดลอก \"<ns1:g id="SUMMARY">%1$s</ns1:g>\" ไปยังคลิปบอร์ดแล้ว"</string>
+    <string name="privacy_uri">https://webdefender.app/agreements/en/privacy.html</string>
+    <string name="proxy_blocked">เปิดโหมดออนนิมิตและเลือกประเทศ</string>
+    <string name="proxy_country_at">ออสเตรีย</string>
+    <string name="proxy_country_au">ออสเตรเลีย</string>
+    <string name="proxy_country_auto">อัตโนมัติ</string>
+    <string name="proxy_country_bg">บัลแกเรีย</string>
+    <string name="proxy_country_ca">แคนาดา</string>
+    <string name="proxy_country_ch">สวิตเซอร์แลนด์</string>
+    <string name="proxy_country_cn">จีน</string>
+    <string name="proxy_country_cz">สาธารณรัฐเช็ก</string>
+    <string name="proxy_country_de">เยอรมนี</string>
+    <string name="proxy_country_dk">เดนมาร์ก</string>
+    <string name="proxy_country_do">สาธารณรัฐโดมินิกัน</string>
+    <string name="proxy_country_ee">เอสโตเนีย</string>
+    <string name="proxy_country_es">สเปน</string>
+    <string name="proxy_country_fi">ฟินแลนด์</string>
+    <string name="proxy_country_fr">ฝรั่งเศส</string>
+    <string name="proxy_country_it">อิตาลี</string>
+    <string name="proxy_country_jp">ญี่ปุ่น</string>
+    <string name="proxy_country_lt">ลิทัวเนีย</string>
+    <string name="proxy_country_lv">ลัตเวีย</string>
+    <string name="proxy_country_md">มอลโดวา</string>
+    <string name="proxy_country_nl">เนเธอร์แลนด์</string>
+    <string name="proxy_country_no">นอร์เวย์</string>
+    <string name="proxy_country_pl">โปแลนด์</string>
+    <string name="proxy_country_pt">โปรตุเกส</string>
+    <string name="proxy_country_ro">โรมาเนีย</string>
+    <string name="proxy_country_ru">รัสเซีย</string>
+    <string name="proxy_country_se">สวีเดน</string>
+    <string name="proxy_country_ua">ยูเครน</string>
+    <string name="proxy_country_uk">สหราชอาณาจักร</string>
+    <string name="proxy_country_us">สหรัฐอเมริกา</string>
+    <string name="proxy_needs_to_be_disabled">ปิดใช้งานเซิร์ฟเวอร์พร็อกซีใน %1$s เพื่อให้ WebDefender ทำงานได้อย่างถูกต้อง</string>
+    <string name="proxy_needs_to_be_disabled2">ปิดใช้งานแอปที่มีปัญหาเพื่อให้ WebDefender ทำงานได้อย่างถูกต้อง</string>
+    <string msgid="5941395253238309765" name="range_end">"จุดสิ้นสุดของช่วง"</string>
+    <string msgid="7097486360902471446" name="range_start">"จุดเริ่มต้นของช่วง"</string>
+    <string name="search_app">ค้นหา…</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"ค้นหา"</string>
+    <string msgid="6043586758067023" name="selected">"เลือกไว้"</string>
+    <string name="statlog_empty">ฟิลเตอร์บันทึกว่างเปล่า</string>
+    <string name="statlog_type_ad">โฆษณา</string>
+    <string name="statlog_type_apk">APK ที่สงสัย</string>
+    <string name="statlog_type_malware">เว็บไซต์ที่เป็นมลWare</string>
+    <string name="statlog_type_paid">เว็บไซต์ที่เสียเงิน</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g> <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
+    <string msgid="1672349317127674378" name="tab">"แท็บ"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> เปอร์เซ็นต์"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ปิด"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"เปิด"</string>
+    <string name="vpn_error">ไม่สามารถสร้างช่องทาง VPN ได้</string>
+    <string name="vpn_exception">ไม่สามารถเชื่อมต่อ VPN ได้</string>
+    <string name="vpn_unavailable">VPN ไม่สามารถใช้ได้</string>
+    <string name="widget_stat_block">ลบ\nโฆษณาแล้ว</string>
+    <string name="widget_stat_threat">บล็อกความเสี่ยง\nแล้ว</string>
+    <string name="widget_stat_traffic">ประหยัดการใช้งาน\nแบนด์วิดท์</string>
+    <string name="widget_state_text1">การป้องกัน</string>
+    <string name="widget_state_text2">ถูกปิดใช้งาน</string>
+    <string name="widget_state_text3">เปิดใช้งาน</string>
+</resources>

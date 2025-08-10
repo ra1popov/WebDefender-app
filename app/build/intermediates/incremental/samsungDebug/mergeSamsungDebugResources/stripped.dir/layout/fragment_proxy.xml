@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                       
+                                                   
+
+    
+
+                 
+                            
+                                                 
+
+                 
+                          
+                                               
+
+
+                                           
+
+           
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/statusbar_size"
+        android:paddingTop="@dimen/toolbar_size" android:tag="layout/fragment_proxy_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_proxy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:overScrollMode="never"
+            android:tag="binding_1"                                               
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                                         
+            tools:listitem="@layout/item_proxy"
+            tools:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tv_proxy_blocked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="@dimen/_30sdp"
+            android:text="@string/proxy_blocked"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/_16sdp"
+            android:tag="binding_2"                                                />
+
+    </RelativeLayout>
+
+         

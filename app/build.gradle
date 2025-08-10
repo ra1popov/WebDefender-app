@@ -35,16 +35,14 @@ android {
         }
     }
 
-
     buildTypes {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.debug
         }
 
         debug {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.debug
         }
@@ -74,13 +72,6 @@ android {
             buildConfigField "String", "APP_STORE", "\"https://galaxystore.samsung.com/detail/app.webdefender.samsung\""
             dimension = "vendor"
             applicationIdSuffix = ".samsung"
-        }
-
-        fdroid {
-            buildConfigField "String", "PUBLISHER", "\"fdroid\""
-            buildConfigField "String", "APP_STORE", "\"https://f-droid.org/en/packages/app.webdefender.fdroid/\""
-            dimension = "vendor"
-            applicationIdSuffix = ".fdroid"
         }
     }
 

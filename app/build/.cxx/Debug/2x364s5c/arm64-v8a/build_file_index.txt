@@ -1,0 +1,2 @@
+/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk
+/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk
