@@ -1,0 +1,1 @@
+WebDefender is an open-source app for safer, anonymous web browsing.
