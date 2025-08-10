@@ -12,11 +12,6 @@ Currently available on the Samsung Galaxy Store: https://galaxystore.samsung.com
 <br>
 Homepage: https://webdefender.app
 
-## Before build
-
-+ Create a keystore named WebDefender.keystore and a keystore.properties file with storePassword, keyAlias, and keyPassword in the root directory of the project.
-+ Use Gradle version 8.5
-
 ## License
 
 Copyright 2013-2025 Roman Popov
