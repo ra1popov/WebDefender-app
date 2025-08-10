@@ -7,6 +7,8 @@ gradle/
 build/
 */build/
 app/build/
+app/samsung
+app/fdroid
 
 # Kotlin
 .kotlin/
