@@ -423,7 +423,7 @@ class StickySwitch : View {
      * @param canvas the canvas on which the background will be drawn
      */
 
-    override fun onDraw(canvas: Canvas) {
+    override fun onDraw(canvas: Canvas?) {
         super.onDraw(canvas)
 
         // icon margin
