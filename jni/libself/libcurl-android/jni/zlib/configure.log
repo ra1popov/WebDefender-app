@@ -1,0 +1,489 @@
+--------------------
+./configure --prefix=/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/libcurl-android/jni/build/zlib/armeabi-v7a
+Sun Aug 10 01:55:58 CEST 2025
+Using /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar
+=== ztest29825.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c ztest29825.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest29825.c ===
+int foo() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC ztest29825.c
+
+Checking for shared library support...
+=== ztest29825.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -w -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -fPIC ztest29825.c
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -shared -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -fPIC -o ztest29825.so ztest29825.o
+Building shared library libz.so.1.2.13 with /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang.
+
+=== ztest29825.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC ztest29825.c
+Checking for size_t... Yes.
+
+=== ztest29825.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 ztest29825.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest29825.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 -o ztest29825 ztest29825.c
+Checking for strerror... Yes.
+
+=== ztest29825.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 ztest29825.c
+Checking for unistd.h... Yes.
+
+=== ztest29825.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 ztest29825.c
+Checking for stdarg.h... Yes.
+
+=== ztest29825.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 ztest29825.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest29825.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 -o ztest29825 ztest29825.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest29825.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 ztest29825.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest29825.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 ztest29825.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar
+ARFLAGS = rc
+CC = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang
+CFLAGS = -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP =
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/armv7a-linux-androideabi21-clang -shared
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib
+SFLAGS = -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv7-a -mfloat-abi=softfp -mfpu=neon -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.13
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.13
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/libcurl-android/jni/build/zlib/armeabi-v7a
+sharedlibdir = ${libdir}
+uname = Darwin
+--------------------
+
+
+--------------------
+./configure --prefix=/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/libcurl-android/jni/build/zlib/arm64-v8a
+Sun Aug 10 01:56:00 CEST 2025
+Using /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar
+=== ztest30340.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c ztest30340.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest30340.c ===
+int foo() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC ztest30340.c
+
+Checking for shared library support...
+=== ztest30340.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -w -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -fPIC ztest30340.c
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -shared -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -fPIC -o ztest30340.so ztest30340.o
+Building shared library libz.so.1.2.13 with /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang.
+
+=== ztest30340.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC ztest30340.c
+Checking for size_t... Yes.
+
+=== ztest30340.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 ztest30340.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest30340.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 -o ztest30340 ztest30340.c
+Checking for strerror... Yes.
+
+=== ztest30340.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 ztest30340.c
+Checking for unistd.h... Yes.
+
+=== ztest30340.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 ztest30340.c
+Checking for stdarg.h... Yes.
+
+=== ztest30340.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 ztest30340.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest30340.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 -o ztest30340 ztest30340.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest30340.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 ztest30340.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest30340.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 ztest30340.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar
+ARFLAGS = rc
+CC = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang
+CFLAGS = -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP =
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android21-clang -shared
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib
+SFLAGS = -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=armv8-a -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.13
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.13
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/libcurl-android/jni/build/zlib/arm64-v8a
+sharedlibdir = ${libdir}
+uname = Darwin
+--------------------
+
+
+--------------------
+./configure --prefix=/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/libcurl-android/jni/build/zlib/x86-64
+Sun Aug 10 01:56:01 CEST 2025
+Using /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar
+=== ztest30846.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c ztest30846.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest30846.c ===
+int foo() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC ztest30846.c
+
+Checking for shared library support...
+=== ztest30846.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -w -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -fPIC ztest30846.c
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -shared -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -fPIC -o ztest30846.so ztest30846.o
+Building shared library libz.so.1.2.13 with /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang.
+
+=== ztest30846.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC ztest30846.c
+Checking for size_t... Yes.
+
+=== ztest30846.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 ztest30846.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest30846.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 -o ztest30846 ztest30846.c
+Checking for strerror... Yes.
+
+=== ztest30846.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 ztest30846.c
+Checking for unistd.h... Yes.
+
+=== ztest30846.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 ztest30846.c
+Checking for stdarg.h... Yes.
+
+=== ztest30846.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 ztest30846.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest30846.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 -o ztest30846 ztest30846.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest30846.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 ztest30846.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest30846.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -c -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 ztest30846.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar
+ARFLAGS = rc
+CC = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang
+CFLAGS = -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP =
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/x86_64-linux-android21-clang -shared
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = /Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ranlib
+SFLAGS = -I/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include --sysroot=/Users/romanpopov/Library/Android/sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -march=x86-64 -fPIC -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.13
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.13
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/libcurl-android/jni/build/zlib/x86-64
+sharedlibdir = ${libdir}
+uname = Darwin
+--------------------
+
+
