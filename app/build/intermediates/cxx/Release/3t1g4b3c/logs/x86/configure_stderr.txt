@@ -1,0 +1,2 @@
+fcntl(): Bad file descriptor
+/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/build/core/prebuilt-library.mk:51: *** Android NDK: Aborting    .  Stop.

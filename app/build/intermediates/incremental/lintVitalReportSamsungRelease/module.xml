@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/romanpopov/Documents/Projects/Android/WebDefender/app"
+    name=":app"
+    type="APP"
+    maven="WebDefender:app:"
+    agpVersion="8.0.2"
+    buildFolder="build"
+    bootClassPath="/Users/romanpopov/Library/Android/sdk/platforms/android-33/android.jar:/Users/romanpopov/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="19"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="samsungRelease"/>
+</lint-module>

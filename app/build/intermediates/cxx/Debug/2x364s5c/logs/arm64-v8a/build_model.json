@@ -8,16 +8,18 @@
   },
   "cxxBuildFolder": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/.cxx/Debug/2x364s5c/arm64-v8a",
   "soFolder": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Debug/2x364s5c/obj/local/arm64-v8a",
-  "soRepublishFolder": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/ndkBuild/fdroidDebug/obj/local/arm64-v8a",
+  "soRepublishFolder": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/ndkBuild/samsungDebug/obj/local/arm64-v8a",
   "abiPlatformVersion": 24,
   "variant": {
     "buildSystemArgumentList": [],
     "cFlagsList": [],
     "cppFlagsList": [],
-    "variantName": "fdroidDebug",
+    "variantName": "samsungDebug",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARM64_V8A"
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86_64"
     ],
     "buildTargetSet": [],
     "implicitBuildTargetSet": [],
@@ -113,7 +115,6 @@
         "rootBuildGradleFolder": "/Users/romanpopov/Documents/Projects/Android/WebDefender",
         "sdkFolder": "/Users/romanpopov/Library/Android/sdk",
         "isBuildOnlyTargetAbiEnabled": true,
-        "ideBuildTargetAbi": "arm64-v8a",
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },

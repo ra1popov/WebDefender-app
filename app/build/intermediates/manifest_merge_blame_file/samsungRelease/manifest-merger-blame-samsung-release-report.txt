@@ -1,0 +1,788 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.webdefender.samsung"
+4    android:installLocation="internalOnly"
+5    android:versionCode="7"
+6    android:versionName="1.0.6" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+10        android:targetSdkVersion="33" />
+11
+12    <!-- suppress DeprecatedClassUsageInspection -->
+13    <uses-permission android:name="android.permission.GET_TASKS" />
+13-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:7:5-68
+13-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:7:22-65
+14    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+14-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:8:5-84
+14-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:8:22-81
+15    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+15-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:9:5-11:47
+15-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:10:9-58
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:12:5-67
+16-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:13:5-79
+17-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+18-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:14:5-76
+18-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:14:22-73
+19    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+19-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:15:5-76
+19-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:15:22-73
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:16:5-81
+20-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:16:22-78
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:17:5-77
+21-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:17:22-74
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:18:5-68
+22-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:18:22-65
+23    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" /> <!-- 21.06.2023 for fix Fatal Exception: java.lang.SecurityException: App must either be an active VPN or have the NETWORK_STACK permission -->
+23-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:19:5-95
+23-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:19:22-92
+24    <uses-permission android:name="android.permission.NETWORK_STACK" />
+24-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:22:5-24:47
+24-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:23:9-56
+25    <uses-permission android:name="oppo.permission.OPPO_COMPONENT_SAFE" />
+25-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:26:5-75
+25-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:26:22-72
+26    <uses-permission android:name="com.huawei.permission.external_app_settings.USE_COMPONENT" />
+26-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:27:5-97
+26-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:27:22-94
+27
+28    <queries>
+28-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:29:5-76:15
+29        <package android:name="com.android.settings" />
+29-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:31:9-56
+29-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:31:18-53
+30        <package android:name="com.asus.mobilemanager" />
+30-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:33:9-58
+30-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:33:18-55
+31        <package android:name="com.miui.securitycenter" />
+31-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:35:9-59
+31-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:35:18-56
+32        <package android:name="com.miui.permcenter" />
+32-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:36:9-55
+32-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:36:18-52
+33        <package android:name="com.letv.android.letvsafe" />
+33-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:38:9-61
+33-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:38:18-58
+34        <package android:name="com.huawei.systemmanager" />
+34-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:40:9-60
+34-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:40:18-57
+35        <package android:name="com.coloros.phonemanager" />
+35-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:42:9-60
+35-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:42:18-57
+36        <package android:name="com.coloros.oppoguardelf" />
+36-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:43:9-60
+36-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:43:18-57
+37        <package android:name="com.coloros.safecenter" />
+37-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:44:9-58
+37-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:44:18-55
+38        <package android:name="com.coloros.safe" />
+38-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:45:9-52
+38-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:45:18-49
+39        <package android:name="com.oppo.safe" />
+39-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:46:9-49
+39-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:46:18-46
+40        <package android:name="com.iqoo.secure" />
+40-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:48:9-51
+40-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:48:18-48
+41        <package android:name="com.vivo.permissionmanager" />
+41-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:49:9-62
+41-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:49:18-59
+42        <package android:name="com.evenwell.powersaving.g3" />
+42-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:51:9-63
+42-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:51:18-60
+43        <package android:name="com.samsung.android" />
+43-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:53:9-55
+43-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:53:18-52
+44        <package android:name="com.oneplus.security" />
+44-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:55:9-56
+44-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:55:18-53
+45        <package android:name="com.motorola.moto" />
+45-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:57:9-53
+45-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:57:18-50
+46        <package android:name="com.lenovo.safecenter" />
+46-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:59:9-57
+46-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:59:18-54
+47        <package android:name="com.lenovo.security" />
+47-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:60:9-55
+47-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:60:18-52
+48        <package android:name="com.nubia.security2" />
+48-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:62:9-55
+48-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:62:18-52
+49        <package android:name="com.infinix.xlauncher" />
+49-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:64:9-57
+49-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:64:18-54
+50        <package android:name="com.tct.security" />
+50-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:66:9-52
+50-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:66:18-49
+51        <package android:name="com.lge.powersavingmode" />
+51-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:68:9-59
+51-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:68:18-56
+52        <package android:name="com.meizu.safe" />
+52-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:70:9-50
+52-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:70:18-47
+53        <package android:name="com.htc.pitroad" />
+53-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:72:9-51
+53-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:72:18-48
+54        <package android:name="com.transsion.phonemanager" />
+54-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:74:9-62
+54-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:74:18-59
+55    </queries> <!-- For Android 11, to get the list of all installed apps for the firewall, you need the following permission -->
+56    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+56-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:79:5-81:53
+56-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:80:9-61
+57    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+57-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:25:5-77
+57-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:25:22-74
+58    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+58-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:28:5-82
+58-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:28:22-79
+59    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+59-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+59-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+60    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+60-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/1cc0fd9bfb43e3b878d540cd64b3397c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+60-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/1cc0fd9bfb43e3b878d540cd64b3397c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+61
+62    <permission
+62-->[androidx.core:core:1.9.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/adefe417dde7b55178b8af41b264e1ad/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+63        android:name="app.webdefender.samsung.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+63-->[androidx.core:core:1.9.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/adefe417dde7b55178b8af41b264e1ad/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+64        android:protectionLevel="signature" />
+64-->[androidx.core:core:1.9.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/adefe417dde7b55178b8af41b264e1ad/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+65
+66    <uses-permission android:name="app.webdefender.samsung.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+66-->[androidx.core:core:1.9.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/adefe417dde7b55178b8af41b264e1ad/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+66-->[androidx.core:core:1.9.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/adefe417dde7b55178b8af41b264e1ad/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+67
+68    <application
+68-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:83:5-176:19
+69        android:name="app.App"
+69-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:84:9-28
+70        android:allowBackup="true"
+70-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:85:9-35
+71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+71-->[androidx.core:core:1.9.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/adefe417dde7b55178b8af41b264e1ad/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+72        android:dataExtractionRules="@xml/data_extraction_rules"
+72-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:86:9-65
+73        android:fullBackupContent="@xml/backup_rules"
+73-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:87:9-54
+74        android:hardwareAccelerated="true"
+74-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:88:9-43
+75        android:icon="@mipmap/ic_launcher"
+75-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:89:9-43
+76        android:label="@string/app_name"
+76-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:90:9-41
+77        android:largeHeap="true"
+77-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:91:9-33
+78        android:roundIcon="@mipmap/ic_launcher_round"
+78-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:92:9-54
+79        android:supportsRtl="true"
+79-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:93:9-35
+80        android:theme="@style/Theme.WebDefender"
+80-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:94:9-49
+81        android:usesCleartextTraffic="true" >
+81-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:95:9-44
+82        <service
+82-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:6:9-15:19
+83            android:name="app.receivers.PushReceiver"
+83-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:7:13-51
+84            android:enabled="true"
+84-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:8:13-35
+85            android:exported="false" >
+85-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:9:13-37
+86            <intent-filter>
+86-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:11:13-13:29
+87                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+87-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:12:17-78
+87-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:12:25-75
+88            </intent-filter>
+89        </service>
+90        <service
+90-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:17:9-21:43
+91            android:name="app.recovery.RecoveryService"
+91-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:18:13-53
+92            android:enabled="true"
+92-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:19:13-35
+93            android:exported="false"
+93-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:20:13-37
+94            android:process=":recovery" />
+94-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:21:13-40
+95        <service
+95-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:23:9-27:41
+96            android:name="app.recovery.RecoveryNativeService"
+96-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:24:13-59
+97            android:enabled="true"
+97-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:25:13-35
+98            android:exported="false"
+98-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:26:13-37
+99            android:process=":native" />
+99-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:27:13-38
+100
+101        <meta-data
+101-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:98:9-100:37
+102            android:name="update_retry_time"
+102-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:99:13-45
+103            android:value="10800" />
+103-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:100:13-34
+104        <meta-data
+104-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:102:9-104:60
+105            android:name="update_url"
+105-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:103:13-38
+106            android:value="https://webdefender.app/app/" />
+106-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:104:13-57
+107        <meta-data
+107-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:106:9-108:69
+108            android:name="privacy_url"
+108-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:107:13-39
+109            android:value="https://webdefender.app/legal/privacy" />
+109-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:108:13-66
+110
+111        <activity
+111-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:110:9-122:20
+112            android:name="app.ui.MainActivity"
+112-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:111:13-44
+113            android:exported="true"
+113-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:112:13-36
+114            android:launchMode="singleTask"
+114-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:113:13-44
+115            android:screenOrientation="portrait" >
+115-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:114:13-49
+116            <intent-filter>
+116-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:117:13-120:29
+117                <action android:name="android.intent.action.MAIN" />
+117-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:118:17-69
+117-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:118:25-66
+118
+119                <category android:name="android.intent.category.LAUNCHER" />
+119-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:119:17-77
+119-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:119:27-74
+120            </intent-filter>
+121        </activity>
+122
+123        <service
+123-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:124:9-138:19
+124            android:name="app.netfilter.FilterVpnService"
+124-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:125:13-55
+125            android:enabled="true"
+125-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:126:13-35
+126            android:exported="false"
+126-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:127:13-37
+127            android:permission="android.permission.BIND_VPN_SERVICE" >
+127-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:128:13-69
+128            <intent-filter>
+128-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:130:13-132:29
+129                <action android:name="android.net.VpnService" />
+129-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:131:17-65
+129-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:131:25-62
+130            </intent-filter>
+131
+132            <meta-data
+132-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:134:13-136:40
+133                android:name="android.net.VpnService.SUPPORTS_ALWAYS_ON"
+133-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:135:17-73
+134                android:value="true" />
+134-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:136:17-37
+135        </service>
+136
+137        <receiver
+137-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:140:9-152:20
+138            android:name="app.receivers.BootCompletedReceiver"
+138-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:141:13-60
+139            android:enabled="true"
+139-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:142:13-35
+140            android:exported="true"
+140-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:143:13-36
+141            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+141-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:144:13-75
+142            <intent-filter android:priority="2000" >
+142-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:146:13-150:29
+142-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:146:28-51
+143                <action android:name="android.intent.action.BOOT_COMPLETED" />
+143-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:147:17-79
+143-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:147:25-76
+144                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+144-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:148:17-82
+144-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:148:25-79
+145                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+145-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:149:17-82
+145-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:149:25-79
+146            </intent-filter>
+147        </receiver>
+148        <receiver
+148-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:154:9-158:64
+149            android:name="app.receivers.AlarmReceiver"
+149-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:155:13-52
+150            android:enabled="true"
+150-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:156:13-35
+151            android:exported="true"
+151-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:157:13-36
+152            android:permission="android.permission.INTERNET" /> <!-- fixed the problem with compilation as apk, more here https://stackoverflow.com/questions/59710362/workmanager-should-we-remove-the-default-initializer-when-we-use-both-default -->
+152-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:158:13-61
+153        <provider
+154            android:name="androidx.startup.InitializationProvider"
+155            android:authorities="app.webdefender.samsung.androidx-startup"
+156            android:exported="false" >
+157            <meta-data
+157-->[androidx.emoji2:emoji2:1.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/4cbda0217e1155dd00a0cb308fe36919/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+158                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+158-->[androidx.emoji2:emoji2:1.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/4cbda0217e1155dd00a0cb308fe36919/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+159                android:value="androidx.startup" />
+159-->[androidx.emoji2:emoji2:1.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/4cbda0217e1155dd00a0cb308fe36919/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+160            <meta-data
+160-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/17d7ee75de4e30c20b57a2da4f0fd563/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+161                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+161-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/17d7ee75de4e30c20b57a2da4f0fd563/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+162                android:value="androidx.startup" />
+162-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/17d7ee75de4e30c20b57a2da4f0fd563/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+163            <meta-data
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+164                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+165                android:value="androidx.startup" />
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+166        </provider>
+167
+168        <uses-library
+168-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:174:9-87
+169            android:name="org.apache.http.legacy"
+169-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:174:23-60
+170            android:required="false" />
+170-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:174:61-85
+171
+172        <activity
+172-->[dev.doubledot.doki:library:0.0.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/529372de0fb1c676f6f5e5bde6b2fec8/transformed/jetified-library-0.0.1/AndroidManifest.xml:14:9-16:72
+173            android:name="dev.doubledot.doki.ui.DokiActivity"
+173-->[dev.doubledot.doki:library:0.0.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/529372de0fb1c676f6f5e5bde6b2fec8/transformed/jetified-library-0.0.1/AndroidManifest.xml:15:13-62
+174            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+174-->[dev.doubledot.doki:library:0.0.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/529372de0fb1c676f6f5e5bde6b2fec8/transformed/jetified-library-0.0.1/AndroidManifest.xml:16:13-69
+175
+176        <service
+176-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:39:9-45:35
+177            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+177-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:40:13-88
+178            android:directBootAware="false"
+178-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:41:13-44
+179            android:enabled="@bool/enable_system_alarm_service_default"
+179-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:42:13-72
+180            android:exported="false" />
+180-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:43:13-37
+181        <service
+181-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:46:9-52:35
+182            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+182-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:47:13-84
+183            android:directBootAware="false"
+183-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:48:13-44
+184            android:enabled="@bool/enable_system_job_service_default"
+184-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:49:13-70
+185            android:exported="true"
+185-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:50:13-36
+186            android:permission="android.permission.BIND_JOB_SERVICE" />
+186-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:51:13-69
+187        <service
+187-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:53:9-59:35
+188            android:name="androidx.work.impl.foreground.SystemForegroundService"
+188-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:54:13-81
+189            android:directBootAware="false"
+189-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:55:13-44
+190            android:enabled="@bool/enable_system_foreground_service_default"
+190-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:56:13-77
+191            android:exported="false" />
+191-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:57:13-37
+192
+193        <receiver
+193-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:61:9-66:35
+194            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+194-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:62:13-88
+195            android:directBootAware="false"
+195-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:63:13-44
+196            android:enabled="true"
+196-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:64:13-35
+197            android:exported="false" />
+197-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:65:13-37
+198        <receiver
+198-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:67:9-77:20
+199            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+199-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:68:13-106
+200            android:directBootAware="false"
+200-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:69:13-44
+201            android:enabled="false"
+201-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:70:13-36
+202            android:exported="false" >
+202-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:71:13-37
+203            <intent-filter>
+203-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:73:13-76:29
+204                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+204-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:17-87
+204-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:74:25-84
+205                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+205-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:17-90
+205-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:75:25-87
+206            </intent-filter>
+207        </receiver>
+208        <receiver
+208-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:78:9-88:20
+209            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+209-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:79:13-104
+210            android:directBootAware="false"
+210-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:80:13-44
+211            android:enabled="false"
+211-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:81:13-36
+212            android:exported="false" >
+212-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:82:13-37
+213            <intent-filter>
+213-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:84:13-87:29
+214                <action android:name="android.intent.action.BATTERY_OKAY" />
+214-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:17-77
+214-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:85:25-74
+215                <action android:name="android.intent.action.BATTERY_LOW" />
+215-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:17-76
+215-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:86:25-73
+216            </intent-filter>
+217        </receiver>
+218        <receiver
+218-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:89:9-99:20
+219            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+219-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:90:13-104
+220            android:directBootAware="false"
+220-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:91:13-44
+221            android:enabled="false"
+221-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:92:13-36
+222            android:exported="false" >
+222-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:93:13-37
+223            <intent-filter>
+223-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:95:13-98:29
+224                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+224-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:17-83
+224-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:96:25-80
+225                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+225-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:17-82
+225-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:97:25-79
+226            </intent-filter>
+227        </receiver>
+228        <receiver
+228-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:100:9-109:20
+229            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+229-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:101:13-103
+230            android:directBootAware="false"
+230-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:102:13-44
+231            android:enabled="false"
+231-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:103:13-36
+232            android:exported="false" >
+232-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:104:13-37
+233            <intent-filter>
+233-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:106:13-108:29
+234                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+234-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:17-79
+234-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:107:25-76
+235            </intent-filter>
+236        </receiver>
+237        <receiver
+237-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:110:9-121:20
+238            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+238-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:111:13-88
+239            android:directBootAware="false"
+239-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:112:13-44
+240            android:enabled="false"
+240-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:113:13-36
+241            android:exported="false" >
+241-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:114:13-37
+242            <intent-filter>
+242-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:116:13-120:29
+243                <action android:name="android.intent.action.BOOT_COMPLETED" />
+243-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:147:17-79
+243-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/main/AndroidManifest.xml:147:25-76
+244                <action android:name="android.intent.action.TIME_SET" />
+244-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:17-73
+244-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:118:25-70
+245                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+245-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:17-81
+245-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:119:25-78
+246            </intent-filter>
+247        </receiver>
+248        <receiver
+248-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:122:9-131:20
+249            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+249-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:123:13-99
+250            android:directBootAware="false"
+250-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:124:13-44
+251            android:enabled="@bool/enable_system_alarm_service_default"
+251-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:125:13-72
+252            android:exported="false" >
+252-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:126:13-37
+253            <intent-filter>
+253-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:128:13-130:29
+254                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+254-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:17-98
+254-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:129:25-95
+255            </intent-filter>
+256        </receiver>
+257        <receiver
+257-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:132:9-142:20
+258            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+258-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:133:13-78
+259            android:directBootAware="false"
+259-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:134:13-44
+260            android:enabled="true"
+260-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:135:13-35
+261            android:exported="true"
+261-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:136:13-36
+262            android:permission="android.permission.DUMP" >
+262-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:137:13-57
+263            <intent-filter>
+263-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:139:13-141:29
+264                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+264-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:17-88
+264-->[androidx.work:work-runtime:2.8.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/a1eb4948d51e21105445c891096bcfe3/transformed/work-runtime-2.8.1/AndroidManifest.xml:140:25-85
+265            </intent-filter>
+266        </receiver>
+267
+268        <meta-data
+268-->[com.github.bumptech.glide:okhttp3-integration:4.14.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88f558e1713c99180b802d5c722a33f0/transformed/jetified-okhttp3-integration-4.14.1/AndroidManifest.xml:10:9-12:43
+269            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+269-->[com.github.bumptech.glide:okhttp3-integration:4.14.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88f558e1713c99180b802d5c722a33f0/transformed/jetified-okhttp3-integration-4.14.1/AndroidManifest.xml:11:13-84
+270            android:value="GlideModule" />
+270-->[com.github.bumptech.glide:okhttp3-integration:4.14.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88f558e1713c99180b802d5c722a33f0/transformed/jetified-okhttp3-integration-4.14.1/AndroidManifest.xml:12:13-40
+271
+272        <receiver
+272-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:31:9-38:20
+273            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+273-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:32:13-78
+274            android:exported="true"
+274-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:33:13-36
+275            android:permission="com.google.android.c2dm.permission.SEND" >
+275-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:34:13-73
+276            <intent-filter>
+276-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:35:13-37:29
+277                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+277-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:36:17-81
+277-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:36:25-78
+278            </intent-filter>
+279        </receiver>
+280        <!--
+281             FirebaseMessagingService performs security checks at runtime,
+282             but set to not exported to explicitly avoid allowing another app to call it.
+283        -->
+284        <service
+284-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:44:9-51:19
+285            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+285-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:45:13-82
+286            android:directBootAware="true"
+286-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:46:13-43
+287            android:exported="false" >
+287-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:47:13-37
+288            <intent-filter android:priority="-500" >
+288-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:11:13-13:29
+289                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+289-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:12:17-78
+289-->/Users/romanpopov/Documents/Projects/Android/WebDefender/app/src/samsung/AndroidManifest.xml:12:25-75
+290            </intent-filter>
+291        </service>
+292        <service
+292-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:52:9-58:19
+293            android:name="com.google.firebase.components.ComponentDiscoveryService"
+293-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:53:13-84
+294            android:directBootAware="true"
+294-->[com.google.firebase:firebase-common:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/becb71af4e7ac4e19e8bc07ac8421cb4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+295            android:exported="false" >
+295-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:54:13-37
+296            <meta-data
+296-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:55:13-57:85
+297                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+297-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:56:17-119
+298                android:value="com.google.firebase.components.ComponentRegistrar" />
+298-->[com.google.firebase:firebase-messaging:23.2.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/7a5d79c8993d051f0e8f80e752de4623/transformed/jetified-firebase-messaging-23.2.0/AndroidManifest.xml:57:17-82
+299            <meta-data
+299-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/1cc0fd9bfb43e3b878d540cd64b3397c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+300                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+300-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/1cc0fd9bfb43e3b878d540cd64b3397c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+301                android:value="com.google.firebase.components.ComponentRegistrar" />
+301-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/1cc0fd9bfb43e3b878d540cd64b3397c/transformed/jetified-play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+302            <meta-data
+302-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/01891da27b425d16fd17125fb18bc833/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:17:13-19:85
+303                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+303-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/01891da27b425d16fd17125fb18bc833/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:18:17-115
+304                android:value="com.google.firebase.components.ComponentRegistrar" />
+304-->[com.google.firebase:firebase-crashlytics:18.4.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/01891da27b425d16fd17125fb18bc833/transformed/jetified-firebase-crashlytics-18.4.0/AndroidManifest.xml:19:17-82
+305            <meta-data
+305-->[com.google.firebase:firebase-sessions:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/bdb01be6c7051e6563f74f7b2dac0dfa/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:27:13-29:85
+306                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+306-->[com.google.firebase:firebase-sessions:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/bdb01be6c7051e6563f74f7b2dac0dfa/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:28:17-117
+307                android:value="com.google.firebase.components.ComponentRegistrar" />
+307-->[com.google.firebase:firebase-sessions:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/bdb01be6c7051e6563f74f7b2dac0dfa/transformed/jetified-firebase-sessions-1.0.0/AndroidManifest.xml:29:17-82
+308            <meta-data
+308-->[com.google.firebase:firebase-installations:17.1.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/2870bb330d55ab0898d8be9bebe19a4a/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+309                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+309-->[com.google.firebase:firebase-installations:17.1.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/2870bb330d55ab0898d8be9bebe19a4a/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+310                android:value="com.google.firebase.components.ComponentRegistrar" />
+310-->[com.google.firebase:firebase-installations:17.1.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/2870bb330d55ab0898d8be9bebe19a4a/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+311            <meta-data
+311-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/e438b7f5b6c1b9feff287f7824c1640e/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+312                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+312-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/e438b7f5b6c1b9feff287f7824c1640e/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+313                android:value="com.google.firebase.components.ComponentRegistrar" />
+313-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/e438b7f5b6c1b9feff287f7824c1640e/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+314            <meta-data
+314-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/28853ee256900a2774c6fb0f356a3548/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:14:13-16:85
+315                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+315-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/28853ee256900a2774c6fb0f356a3548/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:15:17-113
+316                android:value="com.google.firebase.components.ComponentRegistrar" />
+316-->[com.google.firebase:firebase-common-ktx:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/28853ee256900a2774c6fb0f356a3548/transformed/jetified-firebase-common-ktx-20.3.3/AndroidManifest.xml:16:17-82
+317        </service>
+318
+319        <receiver
+319-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+320            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+320-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+321            android:enabled="true"
+321-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+322            android:exported="false" >
+322-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+323        </receiver>
+324
+325        <service
+325-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+326            android:name="com.google.android.gms.measurement.AppMeasurementService"
+326-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+327            android:enabled="true"
+327-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+328            android:exported="false" />
+328-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+329        <service
+329-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+330            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+330-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+331            android:enabled="true"
+331-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+332            android:exported="false"
+332-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+333            android:permission="android.permission.BIND_JOB_SERVICE" />
+333-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/660ff1254186a8f39b73387d827eaf2b/transformed/jetified-play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+334
+335        <activity
+335-->[com.google.android.gms:play-services-base:18.0.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/0d33924c6e30719a0c34de674f8429ab/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+336            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+336-->[com.google.android.gms:play-services-base:18.0.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/0d33924c6e30719a0c34de674f8429ab/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+337            android:exported="false"
+337-->[com.google.android.gms:play-services-base:18.0.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/0d33924c6e30719a0c34de674f8429ab/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+338            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+338-->[com.google.android.gms:play-services-base:18.0.1] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/0d33924c6e30719a0c34de674f8429ab/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+339
+340        <provider
+340-->[com.google.firebase:firebase-common:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/becb71af4e7ac4e19e8bc07ac8421cb4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+341            android:name="com.google.firebase.provider.FirebaseInitProvider"
+341-->[com.google.firebase:firebase-common:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/becb71af4e7ac4e19e8bc07ac8421cb4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+342            android:authorities="app.webdefender.samsung.firebaseinitprovider"
+342-->[com.google.firebase:firebase-common:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/becb71af4e7ac4e19e8bc07ac8421cb4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+343            android:directBootAware="true"
+343-->[com.google.firebase:firebase-common:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/becb71af4e7ac4e19e8bc07ac8421cb4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+344            android:exported="false"
+344-->[com.google.firebase:firebase-common:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/becb71af4e7ac4e19e8bc07ac8421cb4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+345            android:initOrder="100" />
+345-->[com.google.firebase:firebase-common:20.3.3] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/becb71af4e7ac4e19e8bc07ac8421cb4/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+346
+347        <meta-data
+347-->[com.google.android.gms:play-services-basement:18.1.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/245264f45504571e7b792232f0cccb85/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+348            android:name="com.google.android.gms.version"
+348-->[com.google.android.gms:play-services-basement:18.1.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/245264f45504571e7b792232f0cccb85/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+349            android:value="@integer/google_play_services_version" />
+349-->[com.google.android.gms:play-services-basement:18.1.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/245264f45504571e7b792232f0cccb85/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+350
+351        <uses-library
+351-->[androidx.window:window:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88acbd30f843b14cd79e17aff86cb6d8/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+352            android:name="androidx.window.extensions"
+352-->[androidx.window:window:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88acbd30f843b14cd79e17aff86cb6d8/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+353            android:required="false" />
+353-->[androidx.window:window:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88acbd30f843b14cd79e17aff86cb6d8/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+354        <uses-library
+354-->[androidx.window:window:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88acbd30f843b14cd79e17aff86cb6d8/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+355            android:name="androidx.window.sidecar"
+355-->[androidx.window:window:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88acbd30f843b14cd79e17aff86cb6d8/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+356            android:required="false" />
+356-->[androidx.window:window:1.0.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/88acbd30f843b14cd79e17aff86cb6d8/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+357
+358        <service
+358-->[androidx.room:room-runtime:2.5.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/ec246002f8ae484de96f1a22bff5dd28/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+359            android:name="androidx.room.MultiInstanceInvalidationService"
+359-->[androidx.room:room-runtime:2.5.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/ec246002f8ae484de96f1a22bff5dd28/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+360            android:directBootAware="true"
+360-->[androidx.room:room-runtime:2.5.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/ec246002f8ae484de96f1a22bff5dd28/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+361            android:exported="false" />
+361-->[androidx.room:room-runtime:2.5.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/ec246002f8ae484de96f1a22bff5dd28/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+362        <service
+362-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/9d5c5183a4837dce3f8cbe3d54993cac/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+363            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+363-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/9d5c5183a4837dce3f8cbe3d54993cac/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+364            android:exported="false" >
+364-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/9d5c5183a4837dce3f8cbe3d54993cac/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+365            <meta-data
+365-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/9d5c5183a4837dce3f8cbe3d54993cac/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+366                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+366-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/9d5c5183a4837dce3f8cbe3d54993cac/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+367                android:value="cct" />
+367-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/9d5c5183a4837dce3f8cbe3d54993cac/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+368        </service>
+369
+370        <receiver
+370-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+371            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+371-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+372            android:directBootAware="false"
+372-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+373            android:enabled="true"
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+374            android:exported="true"
+374-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+375            android:permission="android.permission.DUMP" >
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+376            <intent-filter>
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+377                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+377-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+377-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+378            </intent-filter>
+379            <intent-filter>
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+380                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+380-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+380-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+381            </intent-filter>
+382            <intent-filter>
+382-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+383                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+383-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+383-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+384            </intent-filter>
+385            <intent-filter>
+385-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+386                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+386-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+386-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/c0577fe8fce8e19f15ae98948596f343/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+387            </intent-filter>
+388        </receiver>
+389
+390        <service
+390-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/86d2db2c395d29b2feca1e193f27d844/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+391            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+391-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/86d2db2c395d29b2feca1e193f27d844/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+392            android:exported="false"
+392-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/86d2db2c395d29b2feca1e193f27d844/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+393            android:permission="android.permission.BIND_JOB_SERVICE" >
+393-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/86d2db2c395d29b2feca1e193f27d844/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+394        </service>
+395
+396        <receiver
+396-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/86d2db2c395d29b2feca1e193f27d844/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+397            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+397-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/86d2db2c395d29b2feca1e193f27d844/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+398            android:exported="false" />
+398-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/romanpopov/Library/Android/sdk/caches/transforms-3/86d2db2c395d29b2feca1e193f27d844/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+399    </application>
+400
+401</manifest>

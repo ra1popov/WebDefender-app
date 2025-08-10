@@ -1,0 +1,33 @@
+<variant
+    name="samsungRelease"
+    useSupportLibraryVectorDrawables="true"
+    package="app"
+    minSdkVersion="24"
+    targetSdkVersion="33"
+    shrinking="true"
+    mergedManifest="build/intermediates/merged_manifest/samsungRelease/AndroidManifest.xml"
+    proguardFiles="build/intermediates/default_proguard_files/global/proguard-android-optimize.txt-8.0.2:proguard-rules.pro"
+    partialResultsDir="build/intermediates/lint_vital_partial_results/samsungRelease/out"
+    desugaredMethodsFiles="/Users/romanpopov/Library/Android/sdk/caches/transforms-3/b060d93609352698c924e4c27462273a/transformed/D8BackportedDesugaredMethods.txt">
+  <buildFeatures
+      viewBinding="true"
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml:src/samsung/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/samsung/java:src/release/java:src/samsungRelease/java:src/main/kotlin:src/samsung/kotlin:src/release/kotlin:src/samsungRelease/kotlin"
+        resDirectories="src/main/res:src/samsung/res:src/release/res:src/samsungRelease/res"
+        assetsDirectories="src/main/assets:src/samsung/assets:src/release/assets:src/samsungRelease/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <mainArtifact
+      classOutputs="build/intermediates/javac/samsungRelease/classes:build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/samsungRelease/R.jar"
+      applicationId="app.webdefender.samsung"
+      generatedSourceFolders="build/generated/ap_generated_sources/samsungRelease/out:build/generated/source/buildConfig/samsung/release:build/generated/data_binding_base_class_source_out/samsungRelease/out"
+      generatedResourceFolders="build/generated/res/google-services/samsung/release:build/generated/crashlytics/res/samsung/release:build/generated/res/resValues/samsung/release"
+      desugaredMethodsFiles="/Users/romanpopov/Library/Android/sdk/caches/transforms-3/b060d93609352698c924e4c27462273a/transformed/D8BackportedDesugaredMethods.txt">
+  </mainArtifact>
+</variant>

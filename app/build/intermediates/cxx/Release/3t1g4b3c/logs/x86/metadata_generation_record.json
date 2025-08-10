@@ -1,0 +1,106 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: x86",
+    "file_": "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "tag_": "fdroidRelease|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/.cxx/Release/3t1g4b3c/x86/android_gradle_build.json due to:",
+    "file_": "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "tag_": "fdroidRelease|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "tag_": "fdroidRelease|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/.cxx/Release/3t1g4b3c/x86\u0027",
+    "file_": "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "tag_": "fdroidRelease|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/.cxx/Release/3t1g4b3c/x86\u0027",
+    "file_": "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "tag_": "fdroidRelease|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing ndkBuild /Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build \\\n  NDK_PROJECT_PATH\u003dnull \\\n  APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk \\\n  NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk \\\n  APP_ABI\u003dx86 \\\n  NDK_ALL_ABIS\u003dx86 \\\n  NDK_DEBUG\u003d0 \\\n  APP_PLATFORM\u003dandroid-24 \\\n  NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj \\\n  NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/lib \\\n  APP_SHORT_COMMANDS\u003dfalse \\\n  LOCAL_SHORT_COMMANDS\u003dfalse \\\n  -B \\\n  -n\n",
+    "file_": "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "tag_": "fdroidRelease|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build \\\n  NDK_PROJECT_PATH\u003dnull \\\n  APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk \\\n  NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk \\\n  APP_ABI\u003dx86 \\\n  NDK_ALL_ABIS\u003dx86 \\\n  NDK_DEBUG\u003d0 \\\n  APP_PLATFORM\u003dandroid-24 \\\n  NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj \\\n  NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/lib \\\n  APP_SHORT_COMMANDS\u003dfalse \\\n  LOCAL_SHORT_COMMANDS\u003dfalse \\\n  -B \\\n  -n\n",
+    "file_": "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "tag_": "fdroidRelease|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: Android NDK: ERROR:/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/Android.mk:curl: LOCAL_SRC_FILES points to a missing file    \nAndroid NDK: Check that /Users/romanpopov/Documents/Projects/Android/WebDefender/jni/libself/libcurl-android/libs/x86/libcurl.a exists  or that its path is correct   \n\nC++ build system [configure] failed while executing:\n    /Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build \\\n      NDK_PROJECT_PATH\u003dnull \\\n      APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk \\\n      NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk \\\n      APP_ABI\u003dx86 \\\n      NDK_ALL_ABIS\u003dx86 \\\n      NDK_DEBUG\u003d0 \\\n      APP_PLATFORM\u003dandroid-24 \\\n      NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj \\\n      NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/lib \\\n      APP_SHORT_COMMANDS\u003dfalse \\\n      LOCAL_SHORT_COMMANDS\u003dfalse \\\n      -B \\\n      -n\n  from /Users/romanpopov/Documents/Projects/Android/WebDefender/app\nfcntl(): Bad file descriptor\n/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/build/core/prebuilt-library.mk:51: *** Android NDK: Aborting    .  Stop.",
+    "file_": "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "tag_": "fdroidRelease|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]

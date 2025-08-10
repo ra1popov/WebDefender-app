@@ -1,0 +1,93 @@
+{
+  "buildFiles": [
+    "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+      "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+      "APP_ABI\u003darmeabi-v7a",
+      "NDK_ALL_ABIS\u003darmeabi-v7a",
+      "NDK_DEBUG\u003d0",
+      "APP_PLATFORM\u003dandroid-24",
+      "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj",
+      "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/lib",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+    "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+    "APP_ABI\u003darmeabi-v7a",
+    "NDK_ALL_ABIS\u003darmeabi-v7a",
+    "NDK_DEBUG\u003d0",
+    "APP_PLATFORM\u003dandroid-24",
+    "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj",
+    "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/lib",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "bspatch-fdroidRelease-armeabi-v7a": {
+      "artifactName": "bspatch",
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj/local/armeabi-v7a/libbspatch.so"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj/local/armeabi-v7a/libbspatch.so",
+      "runtimeFiles": []
+    },
+    "native-fdroidRelease-armeabi-v7a": {
+      "artifactName": "native",
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj/local/armeabi-v7a/libnative.so"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj/local/armeabi-v7a/libnative.so",
+      "runtimeFiles": []
+    },
+    "self-fdroidRelease-armeabi-v7a": {
+      "artifactName": "self",
+      "buildCommandComponents": [
+        "/Users/romanpopov/Library/Android/sdk/ndk/25.1.8937393/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/jni/Application.mk",
+        "APP_ABI\u003darmeabi-v7a",
+        "NDK_ALL_ABIS\u003darmeabi-v7a",
+        "NDK_DEBUG\u003d0",
+        "APP_PLATFORM\u003dandroid-24",
+        "NDK_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj",
+        "NDK_LIBS_OUT\u003d/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/lib",
+        "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj/local/armeabi-v7a/libself.so"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/cxx/Release/3t1g4b3c/obj/local/armeabi-v7a/libself.so",
+      "runtimeFiles": []
+    }
+  }
+}

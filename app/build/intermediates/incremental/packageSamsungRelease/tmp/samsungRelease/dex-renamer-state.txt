@@ -1,0 +1,7 @@
+#Sun Aug 10 03:18:05 CEST 2025
+base.0=/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/dex/samsungRelease/minifySamsungReleaseWithR8/classes.dex
+base.1=/Users/romanpopov/Documents/Projects/Android/WebDefender/app/build/intermediates/dex/samsungRelease/minifySamsungReleaseWithR8/classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

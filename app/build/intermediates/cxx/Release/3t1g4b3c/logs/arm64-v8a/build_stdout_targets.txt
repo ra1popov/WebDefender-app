@@ -1,0 +1,3 @@
+make: Nothing to be done for 'bspatch'.
+make: Nothing to be done for 'native'.
+make: Nothing to be done for 'self'.

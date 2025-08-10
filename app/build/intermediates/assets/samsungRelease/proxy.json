@@ -1,0 +1,31 @@
+{
+  "ttl": 3600,
+  "cur_server": {
+    "domain": "proxy.auto.webdefender.app",
+    "ip": -1109239600,
+    "country": "auto"
+  },
+  "last_update_time": 1405673825388,
+  "servers": [
+    {
+      "domain": "proxy.auto.webdefender.app",
+      "ip": -1109239600,
+      "country": "auto"
+    },
+    {
+      "domain": "proxy.ca.webdefender.app",
+      "ip": -936339155,
+      "country": "ca"
+    },
+    {
+      "domain": "proxy.ru.webdefender.app",
+      "ip": 1692040633,
+      "country": "ru"
+    },
+    {
+      "domain": "proxy.us.webdefender.app",
+      "ip": -1109239600,
+      "country": "us"
+    }
+  ]
+}
