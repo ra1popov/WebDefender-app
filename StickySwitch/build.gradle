@@ -35,6 +35,7 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+    ndkVersion '26.1.10909125'
 
 }
 
