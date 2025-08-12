@@ -8,7 +8,7 @@ LOCAL_SRC_FILES := go.c
 
 LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)
 
-LOCAL_CFLAGS := -Wall -I$(LOCAL_PATH)/libcurl-android/jni/curl/include
+LOCAL_CFLAGS := -Wall -I$(LOCAL_PATH)/../jni-external/libcurl-android/jni/curl/include
 LOCAL_LDLIBS := -llog
 
 # Specify the dependency on the static curl library.
@@ -20,6 +20,6 @@ include $(CLEAR_VARS)
 
 # The libcurl module
 LOCAL_MODULE    := curl
-LOCAL_SRC_FILES := $(LOCAL_PATH)/libcurl-android/libs/$(TARGET_ARCH_ABI)/libcurl.a
+LOCAL_SRC_FILES := $(LOCAL_PATH)/../jni-external/libcurl-android/libs/$(TARGET_ARCH_ABI)/libcurl.a
 
 include $(PREBUILT_STATIC_LIBRARY)
