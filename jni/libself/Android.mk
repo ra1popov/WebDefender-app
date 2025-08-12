@@ -20,6 +20,6 @@ include $(CLEAR_VARS)
 
 # The libcurl module
 LOCAL_MODULE    := curl
-LOCAL_SRC_FILES := $(LOCAL_PATH)/libcurl-android/libs/$(TARGET_ARCH_ABI)/libcurl.a
+LOCAL_SRC_FILES := libcurl-android/libs/$(TARGET_ARCH_ABI)/libcurl.a
 
 include $(PREBUILT_STATIC_LIBRARY)
