@@ -41,6 +41,12 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
     packagingOptions {
         jniLibs {
             useLegacyPackaging true
