@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application android:icon="@mipmap/ic_launcher">
+
+        <service
+            android:name=".receivers.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+
+        </service>
+
+        <service
+            android:name=".recovery.RecoveryService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":recovery" />
+
+        <service
+            android:name=".recovery.RecoveryNativeService"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":native" />
+
+    </application>
+
+</manifest>

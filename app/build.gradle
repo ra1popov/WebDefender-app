@@ -73,10 +73,32 @@ android {
             dimension = "vendor"
             applicationIdSuffix = ".samsung"
         }
+        xda {
+            buildConfigField "String", "PUBLISHER", "\"xda\""
+            buildConfigField "String", "APP_STORE", "\"https://xdaforums.com/t/app-open-source-webdefender-ad-blocker-anonymizer.4754538/\""
+            dimension = "vendor"
+            applicationIdSuffix = ".xda"
+        }
+    }
+
+    sourceSets {
+        samsung {
+            manifest.srcFile "src/default/AndroidManifest.xml"
+            java.srcDirs += "src/default/java"
+        }
+        xda {
+            manifest.srcFile "src/default/AndroidManifest.xml"
+            java.srcDirs += "src/default/java"
+        }
+    }
+
+    android {
+        aaptOptions {
+            cruncherEnabled = false
+        }
     }
 
 }
-
 
 dependencies {
 

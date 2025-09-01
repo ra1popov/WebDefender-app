@@ -20,6 +20,7 @@ app/fdroid
 # Libs
 libs/
 obj/
+app/src/main/jniLibs/
 
 # Keystore
 WebDefender.keystore

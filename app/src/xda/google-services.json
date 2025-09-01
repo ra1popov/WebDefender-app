@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:699469323088:android:418b51e441002349b5aa55",
+        "mobilesdk_app_id": "1:699469323088:android:6fbf0b3847b63458b5aa55",
         "android_client_info": {
-          "package_name": "app.webdefender.fdroid"
+          "package_name": "app.webdefender.xda"
         }
       },
       "oauth_client": [],
